@@ -1,16 +1,16 @@
 //META{"name":"OtakuDiscord","description":"OtakuDiscord theme","author":"ParadoxOrigins","version":"1.5"}*//
 
 .app {
-    background-image: url("https://cdn.discordapp.com/attachments/272081200640688129/272108627471368192/56450081_p0_master1200.jpg") !important;
-    background-size: auto;
+    background-image: url("https://initiate.alphacoders.com/images/721/cropped-3840-2160-721169.png?6612") !important;/*for some reasons you need to change the link line 28 to change the main background*/
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     
     
 }
-.callout-backdrop {
-    opacity: 0.6 !important;
-    background: url(https://images.discordapp.net/.eJwNw1EOAxEQANC7-K9h7TD2NmKFTSzCtP1oevf2Je8jnrOKQxTmsQ6A81qxz1Mu7jPkJHPvuaYwriVjvyEwh1ju1HjBpiwarbRxtJPHf9gcWkK9W0feOlSK4B1qLeGV2sN4JEI5WhbfH0lVJRo.Jd30ocRWHKTr8mRYTq1XJsmyYbY?width=917&height=515);
-    background-size: 1280px 720px;
+.callout-backdrop {/*The background displayed when you open your settings for example*/
+    opacity: 0.6 !important; /*Put the opacity to 0 to disable this background*/
+    background: url(https://initiate.alphacoders.com/images/721/cropped-3840-2160-721169.png?6612);
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     -webkit-transition: all 2s ease;
     -moz-transition: all 2s ease;
@@ -27,8 +27,8 @@
     right: 0;
     bottom: 0;
     text-rendering: optimizeLegibility;
-    background-image: url(https://cdn.discordapp.com/attachments/272081200640688129/272108627471368192/56450081_p0_master1200.jpg) !important;
-    background-size: 1600px 900px;
+    background-image: url(https://initiate.alphacoders.com/images/721/cropped-3840-2160-721169.png?6612) !important;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
@@ -3059,9 +3059,9 @@ a:link {
 .theme-dark .search-results-wrap {
        background-image: url("https://images2.alphacoders.com/713/thumb-1920-713297.png") !important;
        background-repeat: no-repeat;
-       background-size: 1000px 800px;
+       background-size: 100% %;
        background-position: center;
-       opacity: 1; /*put it to 0 to sync it with the general background*/
+       background-opacity: 0; /*put it to 0 to sync it with the main background*/
 }
 .theme-dark .search-results-wrap .search-header .tab.selected, .theme-dark .search-results-wrap .search-header .tab:hover {
     border-bottom: 2px solid #fd0303;
@@ -3176,3 +3176,4 @@ a:link {
     position: relative;
     top: 10%;
 }
+
