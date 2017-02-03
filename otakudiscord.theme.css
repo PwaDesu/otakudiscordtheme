@@ -2,7 +2,7 @@
 
 .app {
     background-image: url("https://cdn.discordapp.com/attachments/272081200640688129/272108627471368192/56450081_p0_master1200.jpg") !important;
-    background-size: 1600px 900px;
+    background-size: auto;
     background-repeat: no-repeat;
     
     
@@ -3121,4 +3121,58 @@ a:link {
 }
 .theme-dark .search-results-wrap .search-header .tab:hover, .theme-dark .search-results-wrap .search-header .total-results, .theme-dark .search-results-wrap .search-header a:hover {
     color: white;
+}
+/*User profile*/
+#user-profile-modal {
+    background: rgba(92, 0, 0, 0.78);
+    background-opacity: 0.5; /*important*/
+}
+#user-profile-modal .header {
+    background: rgba(92, 0, 0, 0.78);
+    background-opacity: 0.5; /*important*/
+    background-image: none;
+    background-image: linear-gradient(-180deg,hsla(0,0%,100%,0),rgba(255, 255, 255, 0));
+}
+#user-profile-modal .header .header-info .header-info-inner .discord-tag .username {
+    color: #fff;
+}
+#user-profile-modal .tab-bar-container {
+    background: rgba(92, 0, 0, 0.78);
+    background-opacity: 0.5; /*important*/
+}
+#user-profile-modal .avatar-profile {
+    border-radius: 100px;
+}
+#user-profile-modal .avatar-wrapper {
+    border-radius: 100px;
+    margin-top: -7%; 
+}
+#user-profile-modal .scroller {
+    background-opacity: 0.5;
+    z-index: 1; /*important*/
+}
+.context-menu .item {
+    color: #99aab5;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 600;
+    box-sizing: border-box;
+    margin: 0px 0;
+    padding: 6px 9px;
+    width: 100%;
+    border-radius: 0px;
+}
+.context-menu .item:hover {
+    cursor: pointer;
+}
+#user-profile-modal .tab-bar {
+    position: absolute;
+    top: 27.5%;
+    z-index: 2; /*important*/
+    left: 32%;
+}
+#user-profile-modal .scroller {
+    
+    position: relative;
+    top: 10%;
 }
