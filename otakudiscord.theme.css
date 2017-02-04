@@ -1,9 +1,9 @@
-//META{"name":"OtakuDiscord","description":"OtakuDiscord theme","author":"ParadoxOrigins","version":"1.8Beta"}*//
+//META{"name":"OtakuDiscord","description":"OtakuDiscord theme","author":"ParadoxOrigins","version":"1.8"}*//
 /* IMPORT CSS FROM GITHUB */
 @import url(https://github.com/ParadoxOrigins/otakudiscordtheme/blob/master/otakudiscord.theme.css);
 /**/
 .app {
-    background-image: url("https://initiate.alphacoders.com/images/721/cropped-3840-2160-721169.png?6612") !important;/*for some reasons you need to change the link line 28 to change the main background*/
+    background-image: url("https://initiate.alphacoders.com/images/721/cropped-3840-2160-721169.png?6612") !important;/*remember that links must be https*/
     /*Saske13 part*/
     background-size: auto 100%;
     background-position:center center;
@@ -31,7 +31,7 @@
     opacity: .5;
     background-color: transparent;
 }
-.app, .connecting {
+.connecting {
     right: 0;
     bottom: 0;
     text-rendering: optimizeLegibility;
@@ -2957,14 +2957,22 @@ a:link {
 }
 /*Search system stuff*/
 .theme-dark .search-results-wrap {
+       /*background-image: url("https://initiate.alphacoders.com/images/721/cropped-3840-2160-721169.png?6612") !important;*/ /*Uncomment this line and comment the next one to sync with main background*/
        background-image: url("https://images2.alphacoders.com/713/thumb-1920-713297.png") !important;
        background-repeat: no-repeat;
        /*Saske13 part*/
        background-size: auto 100%;
        background-position:center center;
-    /*End of Saske 13 part*/
-       background-position: center;
-       background-opacity: 0; /*put it to 0 to sync it with the main background*/
+       /*End of Saske 13 part*/
+      /* background-position: right;*/ /*uncomment this line to sync the background with the main one*/
+     
+       opacity: 1; 
+      
+}
+.search-results-wrap .scroller-wrap .scroller {
+    padding: 10px 0 0 16px;
+   
+    
 }
 .theme-dark .search-results-wrap .search-header .tab.selected, .theme-dark .search-results-wrap .search-header .tab:hover {
     border-bottom: 2px solid #fd0303;
@@ -2983,7 +2991,7 @@ a:link {
     cursor: pointer;
     border: none;
     background-color: black;
-    opacity: 0.2;
+    opacity: 0.4;
 }
 .theme-dark .search-results-wrap .search-result:before {
     background-color: transparent;
@@ -3077,6 +3085,9 @@ a:link {
     border: none;
     margin-top: -6%; 
 }
+.user-popout .avatar-wrapper .avatar-popout {
+    border: 6px solid rgb(243, 5, 5) !important;
+}
 #user-profile-modal .scroller {
     background-opacity: 0.5;
     z-index: 1; /*important*/
@@ -3100,6 +3111,8 @@ a:link {
     top: 27.5%;
     z-index: 2; /*important*/
     left: 32%;
+    background-color: rgba(92, 0, 0, 0.78);
+    background-opacity: 0.5; /*important*/
 }
 #user-profile-modal .scroller {
     
@@ -3384,5 +3397,22 @@ a:link {
 }
 #bad-qem-emojis.active {
    border-bottom: 4px solid #9C0505;
+}
+/*Users settings*/
+.tab-bar.SIDE .tab-bar-item {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 8px 6px 10px 20px;
+    color: hsla(0,0%,100%,.3);
+}
+.tab-bar.SIDE .tab-bar-item:hover {
+    border-left: 4px solid #9C0505;
 }
 
