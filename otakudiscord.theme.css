@@ -28,7 +28,8 @@
     bottom: 0;
     text-rendering: optimizeLegibility;
     background-image: url(https://initiate.alphacoders.com/images/721/cropped-3840-2160-721169.png?6612) !important;
-    background-size: 100% 100%;
+    background-size: auto 100%;
+    background-position:center center;
     background-repeat: no-repeat;
 }
 
