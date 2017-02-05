@@ -1,4 +1,4 @@
-//META{"name":"OtakuDiscord","description":"OtakuDiscord theme","author":"ParadoxOrigins","version":"1.9-Beta"}*//
+//META{"name":"OtakuDiscord","description":"OtakuDiscord theme","author":"ParadoxOrigins","version":"1.9.1-Beta"}*//
 /* IMPORT CSS FROM GITHUB */
 @import url(https://github.com/ParadoxOrigins/otakudiscordtheme/blob/OtakuDiscord-Beta/otakudiscordbeta.theme.css);
 /**/
@@ -3263,7 +3263,7 @@ a:link {
     background: center 20px no-repeat rgba(40, 43, 48, 0);
 }
 .bda-dark #bda-qem-favourite-container, .bda-dark #bda-qem-twitch-container, .bda-dark .emoji-picker, .bda-dark .emoji-picker .category {
-    background-color: rgba(0, 0, 0, 0.05); /*important, transparent background*/
+    background-color: rgba(0, 0, 0, 0.4) /*important, transparent background*/
 }
 #bda-qem-favourite-container .scroller-wrap, #bda-qem-twitch-container .scroller-wrap {
     height: 100%;
@@ -3333,7 +3333,7 @@ a:link {
    border-bottom-color: #9C0505;
 }
 .emoji-picker .header {
-   background-color: rgba(0, 0, 0, 0.05); /*important, transparent background*/
+   background-color: rgba(0, 0, 0, 0.4) /*important, transparent background*/
 }
 #bda-qem {
     border-radius: none;
@@ -3438,4 +3438,28 @@ a:link {
     -ms-user-select: text;
     user-select: text;
     color: #9C0505; 
+}
+.popout-menu {
+    background: rgba(241, 1, 1, 0.49);
+    box-shadow: 0 2px 10 0 rgba(0,0,0,.5);
+    border-radius: 5px;
+    overflow: hidden;
+    width: 216px;
+}
+.popout-menu .popout-menu-item {
+    color: white;
+}
+.popout-menu .popout-menu-item:hover {
+    background-color: #f70505;
+    opacity: 1;
+    color: #feffff;
+    transition-duration: 0.5s;
+}
+.popout-menu .popout-menu-item.leave:hover {
+    background-color: #a70b0b;
+    opacity: 1;
+    color: #f90303;
+}
+.popout-menu .popout-menu-item.leave popout-menu-icon:hover {
+    background-image: url("https://cdn.discordapp.com/attachments/265364582288064512/277809038933360640/leaveservericonhover.png")!important;
 }
