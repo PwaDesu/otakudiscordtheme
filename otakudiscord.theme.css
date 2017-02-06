@@ -3416,3 +3416,12 @@ a:link {
     border-left: 4px solid #9C0505;
 }
 
+/* Change appearance menu*/
+.popout-menu {
+    background: rgba(0, 0, 0, 0.85);
+    box-shadow: 0 2px 10 0 rgba(0,0,0,.5);
+    border-radius: 5px;
+    border: 1px solid #fff;
+    overflow: hidden;
+    width: 210px;
+}
