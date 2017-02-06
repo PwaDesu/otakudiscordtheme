@@ -3528,3 +3528,20 @@ a:link {
     background: url(https://cdn.discordapp.com/attachments/265364582288064512/277821245418897408/owowhatsthis-40.png);
     background-size: 100% 100%;
 }
+
+
+
+
+.theme-dark .messages-popout-wrap .messages-popout .message-group {
+    border-color: rgba(150, 0, 0, .8);
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.theme-dark .themed-popout .header {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.theme-dark .themed-popout {
+    background-color: rgba(0, 0, 0, .4);
+    border: 1px solid rgba(28,36,43,.6);
+}
