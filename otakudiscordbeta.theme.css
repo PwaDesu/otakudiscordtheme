@@ -1,6 +1,6 @@
 //META{"name":"OtakuDiscord","description":"OtakuDiscord theme","author":"ParadoxOrigins","version":"1.9-Beta"}*//
 /* IMPORT CSS FROM GITHUB */
-@import url(https://github.com/ParadoxOrigins/otakudiscordtheme/blob/OtakuDiscord-Beta/otakudiscordbeta.theme.css);
+@import url(https://gitcdn.xyz/repo/ParadoxOrigins/otakudiscordtheme/OtakuDiscord-Beta/otakudiscordbeta.theme.css);
 /**/
 .app {
     background-image: url("https://initiate.alphacoders.com/images/721/cropped-3840-2160-721169.png?6612") !important;/*remember that links must be https*/
@@ -3457,13 +3457,15 @@ a:link {
     user-select: text;
     color: #9C0505; 
 }
+/*appearance menu by Saske13*/
 .popout-menu {
-    background: rgba(241, 1, 1, 0.8);
-    box-shadow: 0 2px 10 0 rgba(0,0,0,.5);
-    border-radius: 5px;
-    overflow: hidden;
-    width: 216px;
-}
+     background: rgba(0, 0, 0, 0.85);
+     box-shadow: 0 2px 10 0 rgba(0,0,0,.5);
+     border-radius: 5px;
+     border: 1px solid #fff;
+     overflow: hidden;
+     width: 210px;
+ }
 .popout-menu .popout-menu-item {
     color: white;
 }
