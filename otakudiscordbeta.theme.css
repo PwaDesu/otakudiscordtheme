@@ -1,4 +1,4 @@
-//META{"name":"OtakuDiscord","description":"OtakuDiscord theme","author":"ParadoxOrigins","version":"1.9.1-Beta"}*//
+//META{"name":"OtakuDiscord","description":"OtakuDiscord theme","author":"ParadoxOrigins","version":"1.9-Beta"}*//
 /* IMPORT CSS FROM GITHUB */
 @import url(https://github.com/ParadoxOrigins/otakudiscordtheme/blob/OtakuDiscord-Beta/otakudiscordbeta.theme.css);
 /**/
@@ -3263,7 +3263,7 @@ a:link {
     background: center 20px no-repeat rgba(40, 43, 48, 0);
 }
 .bda-dark #bda-qem-favourite-container, .bda-dark #bda-qem-twitch-container, .bda-dark .emoji-picker, .bda-dark .emoji-picker .category {
-    background-color: rgba(0, 0, 0, 0.4) /*important, transparent background*/
+    background-color: rgba(0, 0, 0, 0.43); /*important, transparent background*/
 }
 #bda-qem-favourite-container .scroller-wrap, #bda-qem-twitch-container .scroller-wrap {
     height: 100%;
@@ -3272,7 +3272,7 @@ a:link {
 #bda-qem-favourite-container, #bda-qem-twitch-container {
     width: 346px;
     height: 327px;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(0, 0, 0, 0.70);
     border-radius: 8px;
     border: 1px solid rgba(95, 89, 89, 0.521569);
 }
@@ -3285,7 +3285,7 @@ a:link {
     z-index: 1;
 }
 .emoji-picker {
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(0,0,0,0.70);
     border: 1px solid hsla(0,0%,75%,.2);
     box-shadow: 0 0 6px 0 rgba(0,0,0,.1);
     border-radius: 5px;
@@ -3333,11 +3333,28 @@ a:link {
    border-bottom-color: #9C0505;
 }
 .emoji-picker .header {
-   background-color: rgba(0, 0, 0, 0.4) /*important, transparent background*/
+   background-color: rgba(0,0,0,0.70) /*important, transparent background*/
+}
+.search-bar.search-bar-light .search-bar-inner {
+    background-color: rgb(4, 4, 4);
+    border: 1px solid rgb(253, 1, 1);
+    border-radius: 3px!important;
+}
+.search-bar.search-bar-light input {
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgba(228, 0, 0, 0); /*Important, transparent border*/
+    border-radius: 3px!important;
+    outline: none;
+    box-shadow: none;
+    color: #FFFFFF;
+    line-height: 15px;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
 }
 #bda-qem {
     border-radius: none;
-    background-color: rgba(0, 0, 0, 0.05); /*important, transparent background*/
+    background-color: rgba(0,0,0,0.70); /*important, transparent background*/
     border-bottom: 1px solid rgba(0,0,0,.1)!important;
     height: 30px;
     display: flex;
@@ -3347,15 +3364,15 @@ a:link {
 }
 #bda-qem button.active {
     border-radius: none;
-    background-color: rgba(0, 0, 0, 0.05); /*important, transparent background*/
-    border-bottom: 1px solid rgba(0,0,0,.1)!important;
+    background-color: rgba(0,0,0,0.70) !important; /*important, transparent background*/
+   /* border-bottom: 1px solid rgba(0,0,0,.1)!important; */
     height: 30px;
     display: flex;
     flex-direction: row;
-    padding-right: 1px!important;
+    padding-right: 1px !important;
     color: white;
-    border-bottom: 4px solid #9C0505;
-    text-align: center;
+    border-bottom: 2px solid #9C0505 !important;
+    text-align: center !important;
 }
 #bda-qem button:hover {
     background: rgba(236, 236, 236, 0);
@@ -3363,7 +3380,7 @@ a:link {
 }
 #bda-qem button {
     border-left: 1px solid rgba(95, 89, 89, 0.521569);
-    background: 0 0;
+    background-color: rgba(0,0,0,0.70)
     box-shadow: rgba(95, 89, 89, 0.52) 1px 0 0 0;
     flex-grow: 1;
     text-align: center;
@@ -3382,7 +3399,7 @@ a:link {
 }
 #bda-qem-twitch.active {
     border-bottom: 4px solid #9C0505;
-    text-align: center;
+   
 }
 #bda-qem-favourite {
    color: white;
@@ -3394,6 +3411,7 @@ a:link {
 }
 #bda-qem-favourite.active {
    border-bottom: 4px solid #9C0505;
+   text-align: center !important; 
 }
 #bad-qem-emojis.active {
    border-bottom: 4px solid #9C0505;
@@ -3462,4 +3480,9 @@ a:link {
 }
 .popout-menu .popout-menu-item.leave popout-menu-icon:hover {
     background-image: url("https://cdn.discordapp.com/attachments/265364582288064512/277809038933360640/leaveservericonhover.png")!important;
+}
+/*Dark & Light default theme*/
+.radio-theme.dark label {
+    background: url(https://cdn.discordapp.com/attachments/265364582288064512/277821245418897408/owowhatsthis-40.png);
+    background-size: 100% 100%;
 }
