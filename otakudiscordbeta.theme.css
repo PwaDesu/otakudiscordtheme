@@ -1,4 +1,4 @@
-//META{"name":"OtakuDiscord","description":"OtakuDiscord theme","author":"ParadoxOrigins","version":"1.9-Beta"}*//
+//META{"name":"OtakuDiscord","description":"OtakuDiscord theme","author":"ParadoxOrigins/Saske13","version":"1.9-Beta"}*//
 /* IMPORT CSS FROM GITHUB */
 @import url(https://gitcdn.xyz/repo/ParadoxOrigins/otakudiscordtheme/OtakuDiscord-Beta/otakudiscordbeta.theme.css);
 /**/
@@ -3457,15 +3457,15 @@ a:link {
     user-select: text;
     color: #9C0505; 
 }
-/*appearance menu by Saske13*/
+/*Pop-out appareance by Saske13*/
 .popout-menu {
      background: rgba(0, 0, 0, 0.85);
      box-shadow: 0 2px 10 0 rgba(0,0,0,.5);
-     border-radius: 5px;
+     border-radius: 5px !important;
      border: 1px solid #fff;
      overflow: hidden;
      width: 210px;
- }
+ }/**/
 .popout-menu .popout-menu-item {
     color: white;
 }
@@ -3474,7 +3474,47 @@ a:link {
     opacity: 1;
     color: #feffff;
     transition-duration: 0.5s;
+    border-radius: 0px;
+    
 }
+.results-group {
+    background: rgba(0, 0, 0, 0.85);
+    box-shadow: 0 2px 10 0 rgba(0,0,0,.5);
+    border-radius: 5px !important;
+    border: 1px solid #fff;
+    overflow: hidden;
+}/*Search pop-out*/
+.option.search-option {
+    background: rgba(0, 0, 0, 0.85);
+}
+.option.search-option::after {
+   background: rgba(0, 0, 0, 0.85);
+}
+.option.search-option:hover {
+   background: rgba(185, 0, 0, 0.85);
+   transition-duration: 0.5s;
+}
+.option.search-option:hover.option.search-option::after {
+   background: rgba(185, 0, 0, 0.85);
+   transition-duration: 0.5s;
+}
+.popout.popout-bottom.no-shadow.search-popout {
+   background: rgba(0, 0, 0, 0.85);
+}
+.option.history:hover {
+   background: rgba(185, 0, 0, 0.85);
+   transition-duration: 0.5s;
+}
+
+.option.history::after {
+   background: rgba(0, 0, 0, 0.85);
+}
+.option.history:hover.option.history::after {
+   background: rgba(185, 0, 0, 0.85);
+   transition-duration: 0.5s;
+}
+
+/**/
 .popout-menu .popout-menu-item.leave:hover {
     background-color: #a70b0b;
     opacity: 1;
