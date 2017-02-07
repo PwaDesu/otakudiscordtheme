@@ -522,7 +522,7 @@ background-color: transparent;
 
 
 /* Emoji */
-
+/*
 .channel-textarea-emoji>.sprite-item,
 .channel-textarea-emoji.popout-open .sprite-item {
   background-image:url(https://i.imgur.com/9H4Zx9s.png)!important;
@@ -593,7 +593,7 @@ background-color: transparent;
 }
 #rmenu:hover {
     background-color: #FF9933;
-}
+}*/
 
 /* Popouts */
 
@@ -2954,7 +2954,7 @@ a:link {
 /*Search system stuff*/
 .theme-dark .search-results-wrap {
        /*background-image: url("https://initiate.alphacoders.com/images/721/cropped-3840-2160-721169.png?6612") !important;*/ /*Uncomment this line and comment the next one to sync with main background*/
-       background-image: url("https://images2.alphacoders.com/713/thumb-1920-713297.png") !important;
+       background-image: url("https://cdn.discordapp.com/attachments/206531013784895489/278546376210644993/ram__and_rem_wallpaperadmvrzarts_by_admvrzarts-dacp5ow.jpg") !important;
        background-repeat: no-repeat;
        /*Saske13 part*/
        background-size: auto 100%;
@@ -3476,24 +3476,30 @@ a:link {
 .results-group {
     background: rgba(0, 0, 0, 0.85);
     box-shadow: 0 2px 10 0 rgba(0,0,0,.5);
-    border-radius: 5px !important;
-    border: 1px solid #A20000 !important;
+    border-radius: none !important;
+    border: 1px solid #A20000 !important;;
     overflow: hidden;
 }
-.results-group::before {
-    opacity: 0 !important;
+.results-group:before {opacity: 0!important;}
+.option.search-query.selected {
+    border-color: rgba(0, 0, 0, 0.01)!important;
+}
+.option.search-query {
+    border-color: rgba(0, 0, 0, 0.01)!important;
 }
 .option:hover {
     background: rgba(185, 0, 0, 0.85) !important;
     transition-duration: 0.5s;
 }
+.search-popout .option.selected {
+    background: rgba(185, 0, 0, 0.85) !important;
+}
+.search-popout .option.selected:after {
+    background: rgba(185, 0, 0, 0.85) !important;
+    opacity: 0 !important;
+}
 .option::after {
     background: rgba(0, 0, 0, 0.85) !important;
-}
-.option:hover.option::after {
-    background: rgba(185, 0, 0, 0.85) !important;
-    transition-duration: 0.5s;
-    opacity: 0; 
 }
 .option:hover option::after {
     background: rgba(185, 0, 0, 0.85) !important;
@@ -3502,7 +3508,6 @@ a:link {
 .option.user:hover.option.user::after {
    background: rgba(185, 0, 0, 0.85) !important;
    transition-duration: 0.5s;
-   opacity: 0; 
 }
  
 
@@ -3513,6 +3518,7 @@ option.user:hover {
 .option.search-option {
    background: rgba(0, 0, 0, 0.85);
 }
+
 .option.search-option::after {
    background: rgba(0, 0, 0, 0.85);
 }
@@ -3523,11 +3529,9 @@ option.user:hover {
 .option.search-option:hover.option.search-option::after {
    background: rgba(185, 0, 0, 0.85) !important;
    transition-duration: 0.5s;
-   opacity: 0; 
 }
 .popout.popout-bottom.no-shadow.search-popout {
    background: rgba(0, 0, 0, 0.85);
-   border: 1px solid #A20000 !important; 
    
 }
 .option.history:hover {
@@ -3541,9 +3545,51 @@ option.user:hover {
 .option.history:hover.option.history::after {
    background: rgba(185, 0, 0, 0.85);
    transition-duration: 0.5s;
-   opacity: 0; 
 }
-
+.react-datepicker {
+    background: rgba(0, 0, 0, 0.85);
+    
+}
+.react-datepicker__header {
+    background: rgba(0, 0, 0, 0.85)!important;
+}
+.react-datepicker__current-month {
+    color: #d80505 !important;
+}
+.react-datepicker__day.react-datepicker__day--outside-month:hover {
+   background: rgba(185, 0, 0, 0.85)!important;
+   transition-duration: 0.5s;
+   color: white;
+}
+.react-datepicker__day.react-datepicker__day--outside-month {
+   background: rgba(0, 0, 0, 0.85)!important;
+   color: #d10505 !important; 
+}
+.react-datepicker__day {
+   background: rgba(0, 0, 0, 0.85)!important;
+   color: #d80505 !important; 
+}
+.react-datepicker__day:hover {
+   background: rgba(185, 0, 0, 0.85)!important;
+   transition-duration: 0.5s;
+   color: white !important;
+}
+.react-datepicker__day.react-datepicker__day--disabled:hover {
+   cursor: not-allowed;
+}
+.react-datepicker__day.react-datepicker__day--today:after {
+   background: rgba(185, 0, 0, 0.85)!important;
+}
+.react-datepicker__day-name {
+   color: #d80505 !important;
+}
+.hint-value {
+   background: rgba(185, 0, 0, 0.85)!important;
+   color: white !important; 
+}
+.react-datepicker__navigation.react-datepicker__navigation--previous {
+   border: 1px solid #d80505 !important;
+}
 /**/
 .popout-menu .popout-menu-item.leave:hover {
     background-color: #a70b0b;
@@ -3553,38 +3599,34 @@ option.user:hover {
 .popout-menu .popout-menu-item.leave popout-menu-icon:hover {
     background-image: url("https://cdn.discordapp.com/attachments/265364582288064512/277809038933360640/leaveservericonhover.png")!important;
 }
+/*Search bar fix*/
+.private-channels .search-bar input {
+    border: 0px !important;
+    animation: none !important; /*Temp fix until i find the animation in the old code*/
+}
+/*Pinned message panel by Saske13*/
+.theme-dark .messages-popout-wrap .messages-popout .message-group {
+    border-color: rgba(150, 0, 0, .8);
+     background-color: rgba(0, 0, 0, .5);
+ }
+ 
+ .theme-dark .themed-popout .header {
+     background-color: rgba(0, 0, 0, .5);
+ }
+ 
+ .theme-dark .themed-popout {
+     background-color: rgba(0, 0, 0, .4);
+     border: 1px solid rgba(28,36,43,.6);
+ }
 /*Dark & Light default theme*/
 .radio-theme.dark label {
     background: url(https://cdn.discordapp.com/attachments/265364582288064512/277821245418897408/owowhatsthis-40.png);
     background-size: 100% 100%;
 }
-/*Selected, unreaded and hovered text channel*/
-.guild-channels .channel-text.selected:before {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    content: " ";
-    border-left: 2px solid #ca1313;
-    opacity: 1!important;
-}
-.guild-channels .channel-text:hover.channel-text:before {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    content: " ";
-    border-left: 2px solid #ca1313!important;
-    opacity: 0.5!important;
-}
-.guild-channels .channel-text.unread:not(.selected):not(.channel-muted):before {
-    content: " ";
-    width: 12px;
-    height: 12px;
-    border-radius: 6px;
-    background: rgb(255, 2, 2);
-    opacity: 1;
-    position: absolute;
-    top: 12px;
-    left: -6px;
+/*Version checker*/
+.bda-slist .bda-name:after{
+    content: "OtakuDiscord:Beta 1.9"!important;
+    color: #CA6767;
+    margin-left: 5px;
+    font-weight: 600;
 }
