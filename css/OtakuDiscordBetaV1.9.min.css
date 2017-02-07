@@ -3618,6 +3618,36 @@ option.user:hover {
      background-color: rgba(0, 0, 0, .4);
      border: 1px solid rgba(28,36,43,.6);
  }
+ /*Selected, unreaded and hovered text channel*/
+.guild-channels .channel-text.selected:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    content: " ";
+    border-left: 2px solid #ca1313;
+    opacity: 1!important;
+}
+.guild-channels .channel-text:hover.channel-text:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    content: " ";
+    border-left: 2px solid #ca1313!important;
+    opacity: 0.5!important;
+}
+.guild-channels .channel-text.unread:not(.selected):not(.channel-muted):before {
+    content: " ";
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    background: rgb(255, 2, 2);
+    opacity: 1;
+    position: absolute;
+    top: 12px;
+    left: -6px;
+}
 /*Dark & Light default theme*/
 .radio-theme.dark label {
     background: url(https://cdn.discordapp.com/attachments/265364582288064512/277821245418897408/owowhatsthis-40.png);
