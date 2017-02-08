@@ -3412,6 +3412,12 @@ a:link {
 #bad-qem-emojis.active {
    border-bottom: 4px solid #9C0505;
 }
+#bda-qem button {
+    border: 1px solid #A20000 !important;
+    background: 0 0;
+    /* box-shadow: #CECECE 1px 0 0 0; */
+    flex-grow: 1;
+}
 /*Users settings*/
 .tab-bar.SIDE .tab-bar-item {
     -webkit-box-orient: horizontal;
@@ -3444,7 +3450,19 @@ a:link {
 }
 #bd-customcss-detach-container #bd-customcss-detach-controls-buttons button:active {
     transform: translateY(2px);
-} 
+}
+.tab-bar.SIDE .tab-bar-item:before {
+    background-image: url(https://cdn.discordapp.com/attachments/206531013784895489/278850709460353024/download.png)!important;
+    max-width: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    content: " ";
+    /* border-left: 4px solid #7289da; */
+    opacity: 0;
+}
+}
 /*Pop-out menu*/
 .markdown-modal.selectable .scroller {
     -webkit-user-select: text;
@@ -3590,6 +3608,9 @@ option.user:hover {
 .react-datepicker__navigation.react-datepicker__navigation--previous {
    border: 1px solid #d80505 !important;
 }
+.react-datepicker__navigation.react-datepicker__navigation--next {
+   border: 1px solid #d80505 !important;
+}
 /**/
 .popout-menu .popout-menu-item.leave:hover {
     background-color: #a70b0b;
@@ -3618,36 +3639,6 @@ option.user:hover {
      background-color: rgba(0, 0, 0, .4);
      border: 1px solid rgba(28,36,43,.6);
  }
- /*Selected, unreaded and hovered text channel*/
-.guild-channels .channel-text.selected:before {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    content: " ";
-    border-left: 2px solid #ca1313;
-    opacity: 1!important;
-}
-.guild-channels .channel-text:hover.channel-text:before {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    content: " ";
-    border-left: 2px solid #ca1313!important;
-    opacity: 0.5!important;
-}
-.guild-channels .channel-text.unread:not(.selected):not(.channel-muted):before {
-    content: " ";
-    width: 12px;
-    height: 12px;
-    border-radius: 6px;
-    background: rgb(255, 2, 2);
-    opacity: 1;
-    position: absolute;
-    top: 12px;
-    left: -6px;
-}
 /*Dark & Light default theme*/
 .radio-theme.dark label {
     background: url(https://cdn.discordapp.com/attachments/265364582288064512/277821245418897408/owowhatsthis-40.png);
