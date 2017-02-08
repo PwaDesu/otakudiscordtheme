@@ -3605,6 +3605,9 @@ option.user:hover {
    background: rgba(185, 0, 0, 0.85)!important;
    color: white !important; 
 }
+.hint {
+   color: #d80505 !important;
+}
 .react-datepicker__navigation.react-datepicker__navigation--previous {
    border: 1px solid #d80505 !important;
 }
@@ -3639,6 +3642,59 @@ option.user:hover {
      background-color: rgba(0, 0, 0, .4);
      border: 1px solid rgba(28,36,43,.6);
  }
+.jump-button {
+    background: rgba(185, 0, 0, 0.85)!important;
+    
+}
+.jump-button .text {
+    color: white !important; 
+}
+.messages-popout .message-group .action-buttons {
+    float: right;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    box-shadow: 0 0 0px 0px transparent !important;
+   /* -webkit-transition: box-shadow .1s ease-in-out,background-color .1s ease-in-out;
+    transition: box-shadow .1s ease-in-out,background-color .1s ease-in-out;*/
+    background-color: rgba(0, 0, 0, .5)!important;
+}
+/*Jump to present bar*/
+.jump-to-present-bar {
+    background-color: rgba(0, 0, 0, .8)!important;
+    
+}
+.jump-to-present-bar button {
+    color: red !important;
+}
+/*Connection text*/
+.connecting .connecting-problems .connecting-problems-text {
+    font-family: Whitney;
+    font-size: 14px;
+    color: #ff0000;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+.connecting .quote {
+    margin-bottom: 10px;
+    color: #f90000;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: bold;
+}
+.connecting .attribution, .connecting .connection-status, .connecting .quote {
+    color: #fb0806;
+    font-size: 12px;
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    max-width: 600px;
+    line-height: 16px;
+}
 /*Dark & Light default theme*/
 .radio-theme.dark label {
     background: url(https://cdn.discordapp.com/attachments/265364582288064512/277821245418897408/owowhatsthis-40.png);
