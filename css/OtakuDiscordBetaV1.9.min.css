@@ -3031,7 +3031,7 @@ a:link {
 .theme-dark .search-results-wrap .search-header .tab:hover, .theme-dark .search-results-wrap .search-header .total-results, .theme-dark .search-results-wrap .search-header a:hover {
     color: white;
 }
-/*User profile*/
+/*User profile*/ 
 #user-profile-modal {
     background: rgba(92, 0, 0, 0.78);
     background-opacity: 0.5; /*important*/
@@ -3102,6 +3102,9 @@ a:link {
 .context-menu .item:hover {
     cursor: pointer;
 }
+#user-profile-modal .section.note {
+    color: #fff !important;
+}
 #user-profile-modal .tab-bar {
     position: absolute;
     top: 27.5%;
@@ -3109,7 +3112,7 @@ a:link {
     left: 32%;
     background-color: rgba(92, 0, 0, 0.78);
     background-opacity: 0.5; /*important*/
-}
+}/*
 #user-profile-modal .scroller {
     
     position: relative;
@@ -3125,7 +3128,7 @@ a:link {
 #user-profile-modal .tab-bar .tab-bar-item.selected:hover {
     border-bottom: 2px solid #fd0303;
     color: white;
-}
+} */
 /* Old Profile code, can be useful one day */
 
 /*#user-profile-modal header {
@@ -3695,6 +3698,159 @@ option.user:hover {
     max-width: 600px;
     line-height: 16px;
 }
+/*Auth stuff*/
+.auth-background {
+    background-image: url("https://initiate.alphacoders.com/images/721/cropped-3840-2160-721169.png?6612") !important;/*remember that links must be https*/
+    /*Saske13 part*/
+    background-size: auto 100%;
+    background-position:center center;
+    /*End of Saske 13 part*/
+    background-repeat: no-repeat;
+    opacity: 1;
+    
+}
+.auth-inner .auth-brand {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    background: hsla(0, 96%, 49%, 0);
+    padding: 30px;
+}
+form.auth-form h1 {
+    color: rgba(214, 17, 17, 0.75);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0 0 30px;
+}
+form.auth-form footer {
+    font-size: 12px;
+    color: #D07A7A;
+    margin-top: 10px;
+    margin-bottom: 0;
+}/*User profile reworked by Saske13*/
+#user-profile-modal {
+    background: url(https://cdn.discordapp.com/attachments/278233087677169664/279540272847650816/bkg.png);
+    background-size: auto 100%;
+    background-position: center;
+}
+
+#user-profile-modal .header {
+    background: none;
+}
+
+#user-profile-modal .tab-bar {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#user-profile-modal .header:after {
+    content: " ";
+    background: rgba(0, 0, 0, 0.8);
+}
+
+#user-profile-modal .avatar-wrapper {
+    border: 2px solid red;
+}
+
+#user-profile-modal .scroller {
+    background: none;
+}
+
+#user-profile-modal .guilds .section .connected-accounts .connected-account {
+    border-radius: 3px;
+    border: 1px solid red;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+#user-profile-modal .guilds .section .connected-accounts .connected-account .connected-account-name-inner .connected-account-name {
+    color: #fff;
+}
+
+#user-profile-modal .tab-bar .tab-bar-item.selected {
+    color: #fff;
+}
+
+#user-profile-modal .tab-bar .tab-bar-item {
+    padding: 0 5px 20px;
+    color: rgba(255,255,255,.4);
+}
+#user-profile-modal .guilds .section .section-header {
+    font-size: 16px;
+    color: #000;
+}
+#user-profile-modal .empty {
+    background: none;
+    background-size: auto 100%;
+    background-position: center;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.note textarea {
+    color: #000 !important;
+    font-weight: bold;
+}
+/*Server Channel*/
+.guild-channels .channel-text.selected:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    content: " ";
+    border-left: 2px solid #fb0808;
+    opacity: 1!important;
+}
+.guild-channels .channel-text.selected:hover:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    content: " ";
+    border-left: 2px solid #fb0808;
+    opacity: 1!important;
+}
+
+.guild-channels .channel-text:before {
+    border-left: 2px solid #fb0808 !important;
+}
+.guild-channels .channel-text.unread:not(.selected):not(.channel-muted):before {
+    content: " ";
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    background: rgba(247, 7, 7, 0.9);
+    opacity: 1;
+    position: absolute;
+    top: 12px;
+    left: -6px;
+}
+.guild-channels .channel-text .channel-name:before {
+    content: "#";
+    color: #f70707!important;
+    margin-right: 3px;
+    font-weight: 600;
+}
 /*Dark & Light default theme*/
 .radio-theme.dark label {
     background: url(https://cdn.discordapp.com/attachments/265364582288064512/277821245418897408/owowhatsthis-40.png);
@@ -3702,8 +3858,12 @@ option.user:hover {
 }
 /*Version checker*/
 .bda-slist .bda-name:after{
-    content: "OtakuDiscord:Beta 1.9"!important;
+    content: "OtakuDiscord:Beta 1.9 (10/02/17)"!important;
     color: #CA6767;
     margin-left: 5px;
     font-weight: 600;
+}
+.markdown-modal-header strong:before {
+    content: "OtakuDiscord:Beta 1.9(10/02/17) "!important;
+    color: #CA6767;
 }
