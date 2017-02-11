@@ -1,7 +1,5 @@
 //META{"name":"OtakuDiscord","description":"OtakuDiscord theme","author":"ParadoxOrigins","version":"1.8"}*//
-/* IMPORT CSS FROM GITHUB */
-@import url(https://github.com/ParadoxOrigins/otakudiscordtheme/blob/master/otakudiscord.theme.css);
-/**/
+
 .app {
     background-image: url("https://initiate.alphacoders.com/images/721/cropped-3840-2160-721169.png?6612") !important;/*remember that links must be https*/
     /*Saske13 part*/
