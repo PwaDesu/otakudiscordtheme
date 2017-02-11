@@ -3306,13 +3306,20 @@ a:link {
     height: 100%;
     
 }
+#bda-qem button {
+    border-left: 1px solid #EFEFEF;
+    background: 0 0;
+    box-shadow: #ea0505 1px 0 0 0;
+    flex-grow: 1;
+}
 #bda-qem-favourite-container, #bda-qem-twitch-container {
     width: 346px;
     height: 327px;
     background-color: rgba(0, 0, 0, 0.70);
-    border-radius: 8px;
-    border: 1px solid rgba(95, 89, 89, 0.521569);
+    border-radius: 0px !important;
+    border: 1px solid rgba(253, 0, 0, 0.521569);
 }
+
 .emoji-picker .sticky-header {
     background: hsla(0, 0%, 100%, 0.09); /*important, half-transparent background*/
     position: absolute;
@@ -3323,7 +3330,7 @@ a:link {
 }
 .emoji-picker {
     background-color: rgba(0,0,0,0.70);
-    border: 1px solid hsla(0,0%,75%,.2);
+    border: 1px solid hsla(0, 94%, 50%, 0.57);
     box-shadow: 0 0 6px 0 rgba(0,0,0,.1);
     border-radius: 5px;
     display: flex;
@@ -3342,8 +3349,11 @@ a:link {
     background: rgba(255, 255, 255, 0.117647); 
 }
 .emoji-picker .categories .item.custom:hover {
-    background-image: url(/assets/bbabd25029321a8260849de01e8c13fc.svg);
+   
     border-bottom-color: #9C0505;
+}
+.emoji-picker .categories .item.selected {
+    border-bottom-color: #e61f0b;
 }
 .emoji-picker .categories .item.people:hover {
    border-bottom-color: #9C0505;
@@ -3418,7 +3428,7 @@ a:link {
 #bda-qem button {
     border-left: 1px solid rgba(95, 89, 89, 0.521569);
     background-color: rgba(0,0,0,0.70)
-    box-shadow: rgba(95, 89, 89, 0.52) 1px 0 0 0;
+    box-shadow: rgba(251, 9, 9, 0.94) 1px 0 0 0 !important;
     flex-grow: 1;
     text-align: center;
     border-top: 1px solid rgba(95, 89, 89, 0.521569);
@@ -3938,6 +3948,9 @@ form.auth-form footer {
     text-transform: uppercase;
     line-height: 46px;
 }
+.form .Select-option, .form .has-value .Select-placeholder {
+    color: #A20000 !important;
+}
 /*text appareance*/
 .markdown-modal.selectable .scroller {
     -webkit-user-select: text;
@@ -3959,6 +3972,17 @@ form.auth-form footer {
     margin-right: 2px;
     color: #ff1e05;
     font-weight: 300;
+}
+.guild-settings-modal-emoji .guild-settings-modal-emoji-header p {
+    font-size: 12px;
+    color: rgb(255, 3, 3);
+    font-weight: 600;
+    margin-top: 5px;
+}
+#editor-detached h3 {
+    text-align: center;
+    font-size: 30px;
+    color: #f30909;
 }
 /*Reactions pop-out*/
 .modal .modal-inner {
@@ -4002,6 +4026,69 @@ form.auth-form footer {
     overflow: hidden;
     padding-top: 13px;
 }
+/*Webhooks panel*/
+.webhooks .webhook {
+    background: rgba(4, 4, 4, 0.7);
+    border: 1px solid rgba(234, 0, 0, 0.98);
+    border-radius: 5px;
+    margin-bottom: 14px;
+    -webkit-animation: webhooks-close .3s;
+    animation: webhooks-close .3s;
+   
+}
+.form .btn-clear:hover {
+    background: rgba(253, 1, 1, 0.95);
+}
+
+.form .btn-clear {
+    border: 1px solid rgba(0,0,0,.1);
+    background: #af2323;
+    border-radius: 5px;
+    color: #f1f3f5;
+}
+.webhooks .webhook .webhook-header .webhook-details .webhook-name {
+    font-size: 18px;
+    color: #f4f5f7;
+    font-weight: 600;
+}
+.webhooks .webhooks-header {
+    padding: 10px 20px;
+    border-bottom: 1px solid #f50505;
+    width: 100%;
+    height: 36px;
+}
+/*2FA button*/
+.user-settings-security .btn-ghost:hover {
+    background: #9e0707;
+    border-color: rgba(236, 238, 239, 0);
+}
+.user-settings-security .btn-ghost {
+    box-sizing: border-box;
+    background: #ea0707;
+    border-radius: 3px;
+    border: 2px solid rgba(243, 243, 243, 0);
+    padding: 9px 20px;
+    font-weight: 600;
+}
+/*Remove role button*/
+.member-roles .member-role .member-role-remove {
+    background: url(https://cdn.discordapp.com/attachments/265364582288064512/280011383028842496/cross-27169_640.png) 50% no-repeat; /*important*/
+    width: 8px;
+    height: 12px;
+    background-size: 6px;
+    border: none;
+    margin: 0 0 0 6px;
+    padding: 0;
+   
+}
+/*Scroller voice*/
+.sensitivity .slider .slider-bar.microphone .grow {
+    border-left: 1px solid hsla(0, 0%, 100%, 0.01);
+    background-color: hsla(0, 0%, 100%, 0);
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
 /*Dark & Light default theme*/
 .radio-theme.dark label {
     background: url(https://cdn.discordapp.com/attachments/265364582288064512/277821245418897408/owowhatsthis-40.png);
@@ -4009,12 +4096,12 @@ form.auth-form footer {
 }
 /*Version checker*/
 .bda-slist .bda-name:after{
-    content: "OtakuDiscord:Beta 1.9"!important;
+    content: "OtakuDiscord:1.9"!important;
     color: #CA6767;
     margin-left: 5px;
     font-weight: 600;
 }
 .markdown-modal-header strong:before {
-    content: "OtakuDiscord:Beta 1.9(11/02/17) "!important;
+    content: "OtakuDiscord:1.9(12/02/17) "!important;
     color: #CA6767;
 }
