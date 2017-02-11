@@ -1624,10 +1624,7 @@ transform: translateY(4px);
     background-repeat: no-repeat;
     background-position: 50% 74%;
 }
-.form {
-    background: url(https://cdn.discordapp.com/attachments/272081200640688129/272103407324495875/wallhaven-395885.png);
-    opacity: 0.85;
-}
+
 .need-help-button {
     visibility: visible;
 }
@@ -3807,9 +3804,8 @@ form.auth-form footer {
     -ms-flex-direction: column;
     flex-direction: column;
 }
-.note textarea {
-    color: #000 !important;
-    font-weight: bold;
+.note .textarea {
+    color: #fff !important;
 }
 /*Server Channel*/
 .guild-channels .channel-text.selected:before {
@@ -3850,6 +3846,120 @@ form.auth-form footer {
     color: #f70707!important;
     margin-right: 3px;
     font-weight: 600;
+} /*settings button*/
+.account .btn-settings:hover:after {
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-animation: load8 2.8s infinite linear;
+    animation: load8 2.8s infinite linear;
+}
+.icon icon-settings:hover:after {
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-animation: load8 2.8s infinite linear;
+    animation: load8 2.8s infinite linear;
+}
+/*Server management*/
+.form {
+    background: none;
+    opacity: 0.95;
+}
+.instant-invite-modal {
+    position: relative;
+    width: 440px;
+    height: 246px;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 5px;
+
+}
+#instant-invite-modal .form-header header {
+    font-weight: 600;
+    color: rgba(247, 8, 8, 0.7);
+    font-size: 18px;
+    line-height: 24px;
+    padding-bottom: 0;
+    text-transform: none;
+}
+#instant-invite-modal .blurb {
+    font-size: 14px;
+    color: rgb(255, 26, 0);
+    line-height: 20px;
+    opacity: .6;
+}
+#instant-invite-modal .copy {
+    height: 46px;
+    width: auto;
+    padding: 0 15px;
+    background-color: rgba(243, 5, 5, 0.53);
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 46px;
+}
+/*text appareance*/
+.markdown-modal.selectable .scroller {
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+    color: #ec0404;
+}
+.chat>.title-wrap>.topic {
+    font-size: 12px;
+    margin-top: 5px;
+    color: rgba(214, 8, 8, 0.74) !important;
+}
+.theme-dark .chat .title-wrap .channel-name, .theme-dark .chat .title-wrap .title.channel-group-dm .channel-name .input-autosize-inner .input-autosize-input, .theme-dark .chat .title-wrap .title.channel-group-dm-managed .channel-name {
+    color: #fff;
+}
+.chat>.title-wrap>.title .channel-name:before {
+    content: "#";
+    margin-right: 2px;
+    color: #ff1e05;
+    font-weight: 300;
+}
+/*Reactions pop-out*/
+.modal .modal-inner {
+    pointer-events: auto;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-height: 0;
+    
+    border-radius: 4px;
+}
+.message-reactions-modal .message-reactions-list-inner {
+    background: rgba(12, 12, 12, 0.55);
+    padding: 16px;
+    width: calc(100% - 20px);
+}
+.message-reactions-modal {
+    height: 440px;
+    width: 512px;
+    background: rgba(255, 255, 255, 0);
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,.5);
+    border-radius: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.message-reactions-modal .message-reactions-list .scroller-wrap {
+    border-radius: 5px 0 0 5px;
+    background: rgba(243, 243, 243, 0.04);
+    height: 100%;
+    width: 100px;
+}
+.message-reactions-modal .message-reactions-reactors .reactor .name {
+    font-weight: bold;
+    font-size: 16px;
+    color: #ff0505;
+    text-overflow: ellipsis;
+    display: inline;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    overflow: hidden;
+    padding-top: 13px;
 }
 /*Dark & Light default theme*/
 .radio-theme.dark label {
@@ -3858,12 +3968,12 @@ form.auth-form footer {
 }
 /*Version checker*/
 .bda-slist .bda-name:after{
-    content: "OtakuDiscord:Beta 1.9 (10/02/17)"!important;
+    content: "OtakuDiscord:Beta 1.9"!important;
     color: #CA6767;
     margin-left: 5px;
     font-weight: 600;
 }
 .markdown-modal-header strong:before {
-    content: "OtakuDiscord:Beta 1.9(10/02/17) "!important;
+    content: "OtakuDiscord:Beta 1.9(11/02/17) "!important;
     color: #CA6767;
 }
