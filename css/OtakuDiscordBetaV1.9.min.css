@@ -3099,8 +3099,22 @@ a:link {
 .context-menu .item:hover {
     cursor: pointer;
 }
+.note textarea {
+    outline: 0;
+    resize: none;
+    border: none;
+    background: 0 0;
+    font-size: 12px;
+    line-height: 14px;
+    color: #fdfbfb;
+    padding: 2px 10px;
+    width: 100%;
+    max-height: 88px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
 #user-profile-modal .section.note {
-    color: #fff !important;
+    color: #A20000 !important;
 }
 #user-profile-modal .tab-bar {
     position: absolute;
@@ -3190,7 +3204,7 @@ a:link {
 }
 #user-profile-modal .btn {
     background-color: #B90808;
-}
+} */
 #user-profile-modal .btn:hover {
     background-color: #870000;
 }
@@ -3216,10 +3230,12 @@ a:link {
     cursor: pointer;
     line-height: 30px;
 }
+
 #user-profile-modal .tab-bar {
     background: rgba(39, 1, 1, 0.82);
     border-bottom: 1px solid #650101;
 }
+
 #user-profile-modal .empty {
     background: rgba(92, 0, 0, 0.580392);
 }
@@ -3231,8 +3247,33 @@ a:link {
     font-weight: 600;
     text-transform: uppercase;
 }
+#user-profile-modal .tab-bar .tab-bar-item.selected {
+    border-bottom-color: rgba(249, 0, 0, 0.96);
+    color: #737f8d;
+}
 #user-profile-modal footer .btn.disabled {
     background: #840000 !important;
+}
+#user-profile-modal .tab-bar-container {
+    background-color: #ec0b0b;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.1);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    border-bottom: 1px solid #ef0202;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-left: 213px;
+    padding-right: 20px;
+    overflow: visible;
 }
 #user-profile-modal footer .btn.disabled:hover {
     background: #4E0000 !important;
@@ -3925,7 +3966,7 @@ form.auth-form footer {
     -ms-flex-direction: column;
     flex-direction: column;
     min-height: 0;
-    
+    border: 1px solid none !important;
     border-radius: 4px;
 }
 .message-reactions-modal .message-reactions-list-inner {
