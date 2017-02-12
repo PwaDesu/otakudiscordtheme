@@ -3120,7 +3120,7 @@ a:link {
     position: absolute;
     top: 27.5%;
     z-index: 2; /*important*/
-    left: 32%;
+    left: 26%;
     background-color: rgba(92, 0, 0, 0.78);
     background-opacity: 0.5; /*important*/
 }/*
@@ -3881,6 +3881,10 @@ form.auth-form footer {
 .guild-channels .channel-text:before {
     border-left: 2px solid #fb0808 !important;
 }
+.guild-channels .channel-text:hover {
+    margin-left: 5%;
+    transition-duration: 0.25s;
+}
 .guild-channels .channel-text.unread:not(.selected):not(.channel-muted):before {
     content: " ";
     width: 12px;
@@ -3897,7 +3901,11 @@ form.auth-form footer {
     color: #f70707!important;
     margin-right: 3px;
     font-weight: 600;
-} /*settings button*/
+    
+}
+
+
+/*settings button*/
 .account .btn-settings:hover:after {
     -webkit-transform: translateZ(0);
     -ms-transform: translateZ(0);
@@ -3951,6 +3959,29 @@ form.auth-form footer {
 .form .Select-option, .form .has-value .Select-placeholder {
     color: #A20000 !important;
 }
+.region-select-modal {
+    background: rgba(0, 0, 0, 0.54);
+	
+}
+.region-select-modal .region-select-modal-option {
+    background-color: rgba(0, 0, 0, 0.54);
+    border: 2px solid #a5120b;
+}
+.region-select-modal .region-select-modal-footer {
+    font-size: 12px;
+    color: #c70b0a;
+    text-align: center;
+    margin-top: 23px;
+	
+}
+.region-select-modal .region-select-modal-option:hover {
+    border-color: #9f0000;
+    background: rgba(0, 0, 0, 0.9);
+    border-radius: 36px;
+    width: 114px;
+    height: 114px;
+    transition-duration: 0.25s;
+}
 /*text appareance*/
 .markdown-modal.selectable .scroller {
     -webkit-user-select: text;
@@ -3983,6 +4014,12 @@ form.auth-form footer {
     text-align: center;
     font-size: 30px;
     color: #f30909;
+}
+.premium-settings .premium-feature .premium-feature-title {
+    margin: 0 0 4px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #f91900;
 }
 /*Reactions pop-out*/
 .modal .modal-inner {
@@ -4089,19 +4126,105 @@ form.auth-form footer {
     -ms-flex-positive: 1;
     flex-grow: 1;
 }
+/*Create DM panel*/
+.theme-dark .private-channel-recipients-invite .friend {
+    color: #f10d0d;
+    background: rgba(46, 49, 54, 0.55);
+}
+.search-bar {
+    background-color: rgba(46, 49, 54, 0.57);
+    box-shadow: 0 1px 0 0 rgba(0,0,0,.06),inset 0 -1px 0 0 rgba(0,0,0,.2);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    border-radius: 4px;
+}
+.private-channel-recipients-invite .footer button {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    color: #fff;
+    margin: 3px 0;
+    text-align: center;
+    border-radius: 3px;
+    background-color: #a70303;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.private-channel-recipients-invite .footer button:hover {
+    background-color: #f90606;
+    transition-duration: 0.5s;
+}
+.private-channel-recipients-invite .footer button:disabled {
+    opacity: .3;
+    cursor: not-allowed;
+    background-color: #790303 !important;
+    transition-duration: 0.5s;
+}
+/*Authorized App*/
+.settings-connections-wrapper .authed-app .header .header-actions .action-btn:hover {
+    background: #f30909;
+    border-radius: 4px;
+    transition-duration: 0.5s;
+    
+	}
+.settings-connections-wrapper .authed-app {
+    margin-bottom: 16px;
+    padding: 20px;
+    border-radius: 5px;
+    background: rgba(10, 10, 10, 0.7);
+    border: 1px solid #f70404;
+}
+.settings-connections-wrapper .authed-app .details .permission-checkmark {
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Echo_curation_alt_check_mark.svg/2000px-Echo_curation_alt_check_mark.svg.png) no-repeat;
+    background-size: 13px 10px;
+    display: inline-block;
+    width: 23px;
+    height: 10px;
+}
+/*Linked app*/
+.connection {
+    border-color: rgb(203, 33, 32) !important;
+    background-color: rgba(16, 16, 16, 0.82) !important;
+
+}
+.checkbox .checkbox-inner+span {
+    color: #f90a0a;
+}
+.settings-connections-wrapper .user-settings-modal-connections .user-settings-modal-connections-list .connection .connection-options .connection-option .checkbox .checkbox-inner.alt input[type=checkbox]+span {
+    background: 0 0;
+    border-color: hsla(0, 94%, 50%, 0.6);
+}
+.settings-connections-wrapper .user-settings-modal-connections .user-settings-modal-connections-list .connection .connection-header .btn-delete:hover {
+    border-color: hsla(0, 92%, 49%, 0.5);
+	transition-duration: 0.25s;
+}
+.settings-connections-wrapper .user-settings-modal-connections .user-settings-modal-connections-list .connection .connection-header .btn-delete {
+    color: #fff;
+    border: 1px solid hsla(0,0%,100%,.1);
+    border-radius: 3px;
+    background-color: transparent;
+    padding: 8px 16px;
+    box-sizing: border-box;
+    font-weight: 600;
+    font-size: 14px;
+}
+
 /*Dark & Light default theme*/
 .radio-theme.dark label {
     background: url(https://cdn.discordapp.com/attachments/265364582288064512/277821245418897408/owowhatsthis-40.png);
     background-size: 100% 100%;
 }
 /*Version checker*/
-.bda-slist .bda-name:after{
-    content: "OtakuDiscord:1.9"!important;
-    color: #CA6767;
-    margin-left: 5px;
-    font-weight: 600;
-}
+
 .markdown-modal-header strong:before {
-    content: "OtakuDiscord:1.9(12/02/17) "!important;
+    content: "OtakuDiscord:1.9.2(12/02/17) "!important;
     color: #CA6767;
 }
