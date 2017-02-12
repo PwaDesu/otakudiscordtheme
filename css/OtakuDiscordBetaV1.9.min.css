@@ -1,5 +1,5 @@
 .app {
-    background-image: url("https://initiate.alphacoders.com/images/721/cropped-3840-2160-721169.png?6612") !important;/*remember that links must be https*/
+    background-image: url("https://cdn.discordapp.com/attachments/265364582288064512/280269170904662016/rezero_background.png") !important;/*remember that links must be https*/
     /*Saske13 part*/
     background-size: auto 100%;
     background-position:center center;
@@ -10,7 +10,7 @@
 }
 .callout-backdrop {/*The background displayed when you open your settings for example*/
     opacity: 0.6 !important; /*Put the opacity to 0 to disable this background*/
-    background: url(https://initiate.alphacoders.com/images/721/cropped-3840-2160-721169.png?6612);
+    background: url(https://cdn.discordapp.com/attachments/265364582288064512/280269170904662016/rezero_background.png);
      /*Saske13 part*/
     background-size: auto 100%;
     background-position:center center;
@@ -31,7 +31,7 @@
     right: 0;
     bottom: 0;
     text-rendering: optimizeLegibility;
-    background-image: url(https://initiate.alphacoders.com/images/721/cropped-3840-2160-721169.png?6612) !important;
+    background-image: url(https://cdn.discordapp.com/attachments/265364582288064512/280269170904662016/rezero_background.png) !important;
     /*Saske13 part*/
     background-size: auto 100%;
     background-position:center center;
@@ -3748,7 +3748,7 @@ option.user:hover {
 }
 /*Auth stuff*/
 .auth-background {
-    background-image: url("https://initiate.alphacoders.com/images/721/cropped-3840-2160-721169.png?6612") !important;/*remember that links must be https*/
+    background-image: url("https://cdn.discordapp.com/attachments/265364582288064512/280269170904662016/rezero_background.png") !important;/*remember that links must be https*/
     /*Saske13 part*/
     background-size: auto 100%;
     background-position:center center;
