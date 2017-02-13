@@ -57,6 +57,12 @@ font-size: 15px !important;
 .theme-dark .chat .welcome-message a {
     color: #9f0000;
 }
+.theme-light .chat form {
+    border-top: none;
+}
+.theme-light .chat .welcome-message a {
+    color: #9f0000;
+}
 .chat .new-messages-bar button {
     background: #9f0000;
     border-radius: 5px;
@@ -83,6 +89,10 @@ font-size: 15px !important;
     color: orange;
 }
 .theme-dark .chat>.content .messages .divider:not(.red) span {
+    opacity: 0.9;
+    background: rgba(154, 0, 0, 0.67) !important;
+}
+.theme-light .chat>.content .messages .divider:not(.red) span {
     opacity: 0.9;
     background: rgba(154, 0, 0, 0.67) !important;
 }
@@ -222,6 +232,10 @@ background-color: transparent;
 .theme-dark .messages-wrapper .messages .mentioned .message-text {
     animation: mentioned-pulse 5s infinite;
 }
+.theme-light .friends-table .messages .mentioned .message-text, 
+.theme-light .messages-wrapper .messages .mentioned .message-text {
+    animation: mentioned-pulse 5s infinite;
+}
 @-webkit-keyframes mentioned-pulse {
     0% {
     box-shadow: 0 0 0 0 #FF3D05;
@@ -291,6 +305,10 @@ background-color: transparent;
     mentioned-pulse 5s infinite
 }
 .theme-dark .chat .has-more button {
+    background: #7D0202;
+    border: 1px solid #9A0000;
+}
+.theme-light .chat .has-more button {
     background: #7D0202;
     border: 1px solid #9A0000;
 }
@@ -4171,8 +4189,7 @@ form.auth-form footer {
 /*Authorized App*/
 .settings-connections-wrapper .authed-app .header .header-actions .action-btn:hover {
     background: #f30909;
-    border-radius: 4px;
-    transition-duration: 0.5s;
+    transition-duration: 1s;
     
 	}
 .settings-connections-wrapper .authed-app {
@@ -4225,6 +4242,6 @@ form.auth-form footer {
 /*Version checker*/
 
 .markdown-modal-header strong:before {
-    content: "OtakuDiscord:1.9.2(12/02/17) "!important;
+    content: "OtakuDiscord:1.9.3(13/02/17) "!important;
     color: #CA6767;
 }
