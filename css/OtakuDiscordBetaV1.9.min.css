@@ -2979,12 +2979,23 @@ a:link {
      
        opacity: 1; 
       
+}/*Saske13 fix*/
+.search-results-wrap .search-result .search-result-message.hit, .theme-dark .search-results-wrap .search-result.expanded{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.message-group .sink-interactions.clickable{
+    background: transparent !important;
+    color: #fff;
+}
+.theme-dark .search-results-wrap .search-result .hit{
+    box-shadow:none;
 }
 .search-results-wrap .scroller-wrap .scroller {
     padding: 10px 0 0 16px;
    
     
 }
+
 .theme-dark .search-results-wrap .search-header .tab.selected, .theme-dark .search-results-wrap .search-header .tab:hover {
     border-bottom: 2px solid #fd0303;
     color: #fd0303;
@@ -3001,8 +3012,9 @@ a:link {
 .message-group .sink-interactions.clickable {
     cursor: pointer;
     border: none;
-    background-color: black;
-    opacity: 0.4;
+    background-color: black !important;
+    opacity: 0.6;
+    color: #fff !important;
 }
 .theme-dark .search-results-wrap .search-result:before {
     background-color: transparent;
@@ -3017,7 +3029,7 @@ a:link {
     border-width: initial;
     border-style: none;
     border-color: transparent;
-  
+    
     border-image: -webkit-linear-gradient(bottom,rgba(46,49,54,0),rgba(46, 49, 54, 0));
     
 }
@@ -3503,7 +3515,15 @@ a:link {
 }
 .tab-bar.SIDE .tab-bar-item:hover {
     border-left: 4px solid #9C0505;
-}/*Update & Save button of the detached Custom CSS*/
+}
+.btn-confirm:not(.reverse-slide) .btn:first-of-type:hover {
+    background-color: #f50c0c;
+    color: #fff;
+}
+.settings .settings-header {
+        background: rgba(0, 0, 0, 0.80) !important;
+}
+/*Update & Save button of the detached Custom CSS*/
 #bd-customcss-detach-container #bd-customcss-detach-controls-buttons button {
     width: 90px;
     height: 30px;
@@ -3520,6 +3540,8 @@ a:link {
 #bd-customcss-detach-container #bd-customcss-detach-controls-buttons button:active {
     transform: translateY(2px);
 }
+
+
 .tab-bar.SIDE .tab-bar-item:before {
     background-image: url(https://cdn.discordapp.com/attachments/206531013784895489/278850709460353024/download.png)!important;
     max-width: 50%;
@@ -4234,6 +4256,7 @@ form.auth-form footer {
     font-size: 14px;
 }
 
+
 /*Dark & Light default theme*/
 .radio-theme.dark label {
     background: url(https://cdn.discordapp.com/attachments/265364582288064512/277821245418897408/owowhatsthis-40.png);
@@ -4242,6 +4265,6 @@ form.auth-form footer {
 /*Version checker*/
 
 .markdown-modal-header strong:before {
-    content: "OtakuDiscord:1.9.3(13/02/17) "!important;
+    content: "OtakuDiscord:1.9.4(14/02/17) "!important;
     color: #CA6767;
 }
