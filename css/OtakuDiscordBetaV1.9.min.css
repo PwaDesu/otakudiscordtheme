@@ -4255,8 +4255,40 @@ form.auth-form footer {
     font-weight: 600;
     font-size: 14px;
 }
-
-
+/*Owner plugin*/
+.kawaii-tag {
+    background: #000000 !important;
+    font-size: 10px;
+    font-weight: 600;
+    color: #A20000!important;
+    margin-left: 6px;
+    padding: 1px 2px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    vertical-align: bottom;
+    line-height: 16px;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
+/*Copy code plugin*/
+.copybutton {
+    color: rgb(131, 148, 150);
+    border: 2px solid rgb(40, 43, 48);
+    background-color: rgb(46, 49, 54);
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+.copybutton:hover {
+    background-color: #A20000 !important;
+    border: 2px solid #A20000 !important;
+    transition-duration: 0.5s;
+}
+.copybutton:active {
+    transform: translateY(2px);
+    background-color: #A10000 !important;
+    border: 2px solid #A10000 !important;
+}
 /*Dark & Light default theme*/
 .radio-theme.dark label {
     background: url(https://cdn.discordapp.com/attachments/265364582288064512/277821245418897408/owowhatsthis-40.png);
@@ -4265,6 +4297,6 @@ form.auth-form footer {
 /*Version checker*/
 
 .markdown-modal-header strong:before {
-    content: "OtakuDiscord:1.9.4(14/02/17) "!important;
+    content: "OtakuDiscord:1.9.5(14/02/17) "!important;
     color: #CA6767;
 }
