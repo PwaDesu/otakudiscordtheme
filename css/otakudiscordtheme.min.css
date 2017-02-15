@@ -57,6 +57,12 @@ font-size: 15px !important;
 .theme-dark .chat .welcome-message a {
     color: #9f0000;
 }
+.theme-light .chat form {
+    border-top: none;
+}
+.theme-light .chat .welcome-message a {
+    color: #9f0000;
+}
 .chat .new-messages-bar button {
     background: #9f0000;
     border-radius: 5px;
@@ -83,6 +89,10 @@ font-size: 15px !important;
     color: orange;
 }
 .theme-dark .chat>.content .messages .divider:not(.red) span {
+    opacity: 0.9;
+    background: rgba(154, 0, 0, 0.67) !important;
+}
+.theme-light .chat>.content .messages .divider:not(.red) span {
     opacity: 0.9;
     background: rgba(154, 0, 0, 0.67) !important;
 }
@@ -222,6 +232,10 @@ background-color: transparent;
 .theme-dark .messages-wrapper .messages .mentioned .message-text {
     animation: mentioned-pulse 5s infinite;
 }
+.theme-light .friends-table .messages .mentioned .message-text, 
+.theme-light .messages-wrapper .messages .mentioned .message-text {
+    animation: mentioned-pulse 5s infinite;
+}
 @-webkit-keyframes mentioned-pulse {
     0% {
     box-shadow: 0 0 0 0 #FF3D05;
@@ -291,6 +305,10 @@ background-color: transparent;
     mentioned-pulse 5s infinite
 }
 .theme-dark .chat .has-more button {
+    background: #7D0202;
+    border: 1px solid #9A0000;
+}
+.theme-light .chat .has-more button {
     background: #7D0202;
     border: 1px solid #9A0000;
 }
@@ -2961,12 +2979,23 @@ a:link {
      
        opacity: 1; 
       
+}/*Saske13 fix*/
+.search-results-wrap .search-result .search-result-message.hit, .theme-dark .search-results-wrap .search-result.expanded{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.message-group .sink-interactions.clickable{
+    background: transparent !important;
+    color: #fff;
+}
+.theme-dark .search-results-wrap .search-result .hit{
+    box-shadow:none;
 }
 .search-results-wrap .scroller-wrap .scroller {
     padding: 10px 0 0 16px;
    
     
 }
+
 .theme-dark .search-results-wrap .search-header .tab.selected, .theme-dark .search-results-wrap .search-header .tab:hover {
     border-bottom: 2px solid #fd0303;
     color: #fd0303;
@@ -2983,8 +3012,9 @@ a:link {
 .message-group .sink-interactions.clickable {
     cursor: pointer;
     border: none;
-    background-color: black;
-    opacity: 0.4;
+    background-color: black !important;
+    opacity: 0.6;
+    color: #fff !important;
 }
 .theme-dark .search-results-wrap .search-result:before {
     background-color: transparent;
@@ -2999,7 +3029,7 @@ a:link {
     border-width: initial;
     border-style: none;
     border-color: transparent;
-  
+    
     border-image: -webkit-linear-gradient(bottom,rgba(46,49,54,0),rgba(46, 49, 54, 0));
     
 }
@@ -3120,7 +3150,7 @@ a:link {
     position: absolute;
     top: 27.5%;
     z-index: 2; /*important*/
-    left: 32%;
+    left: 26%;
     background-color: rgba(92, 0, 0, 0.78);
     background-opacity: 0.5; /*important*/
 }/*
@@ -3485,7 +3515,15 @@ a:link {
 }
 .tab-bar.SIDE .tab-bar-item:hover {
     border-left: 4px solid #9C0505;
-}/*Update & Save button of the detached Custom CSS*/
+}
+.btn-confirm:not(.reverse-slide) .btn:first-of-type:hover {
+    background-color: #f50c0c;
+    color: #fff;
+}
+.settings .settings-header {
+        background: rgba(0, 0, 0, 0.80) !important;
+}
+/*Update & Save button of the detached Custom CSS*/
 #bd-customcss-detach-container #bd-customcss-detach-controls-buttons button {
     width: 90px;
     height: 30px;
@@ -3502,6 +3540,8 @@ a:link {
 #bd-customcss-detach-container #bd-customcss-detach-controls-buttons button:active {
     transform: translateY(2px);
 }
+
+
 .tab-bar.SIDE .tab-bar-item:before {
     background-image: url(https://cdn.discordapp.com/attachments/206531013784895489/278850709460353024/download.png)!important;
     max-width: 50%;
@@ -3881,6 +3921,10 @@ form.auth-form footer {
 .guild-channels .channel-text:before {
     border-left: 2px solid #fb0808 !important;
 }
+.guild-channels .channel-text:hover {
+    margin-left: 5%;
+    transition-duration: 0.25s;
+}
 .guild-channels .channel-text.unread:not(.selected):not(.channel-muted):before {
     content: " ";
     width: 12px;
@@ -3897,7 +3941,11 @@ form.auth-form footer {
     color: #f70707!important;
     margin-right: 3px;
     font-weight: 600;
-} /*settings button*/
+    
+}
+
+
+/*settings button*/
 .account .btn-settings:hover:after {
     -webkit-transform: translateZ(0);
     -ms-transform: translateZ(0);
@@ -3951,6 +3999,29 @@ form.auth-form footer {
 .form .Select-option, .form .has-value .Select-placeholder {
     color: #A20000 !important;
 }
+.region-select-modal {
+    background: rgba(0, 0, 0, 0.54);
+	
+}
+.region-select-modal .region-select-modal-option {
+    background-color: rgba(0, 0, 0, 0.54);
+    border: 2px solid #a5120b;
+}
+.region-select-modal .region-select-modal-footer {
+    font-size: 12px;
+    color: #c70b0a;
+    text-align: center;
+    margin-top: 23px;
+	
+}
+.region-select-modal .region-select-modal-option:hover {
+    border-color: #9f0000;
+    background: rgba(0, 0, 0, 0.9);
+    border-radius: 36px;
+    width: 114px;
+    height: 114px;
+    transition-duration: 0.25s;
+}
 /*text appareance*/
 .markdown-modal.selectable .scroller {
     -webkit-user-select: text;
@@ -3983,6 +4054,12 @@ form.auth-form footer {
     text-align: center;
     font-size: 30px;
     color: #f30909;
+}
+.premium-settings .premium-feature .premium-feature-title {
+    margin: 0 0 4px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #f91900;
 }
 /*Reactions pop-out*/
 .modal .modal-inner {
@@ -4089,19 +4166,137 @@ form.auth-form footer {
     -ms-flex-positive: 1;
     flex-grow: 1;
 }
+/*Create DM panel*/
+.theme-dark .private-channel-recipients-invite .friend {
+    color: #f10d0d;
+    background: rgba(46, 49, 54, 0.55);
+}
+.search-bar {
+    background-color: rgba(46, 49, 54, 0.57);
+    box-shadow: 0 1px 0 0 rgba(0,0,0,.06),inset 0 -1px 0 0 rgba(0,0,0,.2);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    border-radius: 4px;
+}
+.private-channel-recipients-invite .footer button {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    color: #fff;
+    margin: 3px 0;
+    text-align: center;
+    border-radius: 3px;
+    background-color: #a70303;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.private-channel-recipients-invite .footer button:hover {
+    background-color: #f90606;
+    transition-duration: 0.5s;
+}
+.private-channel-recipients-invite .footer button:disabled {
+    opacity: .3;
+    cursor: not-allowed;
+    background-color: #790303 !important;
+    transition-duration: 0.5s;
+}
+/*Authorized App*/
+.settings-connections-wrapper .authed-app .header .header-actions .action-btn:hover {
+    background: #f30909;
+    transition-duration: 1s;
+    
+	}
+.settings-connections-wrapper .authed-app {
+    margin-bottom: 16px;
+    padding: 20px;
+    border-radius: 5px;
+    background: rgba(10, 10, 10, 0.7);
+    border: 1px solid #f70404;
+}
+.settings-connections-wrapper .authed-app .details .permission-checkmark {
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Echo_curation_alt_check_mark.svg/2000px-Echo_curation_alt_check_mark.svg.png) no-repeat;
+    background-size: 13px 10px;
+    display: inline-block;
+    width: 23px;
+    height: 10px;
+}
+/*Linked app*/
+.connection {
+    border-color: rgb(203, 33, 32) !important;
+    background-color: rgba(16, 16, 16, 0.82) !important;
+
+}
+.checkbox .checkbox-inner+span {
+    color: #f90a0a;
+}
+.settings-connections-wrapper .user-settings-modal-connections .user-settings-modal-connections-list .connection .connection-options .connection-option .checkbox .checkbox-inner.alt input[type=checkbox]+span {
+    background: 0 0;
+    border-color: hsla(0, 94%, 50%, 0.6);
+}
+.settings-connections-wrapper .user-settings-modal-connections .user-settings-modal-connections-list .connection .connection-header .btn-delete:hover {
+    border-color: hsla(0, 92%, 49%, 0.5);
+	transition-duration: 0.25s;
+}
+.settings-connections-wrapper .user-settings-modal-connections .user-settings-modal-connections-list .connection .connection-header .btn-delete {
+    color: #fff;
+    border: 1px solid hsla(0,0%,100%,.1);
+    border-radius: 3px;
+    background-color: transparent;
+    padding: 8px 16px;
+    box-sizing: border-box;
+    font-weight: 600;
+    font-size: 14px;
+}
+/*Owner plugin*/
+.kawaii-tag {
+    background: #000000 !important;
+    font-size: 10px;
+    font-weight: 600;
+    color: #A20000!important;
+    margin-left: 6px;
+    padding: 1px 2px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    vertical-align: bottom;
+    line-height: 16px;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
+/*Copy code plugin*/
+.copybutton {
+    color: rgb(131, 148, 150);
+    border: 2px solid rgb(40, 43, 48);
+    background-color: rgb(46, 49, 54);
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+.copybutton:hover {
+    background-color: #A20000 !important;
+    border: 2px solid #A20000 !important;
+    transition-duration: 0.5s;
+}
+.copybutton:active {
+    transform: translateY(2px);
+    background-color: #A10000 !important;
+    border: 2px solid #A10000 !important;
+}
 /*Dark & Light default theme*/
 .radio-theme.dark label {
     background: url(https://cdn.discordapp.com/attachments/265364582288064512/277821245418897408/owowhatsthis-40.png);
     background-size: 100% 100%;
 }
 /*Version checker*/
-.bda-slist .bda-name:after{
-    content: "OtakuDiscord:1.9"!important;
-    color: #CA6767;
-    margin-left: 5px;
-    font-weight: 600;
-}
+
 .markdown-modal-header strong:before {
-    content: "OtakuDiscord:1.9(12/02/17) "!important;
+    content: "OtakuDiscord:1.9.5(14/02/17) "!important;
     color: #CA6767;
 }
