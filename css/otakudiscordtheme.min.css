@@ -4022,6 +4022,9 @@ form.auth-form footer {
     height: 114px;
     transition-duration: 0.25s;
 }
+.settings .settings-header, .settings .settings-inner, .scroller.settings-wrapper.settings-panel, .bd-customcss-innerpane, .voice-settings, .radio-inner {
+    background: rgba(0, 0, 0, 0.8) !important;
+}
 /*text appareance*/
 .markdown-modal.selectable .scroller {
     -webkit-user-select: text;
@@ -4255,7 +4258,7 @@ form.auth-form footer {
     font-weight: 600;
     font-size: 14px;
 }
-/*Owner plugin*/
+/*OwnerTag plugin*/
 .kawaii-tag {
     background: #000000 !important;
     font-size: 10px;
@@ -4289,6 +4292,117 @@ form.auth-form footer {
     background-color: #A10000 !important;
     border: 2px solid #A10000 !important;
 }
+/*Emoji management*/
+.guild-settings-modal-emoji .emoji-row .emoji-name {
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #A20000;
+    outline: 0;
+    font-size: 16px;
+    background: rgba(0, 0, 0, 0.64);
+    color: #e20b0b;
+}
+.guild-settings-modal-emoji .emoji-row:hover .emoji-name {
+    border-color: #A20000;
+    background-color: rgba(0, 0, 0, 0.64);
+}
+.guild-settings-modal-emoji .emoji-row .emoji-name:hover {
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #A20000;
+    outline: 0;
+    font-size: 16px;
+    background: rgba(0, 0, 0, 0.64);
+    color: #e20b0b;
+}
+.guild-settings-modal-emoji .emoji-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 16px 0;
+    border-bottom: 1px solid #f10000;
+}
+.guild-settings-modal-emoji .emoji-row:hover {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 16px 0;
+    border-bottom: 1px solid #f10000;
+}
+.guild-settings-modal .emoji-row .btn.btn-danger, .guild-settings-modal .member-buttons .btn.btn-danger {
+    border: 1px solid rgba(252, 217, 217, 0);
+    color: #fff;
+    background-color: #a20404;
+}
+.guild-settings-modal .emoji-row .btn.btn-danger:hover, .guild-settings-modal .member-buttons .btn.btn-danger:hover {
+    transition-duration: 1s !important;
+    background-color: #f50202;
+    
+}
+
+.guild-settings-modal-emoji .emoji-row:hover .btn {
+    visibility: visible;
+}
+.guild-settings-modal-emoji .emoji-uploader .emoji-uploader-username {
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    margin-left: 8px;
+    color: #f50707;
+}
+/*Keyboard shortcut list pop-out*/
+.keyboard-shortcuts-modal {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 80vw;
+    max-height: 80vh;
+    max-width: 950px;
+    min-width: 800px;
+    border-radius: 4px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    overflow: hidden;
+}
+.keyboard-shortcuts-modal .modal-title {
+    margin: 0 0 5px;
+    padding: 20px 40px 0;
+    font-size: 26px;
+    line-height: 34px;
+    color: #f50000;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0;
+    flex: 0 0;
+}
+.keyboard-shortcuts-modal .keyboard-shortcut-list .keybind-group .keybind-description {
+    font-weight: 700;
+    color: #ec0404;
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+/*Background fix*/
+.theme-dark .layers {
+    background: none;
+}
 /*Dark & Light default theme*/
 .radio-theme.dark label {
     background: url(https://cdn.discordapp.com/attachments/265364582288064512/277821245418897408/owowhatsthis-40.png);
@@ -4297,6 +4411,6 @@ form.auth-form footer {
 /*Version checker*/
 
 .markdown-modal-header strong:before {
-    content: "OtakuDiscord:1.9.5(14/02/17) "!important;
+    content: "OtakuDiscord:1.9.8(16/02/17) "!important;
     color: #CA6767;
 }
