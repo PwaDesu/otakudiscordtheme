@@ -4401,7 +4401,10 @@ form.auth-form footer {
 }
 /*Background fix*/
 .theme-dark .layers {
-    background: none;
+    background: none !important;
+    }
+.theme-light .layers {
+    background: none !important;
 }
 /*Dark & Light default theme*/
 .radio-theme.dark label {
