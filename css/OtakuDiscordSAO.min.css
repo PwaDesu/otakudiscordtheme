@@ -1,5 +1,5 @@
 .app {
-    background-image: url("https://cdn.discordapp.com/attachments/265364582288064512/280269170904662016/rezero_background.png") !important;/*remember that links must be https*/
+    background-image: url("https://cdn.discordapp.com/attachments/281865116310306816/281867857556406272/9804_2560x1600.jpg") !important;/*remember that links must be https*/
     /*Saske13 part*/
     background-size: auto 100%;
     background-position:center center;
@@ -10,7 +10,7 @@
 }
 .callout-backdrop {/*The background displayed when you open your settings for example*/
     opacity: 0.6 !important; /*Put the opacity to 0 to disable this background*/
-    background: url(https://cdn.discordapp.com/attachments/265364582288064512/280269170904662016/rezero_background.png);
+    background: url(https://cdn.discordapp.com/attachments/281865116310306816/281868040990359553/art-girl-yuuki-asuna-look-gesture.jpg);
      /*Saske13 part*/
     background-size: auto 100%;
     background-position:center center;
@@ -4057,6 +4057,10 @@ form.auth-form footer {
     text-align: center;
     font-size: 30px;
     color: #f30909;
+}
+p {
+    margin: 14px 0;
+    color: #A20000;
 }
 .premium-settings .premium-feature .premium-feature-title {
     margin: 0 0 4px;
