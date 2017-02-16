@@ -4022,6 +4022,9 @@ form.auth-form footer {
     height: 114px;
     transition-duration: 0.25s;
 }
+.settings .settings-header, .settings .settings-inner, .scroller.settings-wrapper.settings-panel, .bd-customcss-innerpane, .voice-settings, .radio-inner {
+    background: rgba(0, 0, 0, 0.8) !important;
+}
 /*text appareance*/
 .markdown-modal.selectable .scroller {
     -webkit-user-select: text;
@@ -4362,6 +4365,6 @@ form.auth-form footer {
 /*Version checker*/
 
 .markdown-modal-header strong:before {
-    content: "OtakuDiscord:1.9.6(15/02/17) "!important;
+    content: "OtakuDiscord:1.9.7(15/02/17) "!important;
     color: #CA6767;
 }
