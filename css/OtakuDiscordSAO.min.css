@@ -181,7 +181,8 @@ font-size: 15px !important;
     padding: 0.3em 0.6em;
 }
 .channel-textarea-inner {
-    border: 2px solid rgba(230, 0, 0, 0.35) !important;
+    
+    border: 2px solid rgba(11, 162, 162, 0.35) !important;
     background: rgba(16, 1, 1, 0.6) !important;
     mentioned-pulse 5s infinite
 }
@@ -211,7 +212,7 @@ font-size: 15px !important;
      mentioned-pulse 5s infinite
 }
 .channel-textarea-upload {
-    border-right-color: hsl(0, 96%, 18%) !important;
+    border-right-color: hsl(180, 96%, 18%) !important; 
     mentioned-pulse 5s infinite
 }
 .message-group .edit-message .channel-textarea-inner {
@@ -238,7 +239,7 @@ background-color: transparent;
 }
 @-webkit-keyframes mentioned-pulse {
     0% {
-    box-shadow: 0 0 0 0 #FF3D05;
+    box-shadow: 0 0 0 0 #3DA9A9;
     }
     70% {
     box-shadow: 0 0 10px 10px rgba(241, 71, 71, 0)
@@ -249,7 +250,7 @@ background-color: transparent;
 }
 @keyframes mentioned-pulse {
     0% {
-    box-shadow: 0 0 0 0 #FF3D05;
+    box-shadow: 0 0 0 0 #3DA9A9;
     }
     70% {
     box-shadow: 0 0 10px 10px rgba(241, 71, 71, 0)
@@ -412,11 +413,11 @@ background-color: transparent;
 }
 .guilds .friends-icon:hover {
     color: transparent;
-    background-color: #9A0707;
+    background-color: #25CBCB;
     transition-duration: 0.5s;
 }
 .guilds .friends-icon {
-    background-color: #630B0B;
+    background-color: #3DA9A9;
 }
 .guilds-add {
     color: transparent !important;
@@ -1073,7 +1074,7 @@ background-color: transparent;
     padding: 5px 15px 8px 20px;
 }
 .channel-members h2 {
-    color: #9f0000 !important;
+    color: #3DA9A9 !important;
     font-size: 11px;
     text-transform: uppercase;
     letter-spacing: .08em;
@@ -1145,11 +1146,11 @@ background-color: transparent;
     overflow-y: scroll;
 }
 .theme-dark .chat>.content:first-child .scroller-wrap::-webkit-scrollbar-thumb {
-    background-color: #9f0000;
+    background-color: #3DA9A9;
 }
 .scroller-wrap .scroller::-webkit-scrollbar-thumb {
-    background-color: #9f0000 !important;
-    border: 3px solid rgba(211, 5, 5, 0) !important;
+    background-color: #3DA9A9 !important;
+    border: 3px solid rgba(11, 162, 162, 0) !important;
 }
 .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
     background-color: #9f0000 !important;
@@ -1192,7 +1193,7 @@ background-color: transparent;
     background: rgba(130, 0, 0, 0.38);
 }
 .user-settings-modal-games {
-    background: #2E3136;
+    background: #3DA9A9;
     border-top: 1px solid #CA0000;
     color: #E2E2E3;
 }
@@ -1574,7 +1575,7 @@ transform: translateY(4px);
     border-bottom: 1px solid #2E3136;
 }
 .guild-settings-modal .guild-settings-modal-search {
-    border: 1px solid #2E3136;
+    border: 1px solid #3DA9A9;
 }
 .guild-settings-modal .guild-settings-modal-search:focus {
     border: 1px solid #24272b;
@@ -1599,7 +1600,7 @@ transform: translateY(4px);
     background-color: #ff1a1a;
 }
 .need-help-modal a:hover {
-    color: #9f0000;
+    color: #3DA9A9;
 }
 .channel-textarea {
     margin: 10px 0 30px;
@@ -1619,10 +1620,10 @@ transform: translateY(4px);
     color: #D4D4D4;
 }
 .theme-dark .chat .title-wrap .topic a {
-    color: #9f0000;
+    color: #3DA9A9;
 }
 .download-apps .platforms .platform.active p {
-    color: #9f0000;
+    color: #3DA9A9;
 }
 .download-apps .platforms .platform .icon.apple.active {
     background-image: url(https://discordapp.com/assets/57568e1cfc37c81cf56db9498b4f128a.svg);
@@ -1647,7 +1648,7 @@ transform: translateY(4px);
     visibility: visible;
 }
 .slider-handle span {
-    border: 1px solid #9f0000;
+    border: 1px solid #3DA9A9;
 }
 .slider-handle span:after,
 .slider-handle span:before {
@@ -2025,34 +2026,34 @@ textarea {
     color: #9f0000;
 }
 .region-select {
-    background: #32353A;
+    background: #3DA9A9;
 }
 .region-select .region-select-inner {
-    background: #32353A;
-    border: 1px solid #232529;
+    background: #3DA9A9;
+    border: 1px solid #3DA9A9;
 }
 .region-select button {
-    background-color: #32353A;
-    border: 1px solid #232529;
+    background-color: #3DA9A9;
+    border: 1px solid #3DA9A9;
     color: #9f0000;
 }
 .region-select:hover .region-select-inner,
 .region-select:hover button {
-    border-color: #9f0000;
+    border-color: #25CBCB;
 }
 .region-select:hover button {
-    background-color: #9f0000;
+    background-color: #25CBCB;
 }
 .region-select:active button {
     transform: translateY(4px);   
 }
 .form .form-actions {
-    background-color: #282B30;
-    border-top: 1px solid #232529;
+    background-color: #3DA9A9;
+    border-top: 1px solid #3DA9A9;
 }
 .form .btn-default {
-    background-color: #282B30;
-    border-bottom: 2px solid #282B30;
+    background-color: #3DA9A9;
+    border-bottom: 2px solid #3DA9A9;
     border-radius: 5px;
     width: 62px;
 }
@@ -2077,7 +2078,7 @@ a:link {
     color: #fff
 }
 .highlight {
-    color: #9f0000;
+    color: #3DA9A9;
 }
 .user-settings-modal-connections .user-settings-modal-accounts-list .connect-container .name {
     color: #fff;
@@ -2092,21 +2093,21 @@ a:link {
     box-shadow: 0 -1px #404040;
 }
 .tab-bar.TOP .tab-bar-item.selected {
-    border-bottom: 2px solid #9f0000;
-    color: #9f0000;
+    border-bottom: 2px solid #3DA9A9;
+    color: #3DA9A9;
 }
 .checkbox .checkbox-inner input[type=checkbox]:checked+span {
-    background-color: #9f0000 !important;
-    border-color: #9f0000 !important;
+    background-color: #3DA9A9 !important;
+    border-color: #3DA9A9 !important;
 }
 .radio .radio-inner span:after {
-    background: #9f0000;
+    background: #3DA9A9;
 }
 .slider-bar-fill {
-    background: #9f0000;
+    background: #3DA9A9;
 }
 .slider-handle {
-    border: 1px solid #9f0000;
+    border: 1px solid #3DA9A9;
 }
 .radio .radio-inner {
     background: #454950;
@@ -2175,10 +2176,10 @@ a:link {
 }
 .private-channels .search-result.selected:before,
 .private-channels .search-result:hover:before {
-    border-left: 4px solid #9f0000;
+    border-left: 4px solid #3DA9A9;
 }
 #bd-ps-body table tr:hover {
-    background-color: #9f0000;
+    background-color: #3DA9A9;
 }
 @keyframes swing {
     0% {
@@ -2368,23 +2369,23 @@ a:link {
     cursor: pointer;
 }
 .theme-dark #friends .friends-header .tab-bar .tab-bar-item.selected {
-    background-color: #43B581;
+    background-color: #3DA9A9;
     color: #fff;
 }
 #friends .btn {
-    background-color: #9f0000;
+    background-color: #3DA9A9;
 }
 #friends .btn:hover {
-    background-color: #ff1a1a;
+    background-color: #25CBCB;
 }
 .private-channels .channel.selected .icon-friends {
-    background-color: #9f0000;
+    background-color: #3DA9A9;
 }
 .context-menu {
-    background: #2E3136;
+    background: #3DA9A9;
 }
 .context-menu .item:hover {
-    background: #292B2F;
+    background: #25CBCB;
 }
 /*[[Hidden]]*/
 /*[[Visible]]*/
@@ -2401,7 +2402,7 @@ a:link {
     display: none;
 }
 .user-settings-modal-account .discord-tag {
-    color: #9f0000;
+    color: #3DA9A9;
 }
 .message-group .btn-option:hover {
     -webkit-transform: translateZ(0);
@@ -2423,13 +2424,13 @@ a:link {
 .theme-dark .friends-table .messages .message-group .comment .markup pre,
 .theme-dark .messages-wrapper .messages .message-group .comment .markup pre {
     background: rgba(46, 49, 54, 0.32);
-    border-color: #282b30;
+    border-color: #3DA9A9;
 }
 .theme-dark #friends .friends-header .tab-bar .tab-bar-item:hover:not(.selected) {
     background: rgba(0, 0, 0, 0.29);
 }
 .theme-dark .friends-table .messages .message-group .comment .markup .highlight:hover, .theme-dark .messages-wrapper .messages .message-group .comment .markup .highlight:hover {
-    background-color: #9f0000;
+    background-color: #3DA9A9;
 }
 .message-group .image {
     -webkit-filter: none;
@@ -2477,7 +2478,7 @@ span.discriminator:hover {
     border:2px dashed rgba(6, 6, 6, 0.52);
 }
 .upload-modal .footer .button {
-    background-color: #9f0000;
+    background-color: #3DA9A9;
 }
 .upload-modal .footer .button-primary {
     color: #9f0000;
@@ -2488,17 +2489,17 @@ span.discriminator:hover {
     background-color: #fff;
 }
 div.control-group .shortcut-recorder input[type=text] {
-    border: 1px solid #9f0000;
+    border: 1px solid #3DA9A9;
     text-shadow: 0 0 0 #FFFFFF;
 }
 .private-channels .search-bar input:focus {
-    border: 2px solid #9f0000;
+    border: 2px solid #3DA9A9;
     webkit-animation: input-pulse 1.5s infinite;
     animation: input-pulse 1.5s infinite;
 }
 @-webkit-keyframes input-pulse {
     0% {
-    box-shadow: 0 0 0 0 #9f0000;
+    box-shadow: 0 0 0 0 #3DA9A9;
     }
     70% {
     box-shadow: 0 0 10px 10px rgba(241, 71, 71, 0)
@@ -2509,7 +2510,7 @@ div.control-group .shortcut-recorder input[type=text] {
 }
 @keyframes input-pulse {
     0% {
-    box-shadow: 0 0 0 0 #9f0000;
+    box-shadow: 0 0 0 0 #3DA9A9;
     }
     70% {
     box-shadow: 0 0 10px 10px rgba(241, 71, 71, 0)
@@ -2610,31 +2611,31 @@ img.image {
 }
 .member-role {
     color: #800000;
-    background-color: #330000;
-    border: #b30000;
+    background-color: #3DA9A9;
+    border: #3DA9A9;
 }
 .action.create,
 .action.join {
-    background: rgba(51, 0, 0, 0.5);
+    background: rgba(11, 162, 162, 0.5);
 }
 .user-settings-modal-keybinds .user-settings-modal-keybinds-header .btn-add-keybind,
 .account-warning {
-    background-color: rgba(51, 0, 0, 0.5) !important;
-    border: 1px solid #A90000 !important; 
+    background-color: rgba(11, 162, 162, 0.5) !important;
+    border: 1px solid #3DA9A9 !important; 
 }
 .user-settings-modal-keybinds .user-settings-modal-keybinds-header .btn-add-keybind:hover {
-    background-color: #330000 !important;
+    background-color: #3DA9A9 !important;
 }
 .now-playing.no-detection {
     padding: 14px 0;
-    background: rgba(101, 0, 0, 0.45);
-    border: 1px solid #A90000;
+    background: rgba(11, 162, 162, 0.45);
+    border: 1px solid #3DA9A9;
 }
 .data-reactid .popout section {
     background: hsla(0, 0%, 0%, 0.58) !important;
 }
 .sensitivity .slider .slider-bar .slider-bar-fill {
-    background-color: #8f0000;
+    background-color: #3DA9A9;
 }
 .sensitivity .slider .slider-bar {
     background-color: #000000;
@@ -2643,7 +2644,7 @@ img.image {
     background-color: rgb(0, 0, 0);
 }
 .sensitivity .slider .slider-handle {
-    border-color: #CE0000;
+    border-color: #3DA9A9;
 }
 .form .control-group label a {
     color: #B73030;
@@ -2654,37 +2655,37 @@ img.image {
     color: #5F0000;
 }
 #bd-customcss-attach-controls {
-    border: 1px solid #7D0000;
-    border-top: 1px solid #820000;
+    border: 1px solid #3DA9A9;
+    border-top: 1px solid #3DA9A9;
     height: 75px;
 }
 #bd-customcss-attach-controls, #bd-customcss-detach-controls {
-    background: rgba(2, 0, 0, 0.45);
-    -webkit-box-shadow: inset 0 1px 0 0 #290404;
+    background: rgba(11, 162, 162, 0.20);
+    -webkit-box-shadow: inset 0 1px 0 0 #3DA9A9;
     padding: 5px;
 }
 #bd-customcss-detach-container #bd-customcss-detach-controls-buttons button {
     width: 90px;
     height: 30px;
     margin-top: 8px;
-    background-color: #A20000;
+    background-color: #3DA9A9;
     color: #000;
     font-size: 19px;
 }
 .form .btn-primary {
-    background-color: rgba(159, 0, 0, 0.62)!important;
+    background-color: rgba(11, 162, 162, 0.62)!important;
     
 }
 .form .btn-primary:hover {
-    background-color: #FF3300 !important;
+    background-color: #25CBCB !important;
 }
 .form .btn-primary:active {
-    box-shadow: 0 2px #FF3300;
+    box-shadow: 0 2px #25CBCB;
     transform: translateY(2px);
 }
 .checkbox .checkbox-inner input[type=checkbox]:checked+span {
     background-color: rgba(0, 0, 0, 0.43) !important;
-    border-color: rgba(159, 0, 0, 0.69) !important;
+    border-color: rgba(11, 162, 162, 0.69) !important;
 }
 #bd-customcss-detach-container {
     position: absolute;
@@ -2699,7 +2700,7 @@ img.image {
     padding: 0 3px 0 5px;
     min-width: 20px;
     text-align: right;
-    color: #AD0000;
+    color: #3DA9A9;
     white-space: nowrap;
 }
 .CodeMirror-gutter {
@@ -2710,8 +2711,8 @@ img.image {
     background: black;
 }
 `element.style {
-    background: rgba(12, 0, 0, 0.18);
-    color: #B50000;
+    background: rgba(11, 162, 162, 0.18);
+    color: #3DA9A9;
     height: 30px;
     position: absolute;
     bottom: 0;
@@ -2731,7 +2732,7 @@ img.image {
     cursor: pointer;
 }
 .now-playing-add .link:hover {
-    color: #9f0000;
+    color: #3DA9A9;
 }
 .tab-bar.TOP .tab-bar-item {
     display: inline-block;
@@ -2739,7 +2740,7 @@ img.image {
     margin-bottom: -1px;
     font-size: 14px;
     font-weight: 600;
-    color: #A20000;
+    color: #3DA9A9;
 }
 .markdown-modal {
     background-color: rgba(0, 0, 0, 0.86);
@@ -2758,12 +2759,12 @@ img.image {
     width: 545px;
     font-size: 13px;
     line-height: 1.3em;
-    color: #330A0A;
+    color: #3DA9A9;
     white-space: pre-wrap;
     word-wrap: break-word;
 }
 .markdown-modal .markdown-modal-footer {
-    border-top: 1px solid rgb(130, 0, 0);
+    border-top: 1px solid rgb(11, 162, 162);
     border-radius: 0 0 5px 5px;
     padding: 14px 28px;
     font-weight: 600;
@@ -2774,13 +2775,13 @@ img.image {
     background-color: rgba(0, 0, 0, 0.49);
 }
 .bda-slist li:nth-child(odd) {
-    background: rgba(56, 0, 0, 0.56);
-    border-top: 1px solid #8E0000;
+    background: rgba(11, 162, 162, 0.56);
+    border-top: 1px solid #3DA9A9;
 }
 .bda-slist li {
-    background: rgba(56, 0, 0, 0.56);
+    background: rgba(11, 162, 162, 0.56);
     padding: 5px;
-    border-bottom: 1px solid #630F0F;
+    border-bottom: 1px solid #3DA9A9;
     min-height: 116px;
     max-height: 116px;
 }
@@ -2791,7 +2792,7 @@ img.image {
     overflow-y: scroll;
     min-height: 90px;
     max-height: 90px;
-    border-top: 1px solid #B10808;
+    border-top: 1px solid #3DA9A9;
     padding-top: 5px;
     word-break: break-word;
 }
@@ -2802,39 +2803,39 @@ img.image {
 }
 .bda-slist .checkbox:before {
     content: "Enabled";
-    color: #CA6767;
+    color: #3DA9A9;
     margin-right: 5px;
     font-weight: 600;
 }
 .checkbox .checkbox-inner span {
-    border: 2px solid #8C0202;
+    border: 2px solid #3DA9A9;
 }
 .tab-bar.TOP {
-    border-bottom: 1px solid #630101;
+    border-bottom: 1px solid #3DA9A9;
 }
 .form .btn-default {
-    background-color: #690000;
-    border-bottom: 2px solid rgba(156, 0, 0, 0.61);
+    background-color: #3DA9A9;
+    border-bottom: 2px solid rgba(11, 162, 162, 0.61);
     border-radius: 3px;
     width: 100px;
 }
 .region-select .region-select-inner {
-    background: rgb(2, 0, 0);
-    border: 1px solid #820303;
+    background: rgb(11, 162, 162);
+    border: 1px solid #3DA9A9;
 }
 .region-select button {
-    background-color: #940303;
-    border: 1px solid #9A0000;
-    color: #CE6464;
+    background-color: #3DA9A9;
+    border: 1px solid #3DA9A9;
+    color: #fff;
 }
 .region-select-name {
     font-weight: 700;
     font-size: 16px;
-    color: #A70000;
+    color: #3DA9A9;
 }
 .btn-confirm.active .btn:last-of-type:not(:first-of-type) {
     width: 100%;
-    background-color: rgba(189, 5, 5, 0.57);
+    background-color: rgba(11, 162, 162, 0.57);
     padding-left: 20px;
     padding-right: 20px;
     font-weight: 600;
@@ -2843,10 +2844,10 @@ img.image {
     background: rgba(111, 0, 0, 0.57);
 }
 .btn-confirm.active .btn {
-    background-color: #6F0606;
+    background-color: #3DA9A9;
 }
 .btn-confirm.active .btn:hover {
-    background-color: rgba(111, 0, 0, 0.57);
+    background-color: rgba(11, 162, 162, 0.57);
 }
 .links {
     display: none;
@@ -2855,19 +2856,19 @@ img.image {
     background: url(/assets/e6b46593ec05196770a34812a44b4e02.svg) 50% no-repeat;
 }
 .tab-bar.TOP .tab-bar-item:hover {
-    border-bottom: 2px solid #a70000;
+    border-bottom: 2px solid #25CBCB;
 }
 .form .btn-default:hover {
-    border-bottom: 2px solid #BD0000;
+    border-bottom: 2px solid #25CBCB;
 }
 .form .btn-default {
-    background-color: #800202;
+    background-color: #3DA9A9;
     border-bottom: 2px solid rgba(4, 0, 0, 0.61);
     border-radius: 3px;
     width: 100px;
 }
 .bd-settings > div:last-child {
-    background: rgba(12, 0, 0, 0.42) !important;
+    background: rgba(11, 162, 162, 0.42) !important;
     color: #800101 !important;
     height: 30px !important;
     position: absolute !important;
@@ -2876,37 +2877,37 @@ img.image {
     right: 0 !important;
 }
 .user-settings-modal-keybinds .user-settings-modal-keybinds-header {
-    border-bottom: 1px solid #BD0505;
+    border-bottom: 1px solid #3DA9A9;
 }
 .header-toolbar button span {
-    background-color: #630B0B;
+    background-color: #3DA9A9;
     border-radius: 7px;
 }
 .need-help-modal .footer {
-    background-color: rgba(125, 0, 0, 0.7);
-    border-top: 1px solid #C30606;
+    background-color: rgba(11, 162, 162, 0.7);
+    border-top: 1px solid #3DA9A9;
 }
 a:link {
     color: #B50303;
 }    
 .need-help-modal .header {
-    background-color: rgba(159, 0, 0, 0.76);
+    background-color: rgba(11, 162, 162, 0.76);
 }
 #pubs-header {
-    background: rgb(169, 8, 8);
+    background: rgb(11, 162, 162);
     padding: 5px 12px 5px 5px;
 }
 #pubs-footer {
     height: 25px;
     line-height: 25px;
-    background: #B30909;
+    background: #3DA9A9;
 }
 #pubs-header input {
     border: none;
     height: 30px;
     width: 100px;
     color: #fff;
-    background-color: #500404;
+    background-color: #3DA9A9;
     -webkit-transition: width 1s ease-in-out;
     -moz-transition: width 1s ease-in-out;
     -o-transition: width 1s ease-in-out;
@@ -2914,57 +2915,65 @@ a:link {
 }
 #pubs-header button {
     height: 32px;
-    background-color: #7D0101;
+    background-color: #3DA9A9;
     color: #000000;
 }
 #pubs-header input:focus {
     width: 300px;
 }
 #bd-pub-button:hover {
-    background-color: #9A0707;
+    background-color: #25CBCB;
     transition-duration: 0.5s;
     cursor: pointer;
 }
 #bd-pub-button {
-    background-color: #630B0B;
+    background-color: #3DA9A9;
 }
 
 .server-info button:hover {
-    background-color: #9f0000;
+    background-color: #25CBCB;
+    transition-duration: 0.5s;
 }
 .form .control-group label {
     font-size: 11px;
     font-weight: 700;
     text-transform: uppercase;
-    color: #D07A7A;
+    color: #3DA9A9;
     display: block;
 }
 .form .btn-default {
-    background-color: rgba(148, 6, 6, 0.84);
-    border-bottom: 2px solid rgba(4, 0, 0, 0.61);
+    background-color: rgba(11, 162, 162, 0.84);
+    border-bottom: 2px solid rgba(11, 162, 162, 0.61);
     border-radius: 3px;
     width: 80px;
-    color: #F8EDED;
+    color: #fff;
 }
 .btn btn-primary bda-plugin-reload {
-    background-color: rgba(159, 0, 0, 0.62)!important;
+    background-color: rgba(11, 162, 162, 0.62)!important;
 }
 .btn btn-primary bda-plugin-reload:hover {
-    background-color: #FF3300 !important;
+    background-color: #25CBCB !important;
     cursor: pointer;
 }
 .form .btn.disabled, .form .btn:disabled {
-    background-color: rgba(159, 0, 0, 0.62)!important;
+    background-color: rgba(11, 162, 162, 0.62)!important;
 }
 .form .btn.disabled, .form .btn:disabled:hover {
-     background-color: #FF3300 !important;
+     background-color: #1E88D4 !important;
      cursor: not-allowed;
     transition-duration: 0.5s;
 }
 /*BetterDiscord settings/stuff*/
 .tab-bar.TOP .tab-bar-item.selected {
-    border-bottom: 2px solid #fd0303;
-    color: #fd0303;
+    border-bottom: 2px solid #3DA9A9;
+    color: #3DA9A9;
+}
+.tab-bar.TOP .tab-bar-item {
+    
+    color: rgba(11, 162, 162, 0.5);
+}
+.tab-bar.TOP .tab-bar-item:hover {
+    border-bottom: 2px solid rgba(11, 162, 162, 0.5) !important;
 }
 /*Search system stuff*/
 .theme-dark .search-results-wrap {
@@ -2994,15 +3003,15 @@ a:link {
     padding: 10px 0 0 16px;
    
     
-}
+}/**/
 
 .theme-dark .search-results-wrap .search-header .tab.selected, .theme-dark .search-results-wrap .search-header .tab:hover {
-    border-bottom: 2px solid #fd0303;
-    color: #fd0303;
+    border-bottom: 2px solid #3DA9A9;
+    color: #3DA9A9;
 }
 .theme-dark .search-results-wrap .search-header .tab, .theme-dark .search-results-wrap .search-header .tab:hover
 {
-    color: #fd0303;
+    color: #3DA9A9;
 }
 
 .theme-dark .search-results-wrap .search-result .search-result-message.hit, .theme-dark .search-results-wrap .search-result.expanded {
@@ -3039,7 +3048,7 @@ a:link {
 }
 .theme-dark .search-results-wrap .action-buttons .jump-button {
     background-color: transparent;
-    color: #fd0303;
+    color: #3DA9A9;
     font-weight: bold;
 }
 .theme-dark .search-results-wrap .search-result .search-result-message.after, .theme-dark .search-results-wrap .search-result .search-result-message.after {
@@ -3052,7 +3061,7 @@ a:link {
     box-shadow: 0 1px 0 rgba(0,0,0,.2);
 }
 .theme-dark .search-results-wrap .search-header .tab, .theme-dark .search-results-wrap .search-header .total-results, .theme-dark .search-results-wrap .search-header a {
-    color: #B21A00;
+    color: #3DA9A9;
     opacity: 1;
 }
 .theme-dark .search-results-wrap .search-header .tab:hover, .theme-dark .search-results-wrap .search-header .total-results, .theme-dark .search-results-wrap .search-header a:hover {
@@ -3060,18 +3069,18 @@ a:link {
 }
 /*User profile*/ 
 #user-profile-modal {
-    background: rgba(92, 0, 0, 0.78);
+    background: rgba(11, 162, 162, 0.78);
     background-opacity: 0.5; /*important*/
 }
 #user-profile-modal .header {
-    background: rgba(92, 0, 0, 0.78);
+    background: rgba(11, 162, 162, 0.78);
     background-opacity: 0.5; /*important*/
 }
     
 #user-profile-modal .header:after {
     content: " ";
     background-repeat-y: no-repeat;
-    background: rgba(92, 0, 0, 0.78);
+    background: rgba(11, 162, 162, 0.78);
     background-opacity: 0.5; /*important*/
     position: absolute;
     top: 0;
@@ -3093,7 +3102,7 @@ a:link {
     color: #fff;
 }
 #user-profile-modal .tab-bar-container {
-    background-color: rgba(92, 0, 0, 0.78);
+    background-color: rgba(11, 162, 162, 0.78);
     background-opacity: 0.5; /*important*/
 }
 #user-profile-modal .avatar-profile {
@@ -3109,7 +3118,7 @@ a:link {
     margin-top: -6%; 
 }
 .user-popout .avatar-wrapper .avatar-popout {
-    border: 6px solid rgb(243, 5, 5) !important;
+    border: 6px solid rgb(11, 162, 162) !important;
 }
 #user-profile-modal .scroller {
     background-opacity: 0.5;
@@ -3144,7 +3153,7 @@ a:link {
     font-weight: bold;
 }
 #user-profile-modal .section.note {
-    color: #A20000 !important;
+    color: #3DA9A9 !important;
 }
 #user-profile-modal .tab-bar {
     position: absolute;
@@ -3236,7 +3245,7 @@ a:link {
     background-color: #B90808;
 } */
 #user-profile-modal .btn:hover {
-    background-color: #870000;
+    background-color: #25CBCB;
 }
 #user-profile-modal .header {
     background-color: rgba(0, 0, 0, 0.78);
@@ -3246,10 +3255,10 @@ a:link {
     background: rgba(0, 0, 0, 0.78);
 }
 #user-profile-modal .scroller {
-    background: rgba(92, 0, 0, 0.78);
+    background: rgba(11, 162, 162, 0.78);
 }
 #user-profile-modal .guilds .guild:hover {
-    background: linear-gradient(90deg, rgba(169, 4, 4, 0.45) 90%, rgba(0, 0, 0, 0.4));
+    background: linear-gradient(90deg, rgba(11, 162, 162, 0.45) 90%, rgba(0, 0, 0, 0.4));
     color: #FFFFFF;
 }
 #user-profile-modal .guilds .guild {
@@ -3262,30 +3271,30 @@ a:link {
 }
 
 #user-profile-modal .tab-bar {
-    background: rgba(39, 1, 1, 0.82);
-    border-bottom: 1px solid #650101;
+    background: rgba(11, 162, 162, 0.82);
+    border-bottom: 1px solid #3DA9A9;
 }
 
 #user-profile-modal .empty {
-    background: rgba(92, 0, 0, 0.580392);
+    background: rgba(11, 162, 162, 0.580392);
 }
 #user-profile-modal .empty .empty-text {
     margin-top: 12px;
     font-size: 14px;
     line-height: 16px;
-    color: #B70404;
+    color: #3DA9A9;
     font-weight: 600;
     text-transform: uppercase;
 }
 #user-profile-modal .tab-bar .tab-bar-item.selected {
-    border-bottom-color: rgba(249, 0, 0, 0.96);
-    color: #737f8d;
+    border-bottom-color: rgba(11, 162, 162, 0.96);
+    color: #3DA9A9;
 }
 #user-profile-modal footer .btn.disabled {
-    background: #840000 !important;
+    background: #1E88D4 !important;
 }
 #user-profile-modal .tab-bar-container {
-    background-color: #ec0b0b;
+    background-color: #3DA9A9;
     box-shadow: 0 2px 3px 0 rgba(0,0,0,.1);
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3315,14 +3324,14 @@ a:link {
 .channel-notices .channel-notice .message .btn {
     margin-top: 10px;
     color: #fff;
-    background-color: #630B0B;
+    background-color: #3DA9A9;
     padding: 8px 0;
     font-size: 14px;
     line-height: 16px;
 }
 .channel-notices .channel-notice .message .btn:hover {
    cursor: pointer;
-   background-color: #bd2702;
+   background-color: #25CBCB;
    transition-duration: 0.5s; 
 }
 /*Emoji panel*/
@@ -3337,9 +3346,9 @@ a:link {
     
 }
 #bda-qem button {
-    border-left: 1px solid #EFEFEF;
+    border-left: 1px solid #3DA9A9;
     background: 0 0;
-    box-shadow: #ea0505 1px 0 0 0;
+    box-shadow: #3DA9A9 1px 0 0 0;
     flex-grow: 1;
 }
 #bda-qem-favourite-container, #bda-qem-twitch-container {
@@ -3347,7 +3356,7 @@ a:link {
     height: 327px;
     background-color: rgba(0, 0, 0, 0.70);
     border-radius: 0px !important;
-    border: 1px solid rgba(253, 0, 0, 0.521569);
+    border: 1px solid rgba(11, 162, 162, 0.521569);
 }
 
 .emoji-picker .sticky-header {
@@ -3360,7 +3369,7 @@ a:link {
 }
 .emoji-picker {
     background-color: rgba(0,0,0,0.70);
-    border: 1px solid hsla(0, 94%, 50%, 0.57);
+    border: 1px solid rgba(11, 162, 162, 0.50);
     box-shadow: 0 0 6px 0 rgba(0,0,0,.1);
     border-radius: 5px;
     display: flex;
@@ -3369,7 +3378,7 @@ a:link {
 }
 
 .emoji-picker .category {
-    color: #98aab6;
+    color: #3DA9A9;
     font-size: 12px;
     font-weight: 600;
     padding: 0 4px;
@@ -3380,41 +3389,41 @@ a:link {
 }
 .emoji-picker .categories .item.custom:hover {
    
-    border-bottom-color: #9C0505;
+    border-bottom-color: #3DA9A9;
 }
 .emoji-picker .categories .item.selected {
-    border-bottom-color: #e61f0b;
+    border-bottom-color: #25CBCB;
 }
 .emoji-picker .categories .item.people:hover {
-   border-bottom-color: #9C0505;
+   border-bottom-color: #3DA9A9;
 }
 .emoji-picker .categories .item.nature:hover {
-   border-bottom-color: #9C0505;
+   border-bottom-color: #3DA9A9;
 }
 .emoji-picker .categories .item.food:hover {
-   border-bottom-color: #9C0505;
+   border-bottom-color: #3DA9A9;
 }
 .emoji-picker .categories .item.activity:hover {
-   border-bottom-color: #9C0505;
+   border-bottom-color: #3DA9A9;
 }
 .emoji-picker .categories .item.travel:hover {
-   border-bottom-color: #9C0505;
+   border-bottom-color: #3DA9A93;
 }
 .emoji-picker .categories .item.objects:hover {
-   border-bottom-color: #9C0505;
+   border-bottom-color: #3DA9A9;
 }
 .emoji-picker .categories .item.symbols:hover {
-   border-bottom-color: #9C0505;
+   border-bottom-color: #3DA9A9;
 }
 .emoji-picker .categories .item.flags:hover {
-   border-bottom-color: #9C0505;
+   border-bottom-color: #3DA9A9;
 }
 .emoji-picker .header {
    background-color: rgba(0,0,0,0.70) /*important, transparent background*/
 }
 .search-bar.search-bar-light .search-bar-inner {
     background-color: rgb(4, 4, 4);
-    border: 1px solid rgb(253, 1, 1);
+    border: 1px solid rgb(11, 162, 162);
     border-radius: 3px!important;
 }
 .search-bar.search-bar-light input {
@@ -3423,7 +3432,7 @@ a:link {
     border-radius: 3px!important;
     outline: none;
     box-shadow: none;
-    color: #FFFFFF;
+    color: #3DA9A9 !important;
     line-height: 15px;
     font-weight: 600;
     font-size: 14px;
@@ -3448,17 +3457,18 @@ a:link {
     /*flex-direction: row;*/
     padding-right: 1px !important;
     color: white;
-    border-bottom: 2px solid #9C0505 !important;
+    border-bottom: 2px solid #3DA9A9 !important;
     text-align: center !important;
 }
 #bda-qem button:hover {
     background: rgba(236, 236, 236, 0);
-    border-bottom: 2px solid #9C0505;
+    border-bottom: 2px solid #3DA9A9;
 }
 #bda-qem button {
     border-left: 1px solid rgba(95, 89, 89, 0.521569);
     background-color: rgba(0,0,0,0.70)
-    box-shadow: rgba(251, 9, 9, 0.94) 1px 0 0 0 !important;
+    box-shadow: 
+rgba(11, 162, 162, 0.95) 1px 0 0 0 !important;
     flex-grow: 1;
     text-align: center;
     border-top: 1px solid rgba(95, 89, 89, 0.521569);
@@ -3472,10 +3482,10 @@ a:link {
     
 }
 #bda-qem-twitch:hover {
-    border-bottom: 4px solid #9C0505;
+    border-bottom: 4px solid #3DA9A9;
 }
 #bda-qem-twitch.active {
-    border-bottom: 4px solid #9C0505;
+    border-bottom: 4px solid #3DA9A9;
    
 }
 #bda-qem-favourite {
@@ -3487,14 +3497,14 @@ a:link {
    border-left: rgba(95, 89, 89, 0.52) 1px 0 0 0;
 }
 #bda-qem-favourite.active {
-   border-bottom: 4px solid #9C0505;
+   border-bottom: 4px solid #3DA9A9;
    text-align: center !important; 
 }
 #bad-qem-emojis.active {
-   border-bottom: 4px solid #9C0505;
+   border-bottom: 4px solid #3DA9A9;
 }
 #bda-qem button {
-    border: 1px solid #A20000 !important;
+    border: 1px solid #3DA9A9 !important;
     background: 0 0;
     /* box-shadow: #CECECE 1px 0 0 0; */
     flex-grow: 1;
@@ -3514,10 +3524,20 @@ a:link {
     color: hsla(0,0%,100%,.3);
 }
 .tab-bar.SIDE .tab-bar-item:hover {
-    border-left: 4px solid #9C0505;
+    border-left: 4px solid #3DA9A9;
+    margin-left: 5%;
+}
+.tab-bar.SIDE .tab-bar-item.selected {
+    border-left: 4px solid #3DA9A9;
+}
+.tab-bar.SIDE .tab-bar-item.selected:before {
+    display: none !important;
+}
+.tab-bar.SIDE .tab-bar-item:hover:before {
+    display: none;
 }
 .btn-confirm:not(.reverse-slide) .btn:first-of-type:hover {
-    background-color: #f50c0c;
+    background-color: #3DA9A9;
     color: #fff;
 }
 .settings .settings-header {
@@ -3528,13 +3548,13 @@ a:link {
     width: 90px;
     height: 30px;
     margin-top: 8px;
-    background-color: #A20000;
+    background-color: #3DA9A9;
     color: #000;
     font-size: 19px;
     border-radius: 4px;
 }
 #bd-customcss-detach-container #bd-customcss-detach-controls-buttons button:hover {
-    background-color: #d80505;
+    background-color: #25CBCB;
     transition-duration: 0.5s
 }
 #bd-customcss-detach-container #bd-customcss-detach-controls-buttons button:active {
@@ -3567,7 +3587,7 @@ a:link {
      background: rgba(0, 0, 0, 0.85);
      box-shadow: 0 2px 10 0 rgba(0,0,0,.5);
      border-radius: 5px !important;
-     border: 1px solid #A20000 !important;
+     border: 1px solid #3DA9A9 !important;
      overflow: hidden;
      width: 210px;
  }/**/
@@ -3575,9 +3595,9 @@ a:link {
     color: white;
 }
 .popout-menu .popout-menu-item:hover {
-    background-color: #f70505;
+    background-color: #3DA9A9;
     opacity: 1;
-    color: #feffff;
+    color: #fff;
     transition-duration: 0.5s;
     border-radius: 0px;
     
@@ -3586,7 +3606,7 @@ a:link {
     background: rgba(0, 0, 0, 0.85);
     box-shadow: 0 2px 10 0 rgba(0,0,0,.5);
     border-radius: none !important;
-    border: 1px solid #A20000 !important;;
+    border: 1px solid #3DA9A9 !important;;
     overflow: hidden;
 }
 .results-group:before {opacity: 0!important;}
@@ -3597,31 +3617,31 @@ a:link {
     border-color: rgba(0, 0, 0, 0.01)!important;
 }
 .option:hover {
-    background: rgba(185, 0, 0, 0.85) !important;
+    background: rgba(11, 162, 162, 0.85) !important;
     transition-duration: 0.5s;
 }
 .search-popout .option.selected {
-    background: rgba(185, 0, 0, 0.85) !important;
+    background: rgba(11, 162, 162, 0.85) !important;
 }
 .search-popout .option.selected:after {
-    background: rgba(185, 0, 0, 0.85) !important;
+    background: rgba(11, 162, 162, 0.85) !important;
     opacity: 0 !important;
 }
 .option::after {
     background: rgba(0, 0, 0, 0.85) !important;
 }
 .option:hover option::after {
-    background: rgba(185, 0, 0, 0.85) !important;
+    background: rgba(11, 162, 162, 0.85) !important;
     transition-duration: 0.5s;
 }
 .option.user:hover.option.user::after {
-   background: rgba(185, 0, 0, 0.85) !important;
+   background: rgba(11, 162, 162, 0.85) !important;
    transition-duration: 0.5s;
 }
  
 
 option.user:hover {
-   background: rgba(185, 0, 0, 0.85);
+   background: rgba(11, 162, 162, 0.85);
    transition-duration: 0.5s;
 }
 .option.search-option {
@@ -3632,11 +3652,11 @@ option.user:hover {
    background: rgba(0, 0, 0, 0.85);
 }
 .option.search-option:hover {
-   background: rgba(185, 0, 0, 0.85);
+   background: rgba(11, 162, 162, 0.85);
    transition-duration: 0.5s;
 }
 .option.search-option:hover.option.search-option::after {
-   background: rgba(185, 0, 0, 0.85) !important;
+   background: rgba(11, 162, 162, 0.85) !important;
    transition-duration: 0.5s;
 }
 .popout.popout-bottom.no-shadow.search-popout {
@@ -3644,7 +3664,7 @@ option.user:hover {
    
 }
 .option.history:hover {
-   background: rgba(185, 0, 0, 0.85);
+   background: rgba(11, 162, 162, 0.85);
    transition-duration: 0.5s;
 }
 
@@ -3652,7 +3672,7 @@ option.user:hover {
    background: rgba(0, 0, 0, 0.85);
 }
 .option.history:hover.option.history::after {
-   background: rgba(185, 0, 0, 0.85);
+   background: rgba(11, 162, 162, 0.85);
    transition-duration: 0.5s;
 }
 .react-datepicker {
@@ -3663,23 +3683,23 @@ option.user:hover {
     background: rgba(0, 0, 0, 0.85)!important;
 }
 .react-datepicker__current-month {
-    color: #d80505 !important;
+    color: #3DA9A9 !important;
 }
 .react-datepicker__day.react-datepicker__day--outside-month:hover {
-   background: rgba(185, 0, 0, 0.85)!important;
+   background: rgba(11, 162, 162, 0.85)!important;
    transition-duration: 0.5s;
    color: white;
 }
 .react-datepicker__day.react-datepicker__day--outside-month {
    background: rgba(0, 0, 0, 0.85)!important;
-   color: #d10505 !important; 
+   color: #3DA9A9 !important; 
 }
 .react-datepicker__day {
    background: rgba(0, 0, 0, 0.85)!important;
-   color: #d80505 !important; 
+   color: #3DA9A9 !important; 
 }
 .react-datepicker__day:hover {
-   background: rgba(185, 0, 0, 0.85)!important;
+   background: rgba(11, 162, 162, 0.85)!important;
    transition-duration: 0.5s;
    color: white !important;
 }
@@ -3687,29 +3707,30 @@ option.user:hover {
    cursor: not-allowed;
 }
 .react-datepicker__day.react-datepicker__day--today:after {
-   background: rgba(185, 0, 0, 0.85)!important;
+   background: rgba(11, 162, 162, 0.85)!important;
 }
 .react-datepicker__day-name {
    color: #d80505 !important;
 }
 .hint-value {
-   background: rgba(185, 0, 0, 0.85)!important;
+   background: rgba(11, 162, 162, 0.85)!important;
    color: white !important; 
 }
 .hint {
-   color: #d80505 !important;
+   color: #3DA9A9 !important;
 }
 .react-datepicker__navigation.react-datepicker__navigation--previous {
-   border: 1px solid #d80505 !important;
+   border: 1px solid #3DA9A9 !important;
 }
 .react-datepicker__navigation.react-datepicker__navigation--next {
-   border: 1px solid #d80505 !important;
+   border: 1px solid #3DA9A9 !important;
 }
 /**/
+/*Leave server button*/
 .popout-menu .popout-menu-item.leave:hover {
-    background-color: #a70b0b;
+    background-color: #2892C7;
     opacity: 1;
-    color: #f90303;
+    color: #fff;
 }
 .popout-menu .popout-menu-item.leave popout-menu-icon:hover {
     background-image: url("https://cdn.discordapp.com/attachments/265364582288064512/277809038933360640/leaveservericonhover.png")!important;
@@ -3721,7 +3742,7 @@ option.user:hover {
 }
 /*Pinned message panel by Saske13*/
 .theme-dark .messages-popout-wrap .messages-popout .message-group {
-    border-color: rgba(150, 0, 0, .8);
+    border-color: rgba(11, 162, 162, 0.8);
      background-color: rgba(0, 0, 0, .5);
  }
  
@@ -3759,26 +3780,26 @@ option.user:hover {
     
 }
 .jump-to-present-bar button {
-    color: red !important;
+    color: #3DA9A9 !important;
 }
 /*Connection text*/
 .connecting .connecting-problems .connecting-problems-text {
     font-family: Whitney;
     font-size: 14px;
-    color: #ff0000;
+    color: #3DA9A9;
     margin-bottom: 8px;
     font-weight: bold;
 }
 .connecting .quote {
     margin-bottom: 10px;
-    color: #f90000;
+    color: #3DA9A9;
     font-weight: 400;
     font-style: italic;
     font-size: 16px;
     font-weight: bold;
 }
 .connecting .attribution, .connecting .connection-status, .connecting .quote {
-    color: #fb0806;
+    color: #3DA9A9;
     font-size: 12px;
     font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
     font-weight: 600;
@@ -3812,7 +3833,7 @@ option.user:hover {
     padding: 30px;
 }
 form.auth-form h1 {
-    color: rgba(214, 17, 17, 0.75);
+    color: rgba(11, 162, 162, 0.75);
     text-align: center;
     text-transform: uppercase;
     font-weight: 700;
@@ -3821,7 +3842,7 @@ form.auth-form h1 {
 }
 form.auth-form footer {
     font-size: 12px;
-    color: #D07A7A;
+    color: #3DA9A9;
     margin-top: 10px;
     margin-bottom: 0;
 }/*User profile reworked by Saske13*/
@@ -3845,7 +3866,7 @@ form.auth-form footer {
 }
 
 #user-profile-modal .avatar-wrapper {
-    border: 2px solid red;
+    border: 2px solid #3DA9A9;
 }
 
 #user-profile-modal .scroller {
@@ -3854,7 +3875,7 @@ form.auth-form footer {
 
 #user-profile-modal .guilds .section .connected-accounts .connected-account {
     border-radius: 3px;
-    border: 1px solid red;
+    border: 1px solid #3DA9A9;
     background: rgba(0, 0, 0, 0.7);
 }
 
@@ -3905,7 +3926,7 @@ form.auth-form footer {
     left: 0;
     height: 100%;
     content: " ";
-    border-left: 2px solid #fb0808;
+    border-left: 2px solid #3DA9A9;
     opacity: 1!important;
 }
 .guild-channels .channel-text.selected:hover:before {
@@ -3914,12 +3935,13 @@ form.auth-form footer {
     left: 0;
     height: 100%;
     content: " ";
-    border-left: 2px solid #fb0808;
+    border-left: 2px solid #3DA9A9;
     opacity: 1!important;
 }
 
 .guild-channels .channel-text:before {
-    border-left: 2px solid #fb0808 !important;
+    border-left: 2px solid #3DA9A9
+ !important;
 }
 .guild-channels .channel-text:hover {
     margin-left: 5%;
@@ -3930,7 +3952,7 @@ form.auth-form footer {
     width: 12px;
     height: 12px;
     border-radius: 6px;
-    background: rgba(247, 7, 7, 0.9);
+    background: rgba(11, 162, 162, 0.96);
     opacity: 1;
     position: absolute;
     top: 12px;
@@ -3938,7 +3960,7 @@ form.auth-form footer {
 }
 .guild-channels .channel-text .channel-name:before {
     content: "#";
-    color: #f70707!important;
+    color: #3DA9A9!important;
     margin-right: 3px;
     font-weight: 600;
     
@@ -3975,7 +3997,7 @@ form.auth-form footer {
 }
 #instant-invite-modal .form-header header {
     font-weight: 600;
-    color: rgba(247, 8, 8, 0.7);
+    color: rgba(7, 244, 255, 0.7);
     font-size: 18px;
     line-height: 24px;
     padding-bottom: 0;
@@ -3983,21 +4005,29 @@ form.auth-form footer {
 }
 #instant-invite-modal .blurb {
     font-size: 14px;
-    color: rgb(255, 26, 0);
+    color: rgb(7, 244, 255);
     line-height: 20px;
     opacity: .6;
+}
+.clipboard-input-inner {
+    background: #1C1E22;
+    border: 1px solid #3DA9A9 !important;
+}
+.clipboard-input-inner button {
+    border-left: 1px solid rgba(11, 162, 162, 0.96) !important;
+    /* background-color: #5D0303; */
 }
 #instant-invite-modal .copy {
     height: 46px;
     width: auto;
     padding: 0 15px;
-    background-color: rgba(243, 5, 5, 0.53);
+    background-color: rgba(7, 244, 255, 0.53);
     font-size: 16px;
     text-transform: uppercase;
     line-height: 46px;
 }
 .form .Select-option, .form .has-value .Select-placeholder {
-    color: #A20000 !important;
+    color: #3DA9A9 !important;
 }
 .region-select-modal {
     background: rgba(0, 0, 0, 0.54);
@@ -4005,17 +4035,17 @@ form.auth-form footer {
 }
 .region-select-modal .region-select-modal-option {
     background-color: rgba(0, 0, 0, 0.54);
-    border: 2px solid #a5120b;
+    border: 2px solid #3DA9A9;
 }
 .region-select-modal .region-select-modal-footer {
     font-size: 12px;
-    color: #c70b0a;
+    color: #3DA9A9;
     text-align: center;
     margin-top: 23px;
 	
 }
 .region-select-modal .region-select-modal-option:hover {
-    border-color: #9f0000;
+    border-color: #3DA9A9;
     background: rgba(0, 0, 0, 0.9);
     border-radius: 36px;
     width: 114px;
@@ -4031,12 +4061,12 @@ form.auth-form footer {
     -moz-user-select: text;
     -ms-user-select: text;
     user-select: text;
-    color: #ec0404;
+    color: #3DA9A9;
 }
 .chat>.title-wrap>.topic {
     font-size: 12px;
     margin-top: 5px;
-    color: rgba(214, 8, 8, 0.74) !important;
+    color: #3DA9A9 !important;
 }
 .theme-dark .chat .title-wrap .channel-name, .theme-dark .chat .title-wrap .title.channel-group-dm .channel-name .input-autosize-inner .input-autosize-input, .theme-dark .chat .title-wrap .title.channel-group-dm-managed .channel-name {
     color: #fff;
@@ -4044,7 +4074,7 @@ form.auth-form footer {
 .chat>.title-wrap>.title .channel-name:before {
     content: "#";
     margin-right: 2px;
-    color: #ff1e05;
+    color: #3DA9A9;
     font-weight: 300;
 }
 .guild-settings-modal-emoji .guild-settings-modal-emoji-header p {
@@ -4056,17 +4086,17 @@ form.auth-form footer {
 #editor-detached h3 {
     text-align: center;
     font-size: 30px;
-    color: #f30909;
+    color: #3DA9A9;
 }
 p {
     margin: 14px 0;
-    color: #A20000;
+    color: #3DA9A9;
 }
 .premium-settings .premium-feature .premium-feature-title {
     margin: 0 0 4px;
     font-size: 17px;
     font-weight: 600;
-    color: #f91900;
+    color: #3DA9A9;
 }
 /*Reactions pop-out*/
 .modal .modal-inner {
@@ -4082,10 +4112,10 @@ p {
     padding: 16px;
     width: calc(100% - 20px);
 }
-.message-reactions-modal {
+message-reactions-modal {
     height: 440px;
     width: 512px;
-    background: rgba(255, 255, 255, 0);
+    background: rgba(8, 8, 8, 0.81);
     box-shadow: 0 2px 10px 0 rgba(0,0,0,.5);
     border-radius: 5px;
     display: -webkit-box;
@@ -4101,7 +4131,7 @@ p {
 .message-reactions-modal .message-reactions-reactors .reactor .name {
     font-weight: bold;
     font-size: 16px;
-    color: #ff0505;
+    color: #3DA9A9;
     text-overflow: ellipsis;
     display: inline;
     -webkit-box-flex: 1;
@@ -4113,7 +4143,7 @@ p {
 /*Webhooks panel*/
 .webhooks .webhook {
     background: rgba(4, 4, 4, 0.7);
-    border: 1px solid rgba(234, 0, 0, 0.98);
+    border: 1px solid #3DA9A9;
     border-radius: 5px;
     margin-bottom: 14px;
     -webkit-animation: webhooks-close .3s;
@@ -4121,12 +4151,12 @@ p {
    
 }
 .form .btn-clear:hover {
-    background: rgba(253, 1, 1, 0.95);
+    background: #25CBCB;
 }
 
 .form .btn-clear {
     border: 1px solid rgba(0,0,0,.1);
-    background: #af2323;
+    background: #3DA9A9;
     border-radius: 5px;
     color: #f1f3f5;
 }
@@ -4137,22 +4167,24 @@ p {
 }
 .webhooks .webhooks-header {
     padding: 10px 20px;
-    border-bottom: 1px solid #f50505;
+    border-bottom: 1px solid #3DA9A9;
     width: 100%;
     height: 36px;
 }
 /*2FA button*/
-.user-settings-security .btn-ghost:hover {
-    background: #9e0707;
-    border-color: rgba(236, 238, 239, 0);
+.user-settings-modal-security .btn-ghost:hover {
+    background: #25CBCB !important;
+    
+    transition-duration: 0.5s;
 }
-.user-settings-security .btn-ghost {
+.user-settings-modal-security .btn-ghost {
     box-sizing: border-box;
-    background: #ea0707;
+    background: #3DA9A9 !important;
     border-radius: 3px;
-    border: 2px solid rgba(243, 243, 243, 0);
+    border: none !important;
     padding: 9px 20px;
     font-weight: 600;
+    color: #fff;
 }
 /*Remove role button*/
 .member-roles .member-role .member-role-remove {
@@ -4173,9 +4205,15 @@ p {
     -ms-flex-positive: 1;
     flex-grow: 1;
 }
+.sensitivity .slider .slider-bar .slider-bar-fill {
+    background-color: #3DA9A9 !important;
+}
+.sensitivity .slider .slider-handle {
+    border-color: #3DA9A9 !important;
+}
 /*Create DM panel*/
 .theme-dark .private-channel-recipients-invite .friend {
-    color: #f10d0d;
+    color: #3DA9A9;
     background: rgba(46, 49, 54, 0.55);
 }
 .search-bar {
@@ -4190,6 +4228,7 @@ p {
     -ms-flex-negative: 0;
     flex-shrink: 0;
     border-radius: 4px;
+    
 }
 .private-channel-recipients-invite .footer button {
     -webkit-box-flex: 1;
@@ -4199,25 +4238,28 @@ p {
     margin: 3px 0;
     text-align: center;
     border-radius: 3px;
-    background-color: #a70303;
+    background-color: #3DA9A9;
     font-size: 16px;
     font-weight: 500;
     padding: 5px 10px;
     cursor: pointer;
 }
 .private-channel-recipients-invite .footer button:hover {
-    background-color: #f90606;
+    background-color: #25CBCB;
     transition-duration: 0.5s;
 }
 .private-channel-recipients-invite .footer button:disabled {
     opacity: .3;
     cursor: not-allowed;
-    background-color: #790303 !important;
+    background-color: #3DA9A9 !important;
     transition-duration: 0.5s;
 }
 /*Authorized App*/
+.settings-connections-wrapper .authed-app .header .header-actions .action-btn {
+    background: #3DA9A9;
+}
 .settings-connections-wrapper .authed-app .header .header-actions .action-btn:hover {
-    background: #f30909;
+    background: #25CBCB;
     transition-duration: 1s;
     
 	}
@@ -4226,7 +4268,7 @@ p {
     padding: 20px;
     border-radius: 5px;
     background: rgba(10, 10, 10, 0.7);
-    border: 1px solid #f70404;
+    border: 1px solid #3DA9A9;
 }
 .settings-connections-wrapper .authed-app .details .permission-checkmark {
     background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Echo_curation_alt_check_mark.svg/2000px-Echo_curation_alt_check_mark.svg.png) no-repeat;
@@ -4235,26 +4277,28 @@ p {
     width: 23px;
     height: 10px;
 }
+
 /*Linked app*/
 .connection {
-    border-color: rgb(203, 33, 32) !important;
+    border-color: #3DA9A9 !important;
     background-color: rgba(16, 16, 16, 0.82) !important;
 
 }
 .checkbox .checkbox-inner+span {
-    color: #f90a0a;
+    color: #3DA9A9;
+    
 }
 .settings-connections-wrapper .user-settings-modal-connections .user-settings-modal-connections-list .connection .connection-options .connection-option .checkbox .checkbox-inner.alt input[type=checkbox]+span {
     background: 0 0;
-    border-color: hsla(0, 94%, 50%, 0.6);
+    border-color: #3DA9A9;
 }
 .settings-connections-wrapper .user-settings-modal-connections .user-settings-modal-connections-list .connection .connection-header .btn-delete:hover {
-    border-color: hsla(0, 92%, 49%, 0.5);
+    border-color: #25CBCB;
 	transition-duration: 0.25s;
 }
 .settings-connections-wrapper .user-settings-modal-connections .user-settings-modal-connections-list .connection .connection-header .btn-delete {
     color: #fff;
-    border: 1px solid hsla(0,0%,100%,.1);
+    border: 1px solid #3DA9A9;
     border-radius: 3px;
     background-color: transparent;
     padding: 8px 16px;
@@ -4267,7 +4311,7 @@ p {
     background: #000000 !important;
     font-size: 10px;
     font-weight: 600;
-    color: #A20000!important;
+    color: #3DA9A9!important;
     margin-left: 6px;
     padding: 1px 2px;
     border-radius: 3px;
@@ -4287,37 +4331,38 @@ p {
     bottom: 0px;
 }
 .copybutton:hover {
-    background-color: #A20000 !important;
-    border: 2px solid #A20000 !important;
+    background-color: #3DA9A9 !important;
+    border: 2px solid #3DA9A9 !important;
     transition-duration: 0.5s;
+    color: #fff !important;
 }
 .copybutton:active {
     transform: translateY(2px);
-    background-color: #A10000 !important;
-    border: 2px solid #A10000 !important;
+    background-color: #25CBCB !important;
+    border: 2px solid #25CBCB !important;
 }
 /*Emoji management*/
 .guild-settings-modal-emoji .emoji-row .emoji-name {
     padding: 8px;
     border-radius: 3px;
-    border: 1px solid #A20000;
+    border: 1px solid #3DA9A9;
     outline: 0;
     font-size: 16px;
     background: rgba(0, 0, 0, 0.64);
-    color: #e20b0b;
+    color: #3DA9A9;
 }
 .guild-settings-modal-emoji .emoji-row:hover .emoji-name {
-    border-color: #A20000;
+    border-color: #3DA9A9;
     background-color: rgba(0, 0, 0, 0.64);
 }
 .guild-settings-modal-emoji .emoji-row .emoji-name:hover {
     padding: 8px;
     border-radius: 3px;
-    border: 1px solid #A20000;
+    border: 1px solid #3DA9A9;
     outline: 0;
     font-size: 16px;
-    background: rgba(0, 0, 0, 0.64);
-    color: #e20b0b;
+    background: rgba(61, 169, 169, 0);
+    color: #3DA9A9;
 }
 .guild-settings-modal-emoji .emoji-row {
     display: -webkit-box;
@@ -4327,7 +4372,7 @@ p {
     -ms-flex-align: center;
     align-items: center;
     padding: 16px 0;
-    border-bottom: 1px solid #f10000;
+    border-bottom: 1px solid #3DA9A9;
 }
 .guild-settings-modal-emoji .emoji-row:hover {
     display: -webkit-box;
@@ -4337,16 +4382,16 @@ p {
     -ms-flex-align: center;
     align-items: center;
     padding: 16px 0;
-    border-bottom: 1px solid #f10000;
+    border-bottom: 1px solid #3DA9A9;
 }
 .guild-settings-modal .emoji-row .btn.btn-danger, .guild-settings-modal .member-buttons .btn.btn-danger {
     border: 1px solid rgba(252, 217, 217, 0);
     color: #fff;
-    background-color: #a20404;
+    background-color: #3DA9A9;
 }
 .guild-settings-modal .emoji-row .btn.btn-danger:hover, .guild-settings-modal .member-buttons .btn.btn-danger:hover {
     transition-duration: 1s !important;
-    background-color: #f50202;
+    background-color: #22D0D0;
     
 }
 
@@ -4358,7 +4403,7 @@ p {
     -ms-grid-row-align: center;
     align-self: center;
     margin-left: 8px;
-    color: #f50707;
+    color: #3DA9A9;
 }
 /*Keyboard shortcut list pop-out*/
 .keyboard-shortcuts-modal {
@@ -4383,7 +4428,7 @@ p {
     padding: 20px 40px 0;
     font-size: 26px;
     line-height: 34px;
-    color: #f50000;
+    color: #3DA9A9;
     overflow: hidden;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -4397,8 +4442,8 @@ p {
 }
 .keyboard-shortcuts-modal .keyboard-shortcut-list .keybind-group .keybind-description {
     font-weight: 700;
-    color: #ec0404;
-    color: #ec0404;
+    
+    color: #3DA9A9;
     font-size: 12px;
     line-height: 18px;
     text-transform: uppercase;
@@ -4419,6 +4464,6 @@ p {
 /*Version checker*/
 
 .markdown-modal-header strong:before {
-    content: "OtakuDiscord:1.9.8(16/02/17) "!important;
-    color: #CA6767;
+    content: "OtakuDiscordSAO:1.9.8(16/02/17) "!important;
+    color: #3DA9A9;
 }
