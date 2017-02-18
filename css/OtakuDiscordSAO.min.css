@@ -4454,6 +4454,9 @@ message-reactions-modal {
 .theme-light .layers {
     background: transparent;
 }
+.avatar-popout {
+    background-size: 99px 99px !important;
+}
 
 
 /*Dark & Light default theme*/
@@ -4464,6 +4467,6 @@ message-reactions-modal {
 /*Version checker*/
 
 .markdown-modal-header strong:before {
-    content: "OtakuDiscordSAO:1.9.8(16/02/17) "!important;
+    content: "OtakuDiscordSAO:1.9.9(18/02/17) "!important;
     color: #3DA9A9;
 }
