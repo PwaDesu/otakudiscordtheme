@@ -4406,6 +4406,10 @@ form.auth-form footer {
 .theme-light .layers {
     background: none !important;
 }
+.avatar-popout {
+    background-size: 99px 99px !important;
+}
+
 /*Dark & Light default theme*/
 .radio-theme.dark label {
     background: url(https://cdn.discordapp.com/attachments/265364582288064512/277821245418897408/owowhatsthis-40.png);
@@ -4414,6 +4418,6 @@ form.auth-form footer {
 /*Version checker*/
 
 .markdown-modal-header strong:before {
-    content: "OtakuDiscord:1.9.8(16/02/17) "!important;
+    content: "OtakuDiscord:1.9.9(18/02/17) "!important;
     color: #CA6767;
 }
