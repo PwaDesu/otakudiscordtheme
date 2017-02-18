@@ -4064,6 +4064,10 @@ form.auth-form footer {
     font-weight: 600;
     color: #f91900;
 }
+p {
+    margin: 14px 0;
+    color: #A20000;
+}
 /*Reactions pop-out*/
 .modal .modal-inner {
     pointer-events: auto;
@@ -4394,18 +4398,39 @@ form.auth-form footer {
 .keyboard-shortcuts-modal .keyboard-shortcut-list .keybind-group .keybind-description {
     font-weight: 700;
     color: #ec0404;
+    color: #ec0404;
     font-size: 12px;
     line-height: 18px;
     text-transform: uppercase;
     margin-bottom: 4px;
 }
-/*Background fix*/
-.theme-dark .layers {
-    background: none !important;
-    }
-.theme-light .layers {
-    background: none !important;
+/*guilds disconnected*/
+.guilds-wrapper .guilds-error {
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 25px;
+    background: #413338;
+    color: #fff!important;
+    border: 2px solid #f04747;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 46px;
+    box-sizing: border-box;
+    display: block;
 }
+.avatar-popout {
+    background-size: 99px 99px !important;
+}
+
+/*Background fix*/
+.theme-dark .layers,
+.theme-light .layers {
+    background: transparent;
+}
+
+
 /*Dark & Light default theme*/
 .radio-theme.dark label {
     background: url(https://cdn.discordapp.com/attachments/265364582288064512/277821245418897408/owowhatsthis-40.png);
@@ -4414,6 +4439,6 @@ form.auth-form footer {
 /*Version checker*/
 
 .markdown-modal-header strong:before {
-    content: "OtakuDiscord:1.9.8(16/02/17) "!important;
+    content: "OtakuDiscord:1.9.9(18/02/17) "!important;
     color: #CA6767;
 }
