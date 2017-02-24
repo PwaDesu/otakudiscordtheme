@@ -1,5 +1,4 @@
 .app {
-    background-image: url("https://cdn.discordapp.com/attachments/265364582288064512/280269170904662016/rezero_background.png") !important;/*remember that links must be https*/
     /*Saske13 part*/
     background-size: auto 100%;
     background-position:center center;
@@ -9,8 +8,7 @@
     
 }
 .callout-backdrop {/*The background displayed when you open your settings for example*/
-    opacity: 0.6 !important; /*Put the opacity to 0 to disable this background*/
-    background: url(https://cdn.discordapp.com/attachments/265364582288064512/280269170904662016/rezero_background.png);
+  
      /*Saske13 part*/
     background-size: auto 100%;
     background-position:center center;
@@ -31,7 +29,6 @@
     right: 0;
     bottom: 0;
     text-rendering: optimizeLegibility;
-    background-image: url(https://cdn.discordapp.com/attachments/265364582288064512/280269170904662016/rezero_background.png) !important;
     /*Saske13 part*/
     background-size: auto 100%;
     background-position:center center;
@@ -3788,7 +3785,6 @@ option.user:hover {
 }
 /*Auth stuff*/
 .auth-background {
-    background-image: url("https://cdn.discordapp.com/attachments/265364582288064512/280269170904662016/rezero_background.png") !important;/*remember that links must be https*/
     /*Saske13 part*/
     background-size: auto 100%;
     background-position:center center;
@@ -3826,7 +3822,6 @@ form.auth-form footer {
     margin-bottom: 0;
 }/*User profile reworked by Saske13*/
 #user-profile-modal {
-    background: url(https://cdn.discordapp.com/attachments/278233087677169664/279540272847650816/bkg.png);
     background-size: auto 100%;
     background-position: center;
 }
