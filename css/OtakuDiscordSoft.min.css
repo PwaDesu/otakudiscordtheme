@@ -223,9 +223,7 @@ background-color: transparent;
 .edit-message .avatar-large {
     visibility: hidden;
 }
-.avatar-large {
-    margin: 1%;
-}
+
 .theme-dark .friends-table .messages .mentioned .message-text, 
 .theme-dark .messages-wrapper .messages .mentioned .message-text {
     animation: mentioned-pulse 5s infinite;
@@ -257,10 +255,10 @@ background-color: transparent;
     }
 }
 .avatar-large {
-    width: 80px;
-    height: 80px;
-    background-size: 80px 80px;
-    border-radius: 6px;
+    width: 40px;
+    height: 40px;
+    background-size: 40px 40px;
+    margin: 1%;	
 }
 .avatar-large:hover {
     animation: avatar-pulse 3s infinite;
