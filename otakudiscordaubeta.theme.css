@@ -29,3 +29,11 @@
 .theme-dark .search-results-wrap {
     background-image: url("https://cdn.discordapp.com/attachments/206531013784895489/278546376210644993/ram__and_rem_wallpaperadmvrzarts_by_admvrzarts-dacp5ow.jpg") !important;
 }
+/*------------------Main background opacity------------------------------*/
+.content .flex-spacer,
+.title-wrap,
+.channels-wrap,
+.guilds-wrapper,
+.channel-members {
+	    background: rgba(0, 0, 0, 0.85) !important; /*To make the background lighter/darker, change last numbers (by default 0.85) by a value between 0 and 1, 1 is the darkest possible and 0 the lightest possible*/
+}
