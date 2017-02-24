@@ -4434,6 +4434,6 @@ p {
 /*Version checker*/
 
 .markdown-modal-header strong:before {
-    content: "OtakuDiscord:1.9.9(18/02/17) "!important;
+    content: "OtakuDiscord:2.0(24/02/17) "!important;
     color: #CA6767;
 }
