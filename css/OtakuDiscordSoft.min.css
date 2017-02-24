@@ -1109,22 +1109,19 @@ background-color: transparent;
     transform: translateZ(0px);
 }
 .channel-members .member.member-status-online .avatar-small {
-    width: 40px;
-    height: 40px;
-    background-size: 40px 40px;
-    border-radius: 10px;
+    width: 30px;
+    height: 30px;
+    background-size: 30px 30px;
 }
 .channel-members .member.member-status-offline .avatar-small {
-    width: 40px;
-    height: 40px;
-    background-size: 40px 40px;
-    border-radius: 10px;
+    width: 30px;
+    height: 30px;
+    background-size: 30px 30px;
 }
 .channel-members .avatar-small {
-    width: 40px;
-    height: 40px;
-    background-size: 40px 40px;
-    border-radius: 10px;
+    width: 30px;
+    height: 30px;
+    background-size: 30px 30px;
 }
 .theme-dark.context-menu .item-subMenu {
     background: #350000 url(/assets/1988164a7c55346d32117b151f4e319d.svg) no-repeat 155px 50%;
