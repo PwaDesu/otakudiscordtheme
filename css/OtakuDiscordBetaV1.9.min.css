@@ -3822,8 +3822,8 @@ form.auth-form footer {
     margin-bottom: 0;
 }/*User profile reworked by Saske13*/
 #user-profile-modal {
-    background-size: auto 100%;
-    background-position: center;
+    background-size: auto 100% !important;
+    background-position: center !important;
 }
 
 #user-profile-modal .header {
