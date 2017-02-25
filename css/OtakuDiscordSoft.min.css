@@ -10,8 +10,8 @@
 .callout-backdrop {/*The background displayed when you open your settings for example*/
 
      /*Saske13 part*/
-    background-size: auto 100%;
-    background-position:center center;
+    background-size: auto 100% !important;
+    background-position:center center !important;
     /*End of Saske 13 part*/
     background-repeat: no-repeat;
     -webkit-transition: all 2s ease;
