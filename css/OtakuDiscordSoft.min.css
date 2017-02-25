@@ -87,7 +87,7 @@ font-size: 15px !important;
 }
 .theme-dark .chat>.content .messages .divider:not(.red) span {
     opacity: 0.9;
-    background: rgba(154, 0, 0, 0.67) !important;
+    background: rgba(0, 154, 147, 0.67) !important;
 }
 .theme-light .chat>.content .messages .divider:not(.red) span {
     opacity: 0.9;
