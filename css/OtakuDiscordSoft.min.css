@@ -4458,6 +4458,6 @@ message-reactions-modal {
 /*Version checker*/
 
 .markdown-modal-header strong:before {
-    content: "OtakuDiscordSAO:1.9.9(18/02/17) "!important;
+    content: "OtakuDiscordSAO:2.0(25/02/17) "!important;
     color: #3DA9A9;
 }
