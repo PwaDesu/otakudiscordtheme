@@ -4440,6 +4440,21 @@ message-reactions-modal {
     text-transform: uppercase;
     margin-bottom: 4px;
 }
+/*New pinned message*/
+.theme-dark .header-toolbar .toolbar-badge {
+    border-color: rgba(54, 57, 62, 0.42);
+}
+.header-toolbar .toolbar-badge {
+    width: 8px;
+    height: 8px;
+    box-shadow: none;
+    border: 2px solid #fff;
+    position: absolute;
+    border-radius: 8px;
+    background-color: #12ffde;
+    top: 3px;
+    right: 3px;
+}
 /*Background fix*/
 .theme-dark .layers,
 .theme-light .layers {
