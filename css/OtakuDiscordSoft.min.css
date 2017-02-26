@@ -1069,19 +1069,19 @@ background-color: transparent;
     padding: 5px 15px 8px 20px;
 }
 .channel-members h2 {
-    color: #3DA9A9 !important;
-    font-size: 11px;
+ color: #3DA9A9 !important;
+    font-size: 10px;
     text-transform: uppercase;
     letter-spacing: .08em;
     font-weight: 600;
     padding: 4px 58px;
     background-color: rgba(0, 0, 0, 0.24);
-    border: 1px solid;
+    /* border: 1px solid; */
     border-color: transparent;
-    border-radius: 3px;
-    width: 90px;
+    /* border-radius: 3px; */
+    /* width: 90px; */
     margin-left: 15px;
-    text-align: center
+    text-align: center;
 }
 .channel-members-wrap {
     min-width: 240px;
