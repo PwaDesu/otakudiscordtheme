@@ -181,16 +181,14 @@ font-size: 15px !important;
     
     border: 2px solid rgba(11, 162, 162, 0.35) !important;
     background: rgba(16, 1, 1, 0.6) !important;
-    mentioned-pulse 5s infinite
 }
 ::-webkit-input-placeholder {
-  color: #9f0000 !important;
+  color: #3DA9A9 !important;
 
 }
 .channel-textarea-autocomplete-inner {
     background:rgba(0,0,0,0.84)!important;
     border:none !important;
-    mentioned-pulse 5s infinite
 }
 
 .channel-textarea-autocomplete-inner:after {
@@ -298,7 +296,6 @@ background-color: transparent;
 }
 .channel-textarea-guard button:hover {
     background-color: #9f0000;
-    mentioned-pulse 5s infinite
 }
 .theme-dark .chat .has-more button {
     background: #7D0202;
@@ -4475,4 +4472,3 @@ message-reactions-modal {
 .markdown-modal-header strong:before {
     content: "OtakuDiscordSAO:2.0(25/02/17) "!important;
     color: #3DA9A9;
-}
