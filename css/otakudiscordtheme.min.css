@@ -4397,6 +4397,16 @@ form.auth-form footer {
     text-transform: uppercase;
     margin-bottom: 4px;
 }
+/*Discord Nitro sensor*/
+.avatar-large[style*="/a_"]+.comment .username-wrapper::before {
+    background: url('https://canary.discordapp.com/assets/65f0a0df5563e21de7b1aeeafaf31d78.svg') 50% 50% / contain no-repeat;
+    float: left;
+    content: '';
+    left: 0;
+    width: 21px;
+    height: 16px;
+    margin: 0 5px 0 -5px;
+}
 /*Background fix*/
 .theme-dark .layers {
     background: none !important;
@@ -4416,6 +4426,6 @@ form.auth-form footer {
 /*Version checker*/
 
 .markdown-modal-header strong:before {
-    content: "OtakuDiscord:2.0(25/02/17) "!important;
+    content: "OtakuDiscord:2.0.1(28/02/17) "!important;
     color: #CA6767;
 }
