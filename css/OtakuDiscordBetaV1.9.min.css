@@ -4307,24 +4307,24 @@ p {
 .guild-settings-modal-emoji .emoji-row .emoji-name {
     padding: 8px;
     border-radius: 3px;
-    border: 1px solid #A20000;
+    border: 1px solid var(--main-color);
     outline: 0;
     font-size: 16px;
     background: rgba(0, 0, 0, 0.64);
-    color: #e20b0b;
+    color: var(--main-color);
 }
 .guild-settings-modal-emoji .emoji-row:hover .emoji-name {
-    border-color: #A20000;
+    border-color: var(--main-color);
     background-color: rgba(0, 0, 0, 0.64);
 }
 .guild-settings-modal-emoji .emoji-row .emoji-name:hover {
     padding: 8px;
     border-radius: 3px;
-    border: 1px solid #A20000;
+    border: 1px solid var(--main-color);
     outline: 0;
     font-size: 16px;
     background: rgba(0, 0, 0, 0.64);
-    color: #e20b0b;
+    color: var(--main-color);
 }
 .guild-settings-modal-emoji .emoji-row {
     display: -webkit-box;
@@ -4334,7 +4334,7 @@ p {
     -ms-flex-align: center;
     align-items: center;
     padding: 16px 0;
-    border-bottom: 1px solid #f10000;
+    border-bottom: 1px solid var(--main-color);
 }
 .guild-settings-modal-emoji .emoji-row:hover {
     display: -webkit-box;
@@ -4344,16 +4344,16 @@ p {
     -ms-flex-align: center;
     align-items: center;
     padding: 16px 0;
-    border-bottom: 1px solid #f10000;
+    border-bottom: 1px solid var(--main-color);
 }
 .guild-settings-modal .emoji-row .btn.btn-danger, .guild-settings-modal .member-buttons .btn.btn-danger {
     border: 1px solid rgba(252, 217, 217, 0);
     color: #fff;
-    background-color: #a20404;
+    background-color: var(--main-color);
 }
 .guild-settings-modal .emoji-row .btn.btn-danger:hover, .guild-settings-modal .member-buttons .btn.btn-danger:hover {
     transition-duration: 1s !important;
-    background-color: #f50202;
+    background-color: var(--main-color);
     
 }
 
@@ -4365,7 +4365,7 @@ p {
     -ms-grid-row-align: center;
     align-self: center;
     margin-left: 8px;
-    color: #f50707;
+    color: var(--main-color);
 }
 /*Keyboard shortcut list pop-out*/
 .keyboard-shortcuts-modal {
@@ -4390,7 +4390,7 @@ p {
     padding: 20px 40px 0;
     font-size: 26px;
     line-height: 34px;
-    color: #f50000;
+    color: var(--main-color);
     overflow: hidden;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -4404,8 +4404,7 @@ p {
 }
 .keyboard-shortcuts-modal .keyboard-shortcut-list .keybind-group .keybind-description {
     font-weight: 700;
-    color: #ec0404;
-    color: #ec0404;
+    color: var(--main-color);
     font-size: 12px;
     line-height: 18px;
     text-transform: uppercase;
@@ -4436,7 +4435,7 @@ p {
     width: 21px;
     height: 16px;
     margin: 0 5px 0 -5px;
-}
+}/*Gif avatar fix*/
 .avatar-popout {
     background-size: 99px 99px !important;
 }
@@ -4449,13 +4448,14 @@ p {
 
 
 /*Dark & Light default theme*/
-.radio-theme.dark label {
+.radio-theme.dark label,
+.radio-theme.light label {
     background: url(https://cdn.discordapp.com/attachments/265364582288064512/277821245418897408/owowhatsthis-40.png);
     background-size: 100% 100%;
 }
 /*Version checker*/
 
 .markdown-modal-header strong:before {
-    content: "OtakuDiscord:2.0.2(28/02/17) "!important;
-    color: #CA6767;
+    content: "OtakuDiscord:2.0.3(01/03/17) "!important;
+    color: var(--main-color);
 }
