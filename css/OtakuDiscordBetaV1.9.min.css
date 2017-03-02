@@ -4424,6 +4424,134 @@ p {
 .theme-light .layers {
     background: transparent;
 }
+/*Special tags*/
+.avatar-small[style*='/a_'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='/a_'] + .member-inner .member-username::after, .message-group .avatar-large[style*='/a_'] + .comment .user-name::after, .avatar-small[style*='140149699486154753'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='140149699486154753'] + .member-inner .member-username::after, .message-group .avatar-large[style*='140149699486154753'] + .comment .user-name::after, .avatar-small[style*='154592238754594816'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='154592238754594816'] + .member-inner .member-username::after, .message-group .avatar-large[style*='154592238754594816'] + .comment .user-name::after {
+    position: relative;
+    background: rgba(100,100,100,0.3);
+    color: hsla(0,0%,100%,0.6);
+    margin-left: 4px;
+    
+}
+.avatar-small[style*='/a_'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='/a_'] + .member-inner .member-username::after, .message-group .avatar-large[style*='/a_'] + .comment .user-name::after, .avatar-small[style*='140149699486154753'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='140149699486154753'] + .member-inner .member-username::after, .avatar-popout[style*='140149699486154753']::after, .avatar-profile[style*='140149699486154753']::after, .message-group .avatar-large[style*='140149699486154753'] + .comment .user-name::after, .avatar-small[style*='154592238754594816'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='154592238754594816'] + .member-inner .member-username::after, .avatar-popout[style*='154592238754594816']::after, .avatar-profile[style*='154592238754594816']::after, .message-group .avatar-large[style*='154592238754594816'] + .comment .user-name::after {
+    position: relative;
+    height: 14px;
+    padding: 1px 2px;
+    border-radius: 3px;
+    background: rgba(0,0,0,0.5);
+    color: hsla(0,0%,100%,0.8);
+    font-size: 10px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 16px;
+    text-shadow: 0 0 1px rgba(0,0,0,.3);
+    text-transform: uppercase;
+    vertical-align: bottom;
+}
+
+  /*Paradox tags*/
+.avatar-small[style*='140149699486154753'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='140149699486154753'] + .member-inner .member-username::after, .message-group .avatar-large[style*='140149699486154753'] + .comment .user-name::after {
+    content: "OtakuDiscord Dev";    
+}
+ 
+.avatar-small[style*='140149699486154753'] + .member-inner .member-username-inner::after {
+    content: "OT Dev"; 
+}
+/*Saske tags*/
+.guild-settings-modal-members .avatar-small[style*='154592238754594816'] + .member-inner .member-username::after, .message-group .avatar-large[style*='154592238754594816'] + .comment .user-name::after {
+    content: "OtakuDiscord Dev";    
+} 
+.avatar-small[style*='154592238754594816'] + .member-inner .member-username-inner::after {
+    content: "OT DEV"; 
+}
+/*Jay tags*/
+.guild-settings-modal-members .avatar-small[style*='109053653679083520'] + .member-inner .member-username::after, .message-group .avatar-large[style*='109053653679083520'] + .comment .user-name::after {
+    content: "Jay ouo";    
+} 
+.avatar-small[style*='109053653679083520'] + .member-inner .member-username-inner::after {
+    content: "Jay ouo"; 
+}
+.avatar-small[style*='109053653679083520'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='109053653679083520'] + .member-inner .member-username::after, .avatar-popout[style*='109053653679083520']::after, .avatar-profile[style*='109053653679083520']::after, .message-group .avatar-large[style*='109053653679083520'] + .comment .user-name::after {
+    position: relative;
+    height: 14px;
+    padding: 1px 2px;
+    border-radius: 3px;
+    background: rgba(0,0,0,0.5);
+    color: hsla(0,0%,100%,0.8);
+    font-size: 10px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 16px;
+    text-shadow: 0 0 1px rgba(0,0,0,.3);
+    text-transform: uppercase;
+    vertical-align: bottom;
+}
+/*Tal tags*/
+.guild-settings-modal-members .avatar-small[style*='166157397738520578'] + .member-inner .member-username::after, .message-group .avatar-large[style*='166157397738520578'] + .comment .user-name::after {
+    content: "OtakuDiscord TEAM";    
+} 
+.avatar-small[style*='166157397738520578'] + .member-inner .member-username-inner::after {
+    content: "OT TEAM"; 
+}
+.avatar-small[style*='166157397738520578'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='166157397738520578'] + .member-inner .member-username::after, .avatar-popout[style*='166157397738520578']::after, .avatar-profile[style*='166157397738520578']::after, .message-group .avatar-large[style*='166157397738520578'] + .comment .user-name::after {
+    position: relative;
+    height: 14px;
+    padding: 1px 2px;
+    border-radius: 3px;
+    background: rgba(0,0,0,0.5);
+    color: hsla(0,0%,100%,0.8);
+    font-size: 10px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 16px;
+    text-shadow: 0 0 1px rgba(0,0,0,.3);
+    text-transform: uppercase;
+    vertical-align: bottom;
+}
+
+/*Kyo-chan tags*/
+.guild-settings-modal-members .avatar-small[style*='238759102430314496'] + .member-inner .member-username::after, .message-group .avatar-large[style*='238759102430314496'] + .comment .user-name::after {
+    content: "OtakuDiscord TEAM";    
+} 
+.avatar-small[style*='238759102430314496'] + .member-inner .member-username-inner::after {
+    content: "OT TEAM"; 
+}
+.avatar-small[style*='238759102430314496'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='238759102430314496'] + .member-inner .member-username::after, .avatar-popout[style*='154592238754594816']::after, .avatar-profile[style*='238759102430314496']::after, .message-group .avatar-large[style*='238759102430314496'] + .comment .user-name::after {
+    position: relative;
+    height: 14px;
+    padding: 1px 2px;
+    border-radius: 3px;
+    background: rgba(0,0,0,0.5);
+    color: hsla(0,0%,100%,0.8);
+    font-size: 10px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 16px;
+    text-shadow: 0 0 1px rgba(0,0,0,.3);
+    text-transform: uppercase;
+    vertical-align: bottom;
+}
+/*Karen tags*/
+.guild-settings-modal-members .avatar-small[style*='162325985079984129'] + .member-inner .member-username::after, .message-group .avatar-large[style*='162325985079984129'] + .comment .user-name::after {
+    content: "Saske's wife";    
+} 
+.avatar-small[style*='162325985079984129'] + .member-inner .member-username-inner::after {
+    content: "OT TEAM"; 
+}
+.avatar-small[style*='162325985079984129'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='162325985079984129'] + .member-inner .member-username::after, .avatar-popout[style*='162325985079984129']::after, .avatar-profile[style*='162325985079984129']::after, .message-group .avatar-large[style*='162325985079984129'] + .comment .user-name::after {
+    position: relative;
+    height: 14px;
+    padding: 1px 2px;
+    border-radius: 3px;
+    background: rgba(0,0,0,0.5);
+    color: hsla(0,0%,100%,0.8);
+    font-size: 10px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 16px;
+    text-shadow: 0 0 1px rgba(0,0,0,.3);
+    text-transform: uppercase;
+    vertical-align: bottom;
+}
 
 
 /*Dark & Light default theme*/
