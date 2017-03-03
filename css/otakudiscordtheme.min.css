@@ -4464,7 +4464,7 @@ form.auth-form footer {
 }
 /*Saske tags*/
 .guild-settings-modal-members .avatar-small[style*='154592238754594816'] + .member-inner .member-username::after, .message-group .avatar-large[style*='154592238754594816'] + .comment .user-name::after {
-    content: "OtakuDiscord Dev";    
+    content: "Karen's husband";    
 } 
 .avatar-small[style*='154592238754594816'] + .member-inner .member-username-inner::after {
     content: "OT DEV"; 
