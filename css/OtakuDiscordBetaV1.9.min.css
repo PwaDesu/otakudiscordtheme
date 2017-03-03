@@ -2477,13 +2477,14 @@ span.discriminator:hover {
     background-color: #9f0000;
 }
 .upload-modal .footer .button-primary {
-    color: #9f0000;
-    background-color: #fff;
+    color: #fff;
+    background-color: #9f0000;
 }
-.upload-modal .footer .button-primary {
-    color: #9f0000;
-    background-color: #fff;
-}
+ .upload-modal .footer .button-primary:hover {
+    color: #fff;
+    background-color: #A20000;
+     transition-duration: 0.5s;
+}   
 div.control-group .shortcut-recorder input[type=text] {
     border: 1px solid #9f0000;
     text-shadow: 0 0 0 #FFFFFF;
