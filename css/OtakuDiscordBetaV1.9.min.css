@@ -2977,7 +2977,12 @@ a:link {
      
        opacity: 1; 
       
-}/*Saske13 fix*/
+}
+.theme-dark .search-results-wrap .search-result .search-result-message.hit, .theme-dark .search-results-wrap .search-result.expanded {
+    border: 0px;
+    background-color: rgba(0, 0, 0, 0.90);
+}
+/*Saske13 fix*/
 .search-results-wrap .search-result .search-result-message.hit, .theme-dark .search-results-wrap .search-result.expanded{
     background-color: rgba(0, 0, 0, 0.5);
 }
