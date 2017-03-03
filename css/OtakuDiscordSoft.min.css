@@ -4636,7 +4636,28 @@ message-reactions-modal {
     text-transform: uppercase;
     vertical-align: bottom;
 }
-
+/*Dean tags*/
+.guild-settings-modal-members .avatar-small[style*='134122930828214273'] + .member-inner .member-username::after, .message-group .avatar-large[style*='134122930828214273'] + .comment .user-name::after {
+    content: "Rem Dev";    
+} 
+.avatar-small[style*='134122930828214273'] + .member-inner .member-username-inner::after {
+    content: "Rem Dev"; 
+}
+.avatar-small[style*='134122930828214273'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='134122930828214273'] + .member-inner .member-username::after, .avatar-popout[style*='134122930828214273']::after, .avatar-profile[style*='134122930828214273']::after, .message-group .avatar-large[style*='134122930828214273'] + .comment .user-name::after {
+    position: relative;
+    height: 14px;
+    padding: 1px 2px;
+    border-radius: 3px;
+    background: rgba(0,0,0,0.5);
+    color: hsla(0,0%,100%,0.8);
+    font-size: 10px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 16px;
+    text-shadow: 0 0 1px rgba(0,0,0,.3);
+    text-transform: uppercase;
+    vertical-align: bottom;
+}
 /*Dark & Light default theme*/
 .radio-theme.dark label {
     background: url(https://cdn.discordapp.com/attachments/265364582288064512/277821245418897408/owowhatsthis-40.png);
@@ -4645,7 +4666,7 @@ message-reactions-modal {
 /*Version checker*/
 
 .markdown-modal-header strong:before {
-    content: "OtakuDiscordSoft:2.0.2(02/03/17) "!important;
+    content: "OtakuDiscordSoft:2.0.2(03/03/17) "!important;
     color: #3DA9A9;
 }	
 	
