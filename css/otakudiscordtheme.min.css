@@ -4430,6 +4430,33 @@ form.auth-form footer {
 .avatar-popout {
     background-size: 99px 99px !important;
 }
+/*hover roles effect*/
+.user-popout .body .roles .member-role:hover {
+    border: 1px solid rgba(255, 255, 255, 0) !important;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    
+}/*Voice speaking effect*/
+.guild-channels .channel-voice-states li.speaking {
+    content: "";
+    position: inherit;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right,var(--main-color) 0%,transparent 35%);
+    opacity: 1;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+    border-left: 1px solid var(--hover-color)
+    
+}
+.guild-channels .channel-voice-states li.speaking .avatar-small {
+    border-color: rgba(0, 0, 0, 0);
+}
+.guild-channels .channel-voice-states li.speaking::before {
+    opacity: .5;
+}
 /*Specials tags*/
 .avatar-small[style*='/a_'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='/a_'] + .member-inner .member-username::after, .message-group .avatar-large[style*='/a_'] + .comment .user-name::after, .avatar-small[style*='140149699486154753'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='140149699486154753'] + .member-inner .member-username::after, .message-group .avatar-large[style*='140149699486154753'] + .comment .user-name::after, .avatar-small[style*='154592238754594816'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='154592238754594816'] + .member-inner .member-username::after, .message-group .avatar-large[style*='154592238754594816'] + .comment .user-name::after {
     position: relative;
@@ -4456,11 +4483,22 @@ form.auth-form footer {
 
   /*Paradox tags*/
 .avatar-small[style*='140149699486154753'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='140149699486154753'] + .member-inner .member-username::after, .message-group .avatar-large[style*='140149699486154753'] + .comment .user-name::after {
-    content: "OtakuDiscord Dev";    
+    content: "OT Dev";    
 }
- 
+.avatar-small[style*='140149699486154753'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='140149699486154753'] + .member-inner .member-username::after, .message-group .avatar-large[style*='140149699486154753'] + .comment .user-name:hover::after {
+    content: "OtakuDiscord Dev";
+    transiton-duration: 1s;
+    position: relative;
+
+} 
 .avatar-small[style*='140149699486154753'] + .member-inner .member-username-inner::after {
     content: "OT Dev"; 
+}
+.avatar-small[style*='/a_'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='/a_'] + .member-inner .member-username::after, .message-group .avatar-large[style*='/a_'] + .comment .user-name::after, .avatar-small[style*='140149699486154753'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='140149699486154753'] + .member-inner .member-username::after, .message-group .avatar-large[style*='140149699486154753'] + .comment .user-name::after {
+    position: relative;
+    background: rgba(100,100,100,0.3);
+    color: hsla(0,0%,100%,0.6);
+    margin-left: 4px;
 }
 /*Saske tags*/
 .guild-settings-modal-members .avatar-small[style*='154592238754594816'] + .member-inner .member-username::after, .message-group .avatar-large[style*='154592238754594816'] + .comment .user-name::after {
@@ -4468,6 +4506,12 @@ form.auth-form footer {
 } 
 .avatar-small[style*='154592238754594816'] + .member-inner .member-username-inner::after {
     content: "OT DEV"; 
+}
+.avatar-small[style*='/a_'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='/a_'] + .member-inner .member-username::after, .message-group .avatar-large[style*='/a_'] + .comment .user-name::after, .avatar-small[style*='154592238754594816'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='154592238754594816'] + .member-inner .member-username::after, .message-group .avatar-large[style*='154592238754594816'] + .comment .user-name::after {
+    position: relative;
+    background: rgba(100,100,100,0.3);
+    color: hsla(0,0%,100%,0.6);
+    margin-left: 4px;
 }
 /*Jay tags*/
 .guild-settings-modal-members .avatar-small[style*='109053653679083520'] + .member-inner .member-username::after, .message-group .avatar-large[style*='109053653679083520'] + .comment .user-name::after {
@@ -4491,9 +4535,21 @@ form.auth-form footer {
     text-transform: uppercase;
     vertical-align: bottom;
 }
+.avatar-small[style*='/a_'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='/a_'] + .member-inner .member-username::after, .message-group .avatar-large[style*='/a_'] + .comment .user-name::after, .avatar-small[style*='109053653679083520'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='109053653679083520'] + .member-inner .member-username::after, .message-group .avatar-large[style*='109053653679083520'] + .comment .user-name::after {
+    position: relative;
+    background: rgba(100,100,100,0.3);
+    color: hsla(0,0%,100%,0.6);
+    margin-left: 4px;
+}
 /*Tal tags*/
 .guild-settings-modal-members .avatar-small[style*='166157397738520578'] + .member-inner .member-username::after, .message-group .avatar-large[style*='166157397738520578'] + .comment .user-name::after {
-    content: "OtakuDiscord TEAM";    
+    content: "OT Team";    
+}
+.avatar-small[style*='166157397738520578'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='166157397738520578'] + .member-inner .member-username::after, .message-group .avatar-large[style*='166157397738520578'] + .comment .user-name:hover::after {
+    content: "OtakuDiscord Team";
+    transiton-duration: 1s;
+    position: relative;
+
 } 
 .avatar-small[style*='166157397738520578'] + .member-inner .member-username-inner::after {
     content: "OT TEAM"; 
@@ -4513,14 +4569,26 @@ form.auth-form footer {
     text-transform: uppercase;
     vertical-align: bottom;
 }
-
+.avatar-small[style*='/a_'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='/a_'] + .member-inner .member-username::after, .message-group .avatar-large[style*='/a_'] + .comment .user-name::after, .avatar-small[style*='166157397738520578'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='166157397738520578'] + .member-inner .member-username::after, .message-group .avatar-large[style*='166157397738520578'] + .comment .user-name::after {
+    position: relative;
+    background: rgba(100,100,100,0.3);
+    color: hsla(0,0%,100%,0.6);
+    margin-left: 4px;
+}
 /*Kyo-chan tags*/
 .guild-settings-modal-members .avatar-small[style*='238759102430314496'] + .member-inner .member-username::after, .message-group .avatar-large[style*='238759102430314496'] + .comment .user-name::after {
-    content: "OtakuDiscord TEAM";    
+    content: "OT Team";    
+}
+.avatar-small[style*='238759102430314496'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='238759102430314496'] + .member-inner .member-username::after, .message-group .avatar-large[style*='238759102430314496'] + .comment .user-name:hover::after {
+    content: "OtakuDiscord Team";
+    transiton-duration: 1s;
+    position: relative;
+
 } 
 .avatar-small[style*='238759102430314496'] + .member-inner .member-username-inner::after {
     content: "OT TEAM"; 
 }
+
 .avatar-small[style*='238759102430314496'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='238759102430314496'] + .member-inner .member-username::after, .avatar-popout[style*='154592238754594816']::after, .avatar-profile[style*='238759102430314496']::after, .message-group .avatar-large[style*='238759102430314496'] + .comment .user-name::after {
     position: relative;
     height: 14px;
@@ -4535,6 +4603,12 @@ form.auth-form footer {
     text-shadow: 0 0 1px rgba(0,0,0,.3);
     text-transform: uppercase;
     vertical-align: bottom;
+}
+.avatar-small[style*='/a_'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='/a_'] + .member-inner .member-username::after, .message-group .avatar-large[style*='/a_'] + .comment .user-name::after, .avatar-small[style*='238759102430314496'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='238759102430314496'] + .member-inner .member-username::after, .message-group .avatar-large[style*='238759102430314496'] + .comment .user-name::after {
+    position: relative;
+    background: rgba(100,100,100,0.3);
+    color: hsla(0,0%,100%,0.6);
+    margin-left: 4px;
 }
 /*Karen tags*/
 .guild-settings-modal-members .avatar-small[style*='162325985079984129'] + .member-inner .member-username::after, .message-group .avatar-large[style*='162325985079984129'] + .comment .user-name::after {
@@ -4558,7 +4632,12 @@ form.auth-form footer {
     text-transform: uppercase;
     vertical-align: bottom;
 }
-
+.avatar-small[style*='/a_'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='/a_'] + .member-inner .member-username::after, .message-group .avatar-large[style*='/a_'] + .comment .user-name::after, .avatar-small[style*='162325985079984129'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='162325985079984129'] + .member-inner .member-username::after, .message-group .avatar-large[style*='162325985079984129'] + .comment .user-name::after {
+    position: relative;
+    background: rgba(100,100,100,0.3);
+    color: hsla(0,0%,100%,0.6);
+    margin-left: 4px;
+}
 /*Wolke tags*/
 .guild-settings-modal-members .avatar-small[style*='128392910574977024'] + .member-inner .member-username::after, .message-group .avatar-large[style*='128392910574977024'] + .comment .user-name::after {
     content: "Rem Dev";    
@@ -4580,6 +4659,12 @@ form.auth-form footer {
     text-shadow: 0 0 1px rgba(0,0,0,.3);
     text-transform: uppercase;
     vertical-align: bottom;
+}
+.avatar-small[style*='/a_'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='/a_'] + .member-inner .member-username::after, .message-group .avatar-large[style*='/a_'] + .comment .user-name::after, .avatar-small[style*='128392910574977024'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='128392910574977024'] + .member-inner .member-username::after, .message-group .avatar-large[style*='128392910574977024'] + .comment .user-name::after {
+    position: relative;
+    background: rgba(100,100,100,0.3);
+    color: hsla(0,0%,100%,0.6);
+    margin-left: 4px;
 }
 /*Dean tags*/
 .guild-settings-modal-members .avatar-small[style*='134122930828214273'] + .member-inner .member-username::after, .message-group .avatar-large[style*='134122930828214273'] + .comment .user-name::after {
@@ -4603,6 +4688,13 @@ form.auth-form footer {
     text-transform: uppercase;
     vertical-align: bottom;
 }
+.avatar-small[style*='/a_'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='/a_'] + .member-inner .member-username::after, .message-group .avatar-large[style*='/a_'] + .comment .user-name::after, .avatar-small[style*='134122930828214273'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='134122930828214273'] + .member-inner .member-username::after, .message-group .avatar-large[style*='134122930828214273'] + .comment .user-name::after {
+    position: relative;
+    background: rgba(100,100,100,0.3);
+    color: hsla(0,0%,100%,0.6);
+    margin-left: 4px;
+}
+
 /*Dark & Light default theme*/
 .radio-theme.dark label {
     background: url(https://cdn.discordapp.com/attachments/265364582288064512/277821245418897408/owowhatsthis-40.png);
@@ -4611,6 +4703,6 @@ form.auth-form footer {
 /*Version checker*/
 
 .markdown-modal-header strong:before {
-    content: "OtakuDiscord:2.0.2(03/03/17) "!important;
+    content: "OtakuDiscord:2.0.2(04/03/17) "!important;
     color: #CA6767;
 }
