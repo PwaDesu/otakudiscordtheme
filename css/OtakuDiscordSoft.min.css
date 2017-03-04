@@ -4493,26 +4493,10 @@ message-reactions-modal {
     transition-duration: 0.5s;
     
 }/*Voice speaking effect*/
-.guild-channels .channel-voice-states li.speaking {
-    content: "";
-    position: inherit;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(to right,var(--main-color) 0%,transparent 35%);
-    opacity: 1;
-    -webkit-transition: all .15s ease-in-out;
-    transition: all .15s ease-in-out;
-    border-left: 1px solid var(--hover-color)
-    
-}
 .guild-channels .channel-voice-states li.speaking .avatar-small {
-    border-color: rgba(0, 0, 0, 0);
+    border-color: #3DA9A9;
 }
-.guild-channels .channel-voice-states li.speaking::before {
-    opacity: .5;
-}
+
 /*Specials tags*/
 .avatar-small[style*='/a_'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='/a_'] + .member-inner .member-username::after, .message-group .avatar-large[style*='/a_'] + .comment .user-name::after, .avatar-small[style*='140149699486154753'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='140149699486154753'] + .member-inner .member-username::after, .message-group .avatar-large[style*='140149699486154753'] + .comment .user-name::after, .avatar-small[style*='154592238754594816'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='154592238754594816'] + .member-inner .member-username::after, .message-group .avatar-large[style*='154592238754594816'] + .comment .user-name::after {
     position: relative;
