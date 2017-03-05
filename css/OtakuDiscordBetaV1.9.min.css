@@ -2978,6 +2978,17 @@ a:link {
        opacity: 1; 
       
 }
+/*Message fix(more readable)*/
+.search-results-wrap .search-result .search-result-message .message-group {
+     padding: 10px;
+    margin: 0;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: rgba(0, 0, 0, 0.85);
+}
 .theme-dark .search-results-wrap .search-result .search-result-message.hit, .theme-dark .search-results-wrap .search-result.expanded {
     border: 0px;
     background-color: rgba(0, 0, 0, 0.90);
@@ -4704,6 +4715,6 @@ p {
 /*Version checker*/
 
 .markdown-modal-header strong:before {
-    content: "OtakuDiscord:2.0.3(04/03/17) "!important;
+    content: "OtakuDiscord:2.0.3(05/03/17) "!important;
     color: var(--main-color);
 }
