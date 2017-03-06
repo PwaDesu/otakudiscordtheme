@@ -366,7 +366,7 @@ background-color: transparent;
     transition-duration: 0.5s;
 }
 .guilds .friends-icon {
-    background-color: #630B0B;
+    background-color: var(--main-color);
 }
 .guilds-add {
     color: transparent !important;
