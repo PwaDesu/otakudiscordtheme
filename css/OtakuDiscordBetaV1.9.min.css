@@ -4743,6 +4743,18 @@ p {
 .message-group .comment .markup:hover em strong:before {
     content:"Spoiler: ";
 }
+/*New pinned message*/
+.header-toolbar .toolbar-badge {
+    width: 8px;
+    height: 8px;
+    box-shadow: none;
+    border: 2px solid #fff;
+    position: absolute;
+    border-radius: 8px;
+    background-color: var(--main-color);
+    top: 3px;
+    right: 3px;
+}
 /*Dark & Light default theme*/
 .radio-theme.dark label,
 .radio-theme.light label {
