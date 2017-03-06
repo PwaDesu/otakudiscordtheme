@@ -2609,7 +2609,7 @@ img.image {
 }
 .now-playing.no-detection {
     padding: 14px 0;
-    background: rgba(101, 0, 0, 0.45);
+    background: var(--transparent-color);
     border: 1px solid var(--main-color);
 }
 .data-reactid .popout section {
