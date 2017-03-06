@@ -2624,8 +2624,8 @@ img.image {
     color: var(--hover-color);
 }
 #bd-customcss-attach-controls {
-    border: 1px solid #7D0000;
-    border-top: 1px solid #820000;
+    border: 1px solid var(--hover-color);
+    border-top: 1px solid var(--hover-color);
     height: 75px;
 }
 #bd-customcss-attach-controls, #bd-customcss-detach-controls {
