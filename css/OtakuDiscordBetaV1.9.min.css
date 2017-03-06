@@ -4755,6 +4755,10 @@ p {
     top: 3px;
     right: 3px;
 }
+/*Muted microphone icon*/
+.guild-channels .channel-voice-states li .icon-muted {
+    background-image: url(https://image.flaticon.com/icons/png/512/39/39517.png) !important;
+}
 /*Dark & Light default theme*/
 .radio-theme.dark label,
 .radio-theme.light label {
