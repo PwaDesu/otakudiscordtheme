@@ -230,7 +230,7 @@ background-color: transparent;
 }
 @-webkit-keyframes mentioned-pulse {
     0% {
-    box-shadow: 0 0 0 0 #FF3D05;
+    box-shadow: 0 0 0 0 var(--main-color);
     }
     70% {
     box-shadow: 0 0 10px 10px rgba(241, 71, 71, 0)
@@ -241,7 +241,7 @@ background-color: transparent;
 }
 @keyframes mentioned-pulse {
     0% {
-    box-shadow: 0 0 0 0 #FF3D05;
+    box-shadow: 0 0 0 0 var(--main-color);
     }
     70% {
     box-shadow: 0 0 10px 10px rgba(241, 71, 71, 0)
