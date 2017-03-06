@@ -3900,12 +3900,19 @@ form.auth-form footer {
     top: 12px;
     left: -6px;
 }
+.guild-channels .channel-text.unread:not(.selected):not(.channel-muted):hover::before {
+    width: 2px;
+    height: 35px;
+    border-radius: 0px;
+    border-left: 1px solid var(--main-color);
+    transition-duration: 0.25s;
+    top: 0;
+}
 .guild-channels .channel-text .channel-name:before {
     content: "#";
     color: var(--main-color)!important;
     margin-right: 3px;
-    font-weight: 600;
-    
+    font-weight: 600;    
 }
 
 
