@@ -780,7 +780,7 @@ background-color: transparent;
 
 #autocomplete-popout .row.selected, 
 #autocomplete-popout .row:hover {
-    background: linear-gradient(90deg, rgba(136, 2, 2, 0.69), rgba(0, 0, 0, 0.59)) !important;
+    background: linear-gradient(90deg, var(--lowtransparent-color), rgba(0, 0, 0, 0.59)) !important;
 }
 #autocomplete-popout .row.selected a,
 #autocomplete-popout .row:hover a {
