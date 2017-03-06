@@ -2840,7 +2840,7 @@ img.image {
     border-bottom: 2px solid var(--hover-color);
 }
 .form .btn-default:hover {
-    border-bottom: 2px solid var(--hover-color);
+    border-bottom: none;
 }
 .form .btn-default {
     background-color: var(--main-color);
@@ -2926,7 +2926,7 @@ a:link {
     border-bottom: 2px solid var(--transparent-color);
     border-radius: 3px;
     width: 80px;
-    color: var(--main-color);
+    color: rgba(255, 255, 255, 0.8);
 }
 .btn btn-primary bda-plugin-reload {
     background-color: var(--transparent-color)!important;
@@ -3826,6 +3826,7 @@ form.auth-form footer {
 
 #user-profile-modal .scroller {
     background: none;
+    margin-top: 9%;
 }
 
 #user-profile-modal .guilds .section .connected-accounts .connected-account {
