@@ -13,7 +13,7 @@
     background-size: auto 100%;
     background-position:center center;
     /*End of Saske 13 part*/
-    background-repeat: no-repeat;
+    background-repeat: no-repeat !important;
     -webkit-transition: all 2s ease;
     -moz-transition: all 2s ease;
     -o-transition: all 2s ease;
@@ -1975,7 +1975,8 @@ textarea {
     background: transparent !important;
 }
 .messages .markup:not([data-colour="true"]) {
-    color:rgba(255,255,255,0.5) !important;
+    color: rgba(255,255,255,0.8) !important;
+
 }
 .guild-channels ul .channel-text:hover:not(.unread):before {
     border-left: 4px solid var(--main-color);
