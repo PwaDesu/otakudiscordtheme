@@ -777,7 +777,7 @@ background-color: transparent;
 	transition-duration: 0.5s;
 }
 .theme-dark.context-menu .item {
-    color: hsla(0, 100%, 50%, 0.6);
+   color: var(--transparent-color);
 }
 .theme-dark.context-menu .item.disabled {
     color: #9A0303;
@@ -3230,7 +3230,7 @@ a:link {
     background: var(--lowtransparent-color);
 }
 #user-profile-modal .guilds .guild:hover {
-    background: linear-gradient(90deg, rgba(169, 4, 4, 0.45) 90%, rgba(0, 0, 0, 0.4));
+    background: var(--transparent-color);
     color: #FFFFFF;
 }
 #user-profile-modal .guilds .guild {
