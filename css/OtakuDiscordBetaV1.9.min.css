@@ -4759,6 +4759,10 @@ p {
 .guild-channels .channel-voice-states li .icon-muted {
     background-image: url(https://image.flaticon.com/icons/png/512/39/39517.png) !important;
 }
+/*Blocking user warning text*/
+.modal-content .form-inner p:first-child::after {
+    content: " Please note that the OtakuDiscord theme is including a blocked message filter, that mean you'll not able to see the user message, instead of the default discord system which allow to see message without unblocking the user.";
+}
 /*Dark & Light default theme*/
 .radio-theme.dark label,
 .radio-theme.light label {
