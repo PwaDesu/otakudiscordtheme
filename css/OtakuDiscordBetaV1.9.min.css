@@ -4756,5 +4756,6 @@ p {
 }
 .account:hover::after {
     color: var(--hover-color);
+    opacity: .9;	
     transition-duration: 0.5s;
 }
