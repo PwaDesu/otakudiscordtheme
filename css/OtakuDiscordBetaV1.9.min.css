@@ -2981,7 +2981,6 @@ a:link {
 
 .theme-dark .search-results-wrap .search-result .search-result-message.hit, .theme-dark .search-results-wrap .search-result.expanded {
     border: 0px;
-    background-color: transparent;
 }
 .message-group .sink-interactions.clickable {
     cursor: pointer;
