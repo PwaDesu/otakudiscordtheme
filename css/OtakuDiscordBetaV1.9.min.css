@@ -204,7 +204,7 @@ font-size: 15px !important;
     background:rgba(255,255,255,0.1)!important;
 }
 .channel-textarea-upload {
-    border-right-color: hsl(0, 96%, 18%) !important;
+    border-right-color: var(--transparent-color) !important;
 }
 .message-group .edit-message .channel-textarea-inner {
     border-color: var(--main-color);
