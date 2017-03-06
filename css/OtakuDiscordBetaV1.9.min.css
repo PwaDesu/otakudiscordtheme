@@ -1045,7 +1045,7 @@ background-color: transparent;
     padding: 5px 15px 8px 20px;
 }
 .channel-members h2 {
-    color: #9f0000 !important;
+    color: var(--main-color)!important;
     font-size: 11px;
     text-transform: uppercase;
     letter-spacing: .08em;
