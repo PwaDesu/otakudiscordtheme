@@ -1839,25 +1839,39 @@ textarea {
 .typing {
     font-size: 11px;
 }
-.spoiler span {
-    display: none;
-}
 .spoiler:before {
-    min-height: 18px;
-    padding-top: 2px;
-    border-radius: 5px;
-    background: rgba(25, 25, 25, 0.7);
+    content: "Spoiler, hover to see it";
+    display: block;
+    background: none !important;
+    color: #fff !important;
+    min-height: 30px;
+    text-align: center;
+    line-height: 100%;
+    padding-top: 5px;
 }
-.spoiler:before {
-    background: #900000;
-    min-height: 0px;
-    padding-top: 14px;
+#custom-css-ta, .spoiler:before {
+    font-family: Consolas;
+}
+.spoiler:hover {
+    color: rgba(255, 255, 255, 0.9) !important;
+    background: none !important;
+    transition-delay: 0.5s;
+    transition-duration: 0.5s;
+}
+.message-group .comment .markup {
+    font-size: 15px;
+    line-height: 1.1em;
+    white-space: pre-wrap;
+    margin-top: 6px;
+    word-wrap: break-word;
 }
 .spoiler {
-    Background-color: #1E2124;
+    background-color: var(--lowtransparent-color) !important;
     border: 1px solid;
     border-color: transparent;
     border-radius: 6px;
+    color: transparent !important;
+    text-align: center;
 }
 #twitchcord-button {
     background-size: 24px;
