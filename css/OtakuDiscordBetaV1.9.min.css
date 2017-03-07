@@ -732,7 +732,7 @@ background-color: transparent;
 }
 .small-popout-box {
     background: rgba(0, 0, 0, 0.7);
-    border: 1px solid #790000;
+    border: 1px solid var(--main-color);
 }
 .option-popout .btn-item {
     font-family: Whitney,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
