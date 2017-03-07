@@ -4712,15 +4712,13 @@ p {
 .image .image-gif::after {
     content: "GIF";
 }
-/*Spoiler feature theme by Pu*/ /*
-.message-group .comment .markup em strong {
+/*Spoiler feature theme by Pu*/ 
+.message-group .comment .markup u em strong {
     background-color: black !important;
     border-radius: 5px !important;
     color: transparent;
-
 }
-
-.message-group .comment .markup em strong:hover {
+.message-group .comment .markup u em strong:hover {
     color: rgba(255,255,255,.7) !important;
     background-color: transparent !important;
     border-radius: 0px !important;
@@ -4730,18 +4728,16 @@ p {
     transition-delay: 0.5s !important;
     cursor: pointer;
 }
-
-.message-group .comment .markup em strong:before {
+.message-group .comment .markup u em strong:before {
     content: "Spoiler";
     color: white;
     padding-left: 5px;
     transition: display .3s !important;
     transition-delay: 0.5s !important;
 }
-
-.message-group .comment .markup:hover em strong:before {
+.message-group .comment .markup:hover u em strong:before {
     content:"Spoiler: ";
-}*/
+}
 /*New pinned message*/
 .header-toolbar .toolbar-badge {
     width: 8px;
