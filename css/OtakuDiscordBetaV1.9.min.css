@@ -4726,7 +4726,7 @@ p {
 .image .image-gif::after {
     content: "GIF";
 }
-/*Spoiler feature theme by Pu*/ 
+/*Spoiler feature theme by Pu*/  /*
 .message-group .comment .markup u em strong {
     background-color: black !important;
     border-radius: 5px !important;
@@ -4751,7 +4751,7 @@ p {
 }
 .message-group .comment .markup:hover u em strong:before {
     content:"Spoiler: ";
-}
+} */
 /*New pinned message*/
 .header-toolbar .toolbar-badge {
     width: 8px;
