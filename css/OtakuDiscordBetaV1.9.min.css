@@ -1987,7 +1987,7 @@ textarea {
     background: transparent !important;
 }
 .messages .markup:not([data-colour="true"]) {
-    color: rgba(255,255,255,0.8) !important;
+    color: rgba(255,255,255,0.8);
 
 }
 .guild-channels ul .channel-text:hover:not(.unread):before {
