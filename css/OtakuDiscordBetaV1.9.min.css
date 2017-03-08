@@ -2774,7 +2774,7 @@ img.image {
     border-top: 1px solid var(--main-color);
 }
 .bda-slist li {
-    background: rgba(56, 0, 0, 0.56);
+    background: rgba(0, 0, 0, 0.56);
     padding: 5px;
     border-bottom: 1px solid var(--main-color);
     min-height: 116px;
@@ -2782,12 +2782,12 @@ img.image {
 }
 .bda-slist .bda-description {
     margin-top: 5px;
-    color: #9E6767;
+    color: rgba(255, 255, 255, 0.4);
     width: 400px;
     overflow-y: scroll;
     min-height: 90px;
     max-height: 90px;
-    border-top: 1px solid #B10808;
+    border-top: 1px solid var(--transparent-color);
     padding-top: 5px;
     word-break: break-word;
 }
@@ -2863,8 +2863,8 @@ img.image {
     width: 100px;
 }
 .bd-settings > div:last-child {
-    background: var(--transparent-color)) !important;
-    color: #800101 !important;
+    background: rgba(0, 0, 0, 0.5) !important;
+    color: var(--main-color)!important;
     height: 30px !important;
     position: absolute !important;
     bottom: 0 !important;
@@ -2883,7 +2883,7 @@ img.image {
     border-top: 1px solid var(--main-color);
 }
 a:link {
-    color: #B50303;
+    color: var(--main-color);
 }    
 .need-help-modal .header {
     background-color: var(--lowtransparent-color);
