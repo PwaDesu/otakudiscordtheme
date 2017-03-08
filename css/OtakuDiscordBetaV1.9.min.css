@@ -2855,10 +2855,12 @@ img.image {
 }
 .form .btn-default:hover {
     border-bottom: none;
+    background-color: var(--hover-color);
+    transition-duration: 0.5s;
 }
 .form .btn-default {
     background-color: var(--main-color);
-    border-bottom: 2px solid var(--transparent-color);
+    border-bottom: 0px solid var(--transparent-color);
     border-radius: 3px;
     width: 100px;
 }
@@ -2937,9 +2939,9 @@ a:link {
 }
 .form .btn-default {
     background-color: var(--lowtransparent-color);
-    border-bottom: 2px solid var(--transparent-color);
+    border-bottom: 0px solid var(--transparent-color);
     border-radius: 3px;
-    width: 80px;
+    width: 100px;
     color: rgba(255, 255, 255, 0.8);
 }
 .btn btn-primary bda-plugin-reload {
@@ -4779,6 +4781,32 @@ p {
 }
 .private-channels .search-bar input {
     background: rgba(0, 0, 0, 0.05) !important;
+}
+/*Debug pop-out*/
+h1 {
+    margin: 15px 0;
+    color: #fff;
+}
+.form .control-groups>.control-group {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    color: var(--hover-color);
+}
+h3 {
+    color: var(--main-color);
+}
+#voice-debug-modal #users-section .user-list li:hover {
+    background: linear-gradient(90deg,var(--main-color),rgba(0, 0, 0, 0));
+    transition-duration: 0.5s;
+}
+#voice-debug-modal #users-section .user-list li:hover:before {
+    background-color: var(--hover-color);
+}
+#voice-debug-modal #users-section .user-list li.selected {
+    background: linear-gradient(to right,var(--main-color),rgba(0, 0, 0, 0));
 }
 /*Dark & Light default theme*/
 .radio-theme.dark label,
