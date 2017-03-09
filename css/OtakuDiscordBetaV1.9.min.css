@@ -2828,7 +2828,7 @@ img.image {
 }
 .btn-confirm.active .btn:last-of-type:not(:first-of-type) {
     width: 100%;
-    background-color: var(--transparent-color);
+    background-color: var(--transparent-color) !important;
     padding-left: 20px;
     padding-right: 20px;
     font-weight: 600;
