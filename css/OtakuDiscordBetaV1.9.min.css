@@ -2834,6 +2834,10 @@ img.image {
     font-weight: 600;
 }
 .btn-confirm.active .btn:last-of-type:not(:first-of-type):hover {
+    background-color: var(--hover-color)!important;
+    transition-duration: 0.5s;
+}
+.btn-confirm.active .btn:last-of-type:not(:first-of-type):hover {
     background: var(--transparent-color);
 }
 .btn-confirm.active .btn {
