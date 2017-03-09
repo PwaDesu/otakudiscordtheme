@@ -4819,6 +4819,20 @@ h3 {
     background: url(https://cdn.discordapp.com/attachments/265364582288064512/277821245418897408/owowhatsthis-40.png);
     background-size: 100% 100%;
 }
+/* hide channel button fix*/
+#bd-show-channels {
+    display: none;
+    width: 12px;
+    height: 18px;
+    background: #2e3136;
+    left: 33px;
+    top: 79px;
+    text-align: left!important;
+    padding: 0 0 0 3px!important;
+    color: #EBEBEB;
+    z-index: 90000;
+    visibility: hidden;
+}
 /*Version checker*/
 
 .markdown-modal-header strong:before {
