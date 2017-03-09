@@ -859,14 +859,14 @@ background-color: transparent;
     background: var(--main-color);
 }
 .clipboard-input-copied button:not(.tweet) {
-    border-color: #dd0909 !important;
-    background-color: #dd0909 !important;
+    border-color: var(--transparent-color) !important;
+    background-color: var(--hover-color) !important;
 }
 .clipboard-input-copied .clipboard-input-inner {
-    border-color: #dd0909;
+    border-color: var(--transparent-color);
 }
 .clipboard-input-copied .clipboard-input-inner input {
-    color: #A50000;
+    color: var(--main-color);
     background: rgba(0, 0, 0, 0.95);
 }
 .search-bar.search-bar-light {
