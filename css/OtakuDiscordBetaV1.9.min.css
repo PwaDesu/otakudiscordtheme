@@ -837,7 +837,6 @@ background-color: transparent;
 }
 .member-roles .member-role {
     background-color: rgba(0, 0, 0, 0.34);
-    color: #ffffff;
     border: 1px solid var(--main-color);
 }
 .clipboard-input-inner input {
@@ -978,11 +977,11 @@ background-color: transparent;
     border-bottom-right-radius: 4px;
     border-bottom-left-radius: 4px;
     background-color: rgba(0, 0, 0, 0.64);
-    border: 1px solid #B00707;
-    border-top-color: #B00707;
+    border: 1px solid var(--transparent-color);
+    border-top-color: var(--transparent-color);
 }
 .form .Select-control:hover {
-    border: 1px solid #ff1a1a;
+    border: 1px solid var(--transparent-color);
 }
 .form .Select.is-disabled .Select-control:hover, .form .Select.is-open .Select-control:hover {
     border-color: var(--hover-color);
@@ -993,13 +992,12 @@ background-color: transparent;
 	transition-duration: 0.5s;
 }
 .form .is-focused:not(.is-open)>.Select-control {
-    border: 1px solid #800000;
+    border: 1px solid var(--transparent-color);
 }
 .form .Select-option.is-focused {
-    background: #650000;
-    color: #2e3136;
+    background: var(--transparent-color);
+    color: #fff;
 }
-
 /* Sidebar Members */
 
 .channel-members .member.popout-open .avatar-small, .channel-members .member:hover .avatar-small {
@@ -2821,7 +2819,7 @@ img.image {
 .region-select button {
     background-color: var(--main-color);
     border: 1px solid var(--main-color);
-    color: #CE6464;
+    color: #fff;
 }
 .region-select-name {
     font-weight: 700;
@@ -3522,7 +3520,7 @@ a:link {
     height: 30px;
     margin-top: 8px;
     background-color: var(--main-color);
-    color: #000;
+    color: #fff;
     font-size: 19px;
     border-radius: 4px;
 }
