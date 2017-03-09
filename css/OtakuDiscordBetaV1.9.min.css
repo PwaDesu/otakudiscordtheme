@@ -2918,7 +2918,7 @@ a:link {
     color: #000000;
 }
 #pubs-header input:focus {
-    width: 300px;
+    width: 150px;
 }
 #bd-pub-button:hover {
     background-color: var(--hover-color);
