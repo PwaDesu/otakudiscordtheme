@@ -769,7 +769,7 @@ background-color: transparent;
 }
 .theme-dark.context-menu {
     background: rgba(0, 0, 0, 0.87);
-    box-shadow: 0 0 1px rgba(255, 0, 0, 0.82),0 1px 4px rgba(251, 6, 6, 0.1);
+     box-shadow: 0 0 1px var(--transparent-color),0 1px 4px var(--transparent-color);
 }
 .theme-dark.context-menu .item:hover {
     background: var(--main-color);
