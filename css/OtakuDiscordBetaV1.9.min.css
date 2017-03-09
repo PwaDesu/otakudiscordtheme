@@ -297,8 +297,8 @@ background-color: transparent;
 	transition-duration: 0.5s;
 }
 .theme-dark .chat .has-more button {
-    background: #7D0202;
-    border: 1px solid #9A0000;
+    background: var(--transparent-color);
+    border: 1px solid var(--hover-color);
 }
 .theme-light .chat .has-more button {
     background: #7D0202;
