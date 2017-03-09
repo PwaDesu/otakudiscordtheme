@@ -4810,6 +4810,12 @@ h3 {
 #voice-debug-modal #users-section .user-list li.selected {
     background: linear-gradient(to right,var(--main-color),rgba(0, 0, 0, 0));
 }
+/*settings icon animation*/
+.icon.icon-settings:hover {
+    -webkit-animation: load8 2.8s infinite linear;
+    animation: load8 2.8s infinite linear;
+}
+
 /*Dark & Light default theme*/
 .radio-theme.dark label,
 .radio-theme.light label {
