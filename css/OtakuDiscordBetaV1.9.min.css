@@ -679,20 +679,14 @@ background-color: transparent;
 .user-popout .footer .update-notice {
     color: rgba(255, 255, 255, 0) !important;
 }
-.user-popout .avatar-wrapper .avatar-popout {
-    background-color: #ffe6e6;
-    border: 4px solid #ff8080 !important;
-}
+
 .user-popout .header {
     background: rgba(0, 0, 0, 0.86);
 }
 .user-popout .body {
     background: rgba(21, 0, 0, 0.83);
 }
-.user-popout .avatar-wrapper .avatar-popout {
-    background-color: transparent;
-    border: 4px solid rgb(243, 5, 5) !important;
-}
+
 .user-popout .footer {
     background: var(--lowtransparent-color);
     border-top: 1px solid var(--hover-color) !important;
@@ -3108,7 +3102,8 @@ a:link {
     margin-top: -6%; 
 }
 .user-popout .avatar-wrapper .avatar-popout {
-    border: 6px solid var(--main-color) !important;
+    border: var(--border-size) solid var(--main-color) !important;
+	background-color: transparent;
 }
 #user-profile-modal .scroller {
     z-index: 1; /*important*/
