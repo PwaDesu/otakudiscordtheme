@@ -3278,7 +3278,7 @@ a:link {
     background: #840000 !important;
 }
 #user-profile-modal .tab-bar-container {
-    background-color: #ec0b0b;
+    background-color: var(--main-color);
     box-shadow: 0 2px 3px 0 rgba(0,0,0,.1);
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3290,7 +3290,7 @@ a:link {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    border-bottom: 1px solid #ef0202;
+    border-bottom: 1px solid var(--main-color);
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
