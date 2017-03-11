@@ -2937,7 +2937,8 @@ a:link {
     background-color: var(--lowtransparent-color);
     border-bottom: 0px solid var(--transparent-color);
     border-radius: 3px;
-    width: 100px;
+    width: 80px;
+    height: 35px;
     color: rgba(255, 255, 255, 0.8);
 }
 .btn btn-primary bda-plugin-reload {
