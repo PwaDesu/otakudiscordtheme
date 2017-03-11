@@ -1138,7 +1138,7 @@ background-color: transparent;
     background: rgb(0,0,0) !important;
 }
 .settings .settings-actions {
-    border-top: 1px solid #BB0000 !important;
+    border-top: 1px solid var(--main-color) !important;
     background: rgba(0,0,0,0.6) !important;
 }
 .settings-section.control-groups {
