@@ -4764,10 +4764,6 @@ p {
     top: 3px;
     right: 3px;
 }
-/*Muted microphone icon*/
-.guild-channels .channel-voice-states li .icon-muted {
-    background-image: url(https://image.flaticon.com/icons/png/512/39/39517.png) !important;
-}
 
 /*Search bar of DM*/
 .search-bar .search-bar-inner, .search-bar input {
@@ -4832,11 +4828,11 @@ h3 {
 /*Version checker*/
 
 .markdown-modal-header strong:before {
-    content: "OtakuDiscordBeta:2.0.3(11/03/17) "!important;
+    content: "OtakuDiscordBeta:2.0.3(15/03/17) "!important;
     color: var(--main-color);
 }
 .account::after {
-    content: "OtakuDiscordBeta - 2.0.3(11/03/17)";
+    content: "OtakuDiscordBeta - 2.0.3(15/03/17)";
     color: #fff;
     font-size: 11px;
     font-weight: 700;
