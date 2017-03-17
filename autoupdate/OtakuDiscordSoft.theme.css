@@ -1,39 +1,50 @@
-//META{"name":"OtakuDiscordSoft","description":"OtakuDiscordSoft, a custom version, so update can be a bit later than the default OtakuDiscord theme","author":"ParadoxOrigins/Saske13","version":"Unknow"}*//
+//META{"name":"OtakuDiscordSoft","description":"OtakuDiscordBeta</br> Based on <a href='https://github.com/ParadoxOrigins/otakudiscordtheme' target='_blank'>OtakuDiscord theme</a> by <a href='https://github.com/ParadoxOrigins' target='_blank'>@ParadoxOrigins</a> & by <a href='https://github.com/Saske13' target='_blank'>Saske13</a>, with the help of <a href='https://github.com/Jorisvideo' target='_blank'>@JorisVidéos</a> <span style='position: absolute; bottom: 0; left: 0;'>Links: <b><a href='https://github.com/ParadoxOrigins/otakudiscordtheme' target='_blank'>Github</a></b> | <b><a href='https://discord.gg/6QkjVBk' target='_blank'>Discord</a></b></span> <span style='position: absolute; bottom: 0; right: 14px;'>By <b><a href='https://github.com/ParadoxOrigins' target='_blank'>@ParadoxOrigins</a></b></span>","author":"<a href='https://github.com/ParadoxOrigins' target='_blank'>@ParadoxOrigins</a> & <a href='https://github.com/Saske13' target='_blank'>@Saske13</a>","version":"2.0.3"}*//{}
 /* IMPORT CSS FROM GITHUB */
-@import url(https://rawgit.com/ParadoxOrigins/otakudiscordtheme/OtakuDiscord-Custom/css/OtakuDiscordSoft.min.css);
+@import url("https://rawgit.com/ParadoxOrigins/otakudiscordtheme/OtakuDiscord-Custom/css/OtakuDiscordSoft.min.css");
 /**/
 
 /*------------------------Custom background feature--------------------------*/
+
 /*Main background, change only the link, remember that links must be https and must be direct link to the image*/
 .app {
-    background-image: url("https://cdn.discordapp.com/attachments/265364582288064512/280269170904662016/rezero_background.png")
+    background-image: url("https://cdn.discordapp.com/attachments/265364582288064512/280269170904662016/rezero_background.png") !important;
+	background-size: 1920px 1080px !important;  /*Uncomment this line and replace dimensions by the dimensions of your screen size if you are experiecing borders bugs, works only with discord fullscreened*/
 }
+
 /*Call-out background, it's the one which appear when opening something like your user settings, change only the link and/or the opacity, remember that links must be https and must be direct link to the image*/
 .callout-backdrop {/*The background displayed when you open your settings for example*/
     opacity: 0.6 !important; /*Put the opacity to 0 to disable this background*/
-    background: url(https://cdn.discordapp.com/attachments/265364582288064512/280269170904662016/rezero_background.png);
+    background: url("https://cdn.discordapp.com/attachments/265364582288064512/280269170904662016/rezero_background.png");
+	background-size: 1920px 1080px !important;
 }
-/*Connection background, its the one displayed when discord is connecting you, change only the link, remember that links must be https and must be direct link to the image*/
-.connecting {
-    background-image: url(https://cdn.discordapp.com/attachments/265364582288064512/280269170904662016/rezero_background.png) !important;
-}
-/*Authentification background, its the one displayed when you sign in, change only the link, remember that links must be https and must be direct link to the image*/
-.auth-background {
-    background-image: url("https://cdn.discordapp.com/attachments/265364582288064512/280269170904662016/rezero_background.png") !important;/*remember that links must be https*/
-}
+
 /*Profile background, its the one displayed when opening user profile, change only the link, remember that links must be https and must be direct link to the image*/
 #user-profile-modal {
-    background: url(https://cdn.discordapp.com/attachments/265364582288064512/280269170904662016/rezero_background.png);
+    background: url(https://images3.alphacoders.com/702/thumb-1920-702658.png);
 }
+
 /*Search background, its the one displayed when using the search message feature, change only the link, remember that links must be https and must be direct link to the image*/
 .theme-dark .search-results-wrap {
-    background-image: url("https://cdn.discordapp.com/attachments/265364582288064512/280269170904662016/rezero_background.png") !important;
+    /*background-image: url("https://images7.alphacoders.com/740/thumb-1920-740377.png") !important;*/ /*Uncomment this line to enable the search background*/
+    background: rgba(0, 0, 0, 0.65); /*Sync the value(by default 0.65) with the main background opacity value to obtain a perfect synchronisation*/
 }
+
+
 /*------------------Main background opacity------------------------------*/
 .content .flex-spacer,
 .title-wrap,
 .channels-wrap,
 .guilds-wrapper,
 .channel-members {
-	    background: rgba(0, 0, 0, 0.85) !important; /*To make the background lighter/darker, change last numbers (by default 0.85) by a value between 0 and 1, 1 is the darkest possible and 0 the lightest possible*/
+	    background: rgba(0, 0, 0, 0.65) !important; /*To make the background lighter/darker, change last numbers (by default 0.85) by a value between 0 and 1, 1 is the darkest possible and 0 the lightest possible*/
 }
+
+/*----------------------Custom color feature & custom border size------------------------*/
+:root {
+	--main-color: #3399ff; /*Main colors, change the value(keep the #) to change it, you can choose a color on this website: https://www.w3schools.com/colors/colors_picker.asp */
+	--hover-color: #80bfff; /*Hover colors, that's the colors displayed when hovering something like a button*/
+	--transparent-color: rgba(77, 166, 255, 0.5); /*Colors that are transparent, use this website to choose but please don't change the last numbers(0.5): https://www.w3schools.com/colors/colors_rgb.asp */
+	--lowtransparent-color: rgba(77, 166, 255, 0.8); /*Same than above*/
+	--border-size: 1px;
+}
+
