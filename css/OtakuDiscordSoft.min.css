@@ -4239,6 +4239,7 @@ p {
 }
 .checkbox .checkbox-inner+span {
      color: rgba(255, 255, 255, 0.4) !important;
+}
 .settings-connections-wrapper .user-settings-modal-connections .user-settings-modal-connections-list .connection .connection-options .connection-option .checkbox .checkbox-inner.alt input[type=checkbox]+span {
     background: 0 0;
     border-color: var(--transparent-color);
