@@ -4595,16 +4595,16 @@ p {
 }
 /*Kyo-chan tags*/
 .guild-settings-modal-members .avatar-small[style*='238759102430314496'] + .member-inner .member-username::after, .message-group .avatar-large[style*='238759102430314496'] + .comment .user-name::after {
-    content: "OT Neko";    
+    content: "Neko";    
 }
 .avatar-small[style*='238759102430314496'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='238759102430314496'] + .member-inner .member-username::after, .message-group .avatar-large[style*='238759102430314496'] + .comment .user-name:hover::after {
-    content: "OtakuDiscord Neko";
+    content: "Neko";
     transiton-duration: 1s;
     position: relative;
 
 } 
 .avatar-small[style*='238759102430314496'] + .member-inner .member-username-inner::after {
-    content: "OT Neko"; 
+    content: "Neko"; 
 }
 
 .avatar-small[style*='238759102430314496'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='238759102430314496'] + .member-inner .member-username::after, .avatar-popout[style*='154592238754594816']::after, .avatar-profile[style*='238759102430314496']::after, .message-group .avatar-large[style*='238759102430314496'] + .comment .user-name::after {
@@ -4921,11 +4921,11 @@ margin-left:-150px
 /*Version checker*/
 
 .markdown-modal-header strong:before {
-    content: "OtakuDiscordBeta:2.0.4(22/03/17) "!important;
+    content: "OtakuDiscordBeta:2.0.4(24/03/17) "!important;
     color: var(--main-color);
 }
 .account::after {
-    content: "OtakuDiscordBeta - 2.0.4(22/03/17)";
+    content: "OtakuDiscordBeta - 2.0.4(24/03/17)";
     color: #fff;
     font-size: 11px;
     font-weight: 700;
