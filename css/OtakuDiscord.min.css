@@ -4830,11 +4830,11 @@ h3 {
 /*Version checker*/
 
 .markdown-modal-header strong:before {
-    content: "OtakuDiscord:2.0.3(21/03/17) "!important;
+    content: "OtakuDiscord:2.0.3(24/03/17) "!important;
     color: var(--main-color);
 }
 .account::after {
-    content: "OtakuDiscord - 2.0.3(21/03/17)";
+    content: "OtakuDiscord - 2.0.3(24/03/17)";
     color: #fff;
     font-size: 11px;
     font-weight: 700;
