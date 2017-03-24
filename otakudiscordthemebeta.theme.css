@@ -8,14 +8,14 @@
 /*Main background, change only the link, remember that links must be https and must be direct link to the image*/
 .app {
     background-image: url("https://cdn.discordapp.com/attachments/265364582288064512/280269170904662016/rezero_background.png") !important;
-	/*background-size: 1920px 1080px !important;*/  /*Uncomment this line and replace dimensions by the dimensions of your screen size if you are experiecing borders bugs, works only with discord fullscreened*/
+    background-size: cover !important;
 }
 
 /*Call-out background, it's the one which appear when opening something like your user settings, change only the link and/or the opacity, remember that links must be https and must be direct link to the image*/
 .callout-backdrop {/*The background displayed when you open your settings for example*/
     opacity: 0.6 !important; /*Put the opacity to 0 to disable this background*/
     background: url("https://cdn.discordapp.com/attachments/265364582288064512/280269170904662016/rezero_background.png");
-	background-size: 1920px 1080px !important;
+    background-size: cover !important;
 }
 
 /*Profile background, its the one displayed when opening user profile, change only the link, remember that links must be https and must be direct link to the image*/
