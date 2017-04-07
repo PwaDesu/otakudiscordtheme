@@ -2373,7 +2373,7 @@ a:link {
 }
 /*[[Hidden]]*/
 /*[[Visible]]*/
-.message-group-blocked {
+/*.message-group-blocked {
     background: #fcfcfc;
     -webkit-box-pack: center;
     -o-box-pack: center;
@@ -2384,7 +2384,7 @@ a:link {
     border-radius: 3px;
     margin: 6px 6px 6px 19px;
     display: none;
-}
+}*/
 .user-settings-modal-account .discord-tag {
     color: var(--main-color);
 }
@@ -4944,11 +4944,11 @@ margin-left:-150px
 /*Version checker*/
 
 .markdown-modal-header strong:before {
-    content: "OtakuDiscordBeta:2.0.5(31/03/17) "!important;
+    content: "OtakuDiscordBeta:2.0.5(07/04/17) "!important;
     color: var(--main-color);
 }
 .account::after {
-    content: "OtakuDiscordBeta - 2.0.5(31/03/17)";
+    content: "OtakuDiscordBeta - 2.0.5(07/04/17)";
     color: #fff;
     font-size: 11px;
     font-weight: 700;
