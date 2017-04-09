@@ -4939,9 +4939,11 @@ margin-left:-150px
 }
 
 #bd-pub-li {
-	position: absolute;
-    top: 97.5px;
-    left: 35px;
+    position: inherit;
+    top: 0;
+    left: 0;
+    margin-right: 50px;
+    margin-left: 45px;
 }
 
 #bd-pub-li #bd-pub-button {
