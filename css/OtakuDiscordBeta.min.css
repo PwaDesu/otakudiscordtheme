@@ -5001,6 +5001,18 @@ margin-left:-150px
     margin: auto;
     margin-top: 20px;
 }
+/*edited tag*/
+.message-group .comment .edited {
+    font-size: 13px;
+    margin-left: 3px;
+    cursor: pointer;
+    line-height: 10px;
+    background: rgba(255, 255, 255, 0.1) !important;
+    color: rgba(255, 255, 255, 0.7) !important;
+    padding: 0.3em 0.6em;
+    border-radius: 8px;
+    width: 3.5%;
+}
 .channel-members:hover .member {padding-bottom: 2%;}
 
 /*Dark & Light default theme*/
