@@ -5014,6 +5014,18 @@ margin-left:-150px
     width: 3.5%;
 }
 .channel-members:hover .member {padding-bottom: 2%;}
+/*comment style*/
+.message-group .comment {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    margin-right: 20px;
+    min-width: 0;
+    background-color: rgba(0, 0, 0, 0.28);
+    border-radius: 8px;
+    padding-left: 1em;
+    padding-top: 0.5em;
+}
 
 /*Dark & Light default theme*/
 .radio-theme.dark label,
@@ -5047,11 +5059,11 @@ margin-left:-150px
 /*Version checker*/
 
 .markdown-modal-header strong:before {
-    content: "OtakuDiscordBeta:2.0.6(11/04/17) "!important;
+    content: "OtakuDiscordBeta:2.0.6(13/04/17) "!important;
     color: var(--main-color);
 }
 .account::after {
-    content: "OtakuDiscordBeta - 2.0.6(11/04/17)";
+    content: "OtakuDiscordBeta - 2.0.6(13/04/17)";
     color: #fff;
     font-size: 11px;
     font-weight: 700;
