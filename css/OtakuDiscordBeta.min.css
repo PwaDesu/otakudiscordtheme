@@ -5027,7 +5027,10 @@ margin-left:-150px
     padding-top: 0.5em;
     padding-bottom: 0.5em;
 }
-
+/*Just some buttons animation*/
+.channel-members .member:active {
+    transform: scale(.9);
+}
 /*Dark & Light default theme*/
 .radio-theme.dark label,
 .radio-theme.light label {
