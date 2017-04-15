@@ -4988,8 +4988,8 @@ margin-left:-150px
 
 .guilds-wrapper .guilds .dms {
     width: 100%;
-    display: flex;
-    flex-flow: row wrap;
+    /*display: flex;
+    flex-flow: row wrap;     Removed to make new private messages readable */
 }
 
 .guilds-wrapper .guilds .dms .guild {
