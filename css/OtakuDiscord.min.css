@@ -2970,7 +2970,7 @@ a:link {
       /* background-position: right;*/ /*uncomment this line to sync the background with the main one*/
      
        opacity: 1; 
-      
+       z-index: 5;
 }
 .theme-dark .search-results-wrap .search-result .search-result-message.hit, .theme-dark .search-results-wrap .search-result.expanded {
     border: 0px;
@@ -4888,11 +4888,11 @@ h3 {
 /*Version checker*/
 
 .markdown-modal-header strong:before {
-    content: "OtakuDiscord:2.0.4(17/04/17) "!important;
+    content: "OtakuDiscord:2.0.4(18/04/17) "!important;
     color: var(--main-color);
 }
 .account::after {
-    content: "OtakuDiscord - 2.0.4(17/04/17)";
+    content: "OtakuDiscord - 2.0.4(18/04/17)";
     color: #fff;
     font-size: 11px;
     font-weight: 700;
