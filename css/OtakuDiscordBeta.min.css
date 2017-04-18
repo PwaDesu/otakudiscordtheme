@@ -5073,6 +5073,19 @@ margin-left:-150px
     background: url(https://cdn.discordapp.com/attachments/265364582288064512/277821245418897408/owowhatsthis-40.png);
     background-size: 100% 100%;
 }
+/*Blocked messages*/
+.theme-dark .friends-table .messages .message-group-blocked .message-group-blocked-btn, .theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn {
+    background: var(--main-color);
+    color: #ffffff;
+}
+.theme-dark .friends-table .messages .message-group-blocked .message-group-blocked-btn:hover, .theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn:hover {
+    background: var(--hover-color);
+    transition-duration: 0.5s;
+}
+.theme-dark .friends-table .messages .message-group-blocked.revealed, .theme-dark .messages-wrapper .messages .message-group-blocked.revealed {
+    border-color: rgba(241, 0, 0, 0.02);
+    background: rgba(50, 53, 58, 0);
+}
 /*Fix of this ducking T.A.Y.N.E system*/
 .quickswitcher.dark {
     background-color: rgba(0, 0, 0, 0.88);
