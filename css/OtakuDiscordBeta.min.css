@@ -2982,7 +2982,8 @@ a:link {
        /*End of Saske 13 part*/
       /* background-position: right;*/ /*uncomment this line to sync the background with the main one*/
      
-       opacity: 1; 
+       opacity: 1;
+       z-index: 5;
       
 }
 .theme-dark .search-results-wrap .search-result .search-result-message.hit, .theme-dark .search-results-wrap .search-result.expanded {
