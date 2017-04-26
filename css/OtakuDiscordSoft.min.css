@@ -4914,6 +4914,36 @@ h3 {
 .theme-dark .layer, .theme-dark .layers {
     background: transparent;
 }
+/*Call tools bar*/
+#rtc-connection {
+    background: rgba(40, 43, 48, 0.57);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid rgba(28, 30, 34, 0);
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
+#rtc-connection .btn {
+    width: 32px;
+    height: 32px;
+    background: rgba(27, 27, 29, 0.67);
+    position: relative;
+}
+#rtc-connection .btn-group {
+    border: 1px solid rgba(28, 30, 34, 0);
+    overflow: hidden;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    border-radius: 6px;
+}
 /*Fix of this ducking T.A.Y.N.E system*/
 .quickswitcher.dark {
     background-color: rgba(0, 0, 0, 0.88);
