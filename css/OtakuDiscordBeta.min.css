@@ -5137,6 +5137,10 @@ margin-left:-150px
     min-height: 100vh;
     background-color: rgba(0, 0, 0, 0.95);
 }
+/*Another background fix*/
+.theme-dark .layer, .theme-dark .layers {
+    background: transparent;
+}
 /*Fix of this ducking T.A.Y.N.E system*/
 .quickswitcher.dark {
     background-color: rgba(0, 0, 0, 0.88);
