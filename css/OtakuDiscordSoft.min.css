@@ -4910,6 +4910,10 @@ h3 {
     min-height: 100vh;
     background-color: rgba(0, 0, 0, 0.95);
 }
+/*Another background fix*/
+.theme-dark .layer, .theme-dark .layers {
+    background: transparent;
+}
 /*Fix of this ducking T.A.Y.N.E system*/
 .quickswitcher.dark {
     background-color: rgba(0, 0, 0, 0.88);
@@ -4936,11 +4940,11 @@ h3 {
 /*Version checker*/
 
 .markdown-modal-header strong:before {
-    content: "OtakuDiscordSoft:2.0.5(21/04/17) "!important;
+    content: "OtakuDiscordSoft:2.0.5(26/04/17) "!important;
     color: var(--main-color);
 }
 .account::after {
-    content: "OtakuDiscordSoft - 2.0.5(21/04/17)";
+    content: "OtakuDiscordSoft - 2.0.5(26/04/17)";
     color: #fff;
     font-size: 11px;
     font-weight: 700;
