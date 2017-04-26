@@ -4952,7 +4952,7 @@ h3 {
     position: absolute;
     bottom: 0;
     left: 0;
-    margin-left: 10%;
+    margin-left: 170px;
     opacity: .3;
 }
 .account:hover::after {
