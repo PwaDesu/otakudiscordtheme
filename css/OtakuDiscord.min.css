@@ -4993,6 +4993,10 @@ h3 {
 .bd-blue .bot-tag, .bd-blue .note textarea::selection {
     background: rgba(12, 12, 12, 0.27);
 }
+.theme-dark .message-group .comment .markup .mention {
+    background-color: rgba(115,139,215,.1);
+    color: var(--main-color);
+}
 /*Version checker*/
 
 .markdown-modal-header strong:before {
