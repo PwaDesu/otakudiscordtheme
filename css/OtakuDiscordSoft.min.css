@@ -161,7 +161,7 @@ font-size: 15px !important;
     color: rgba(255, 255, 255, 0.8);
 }
 .chat>.content .messages .message-group h2 span {
-    color: rgba(255, 255, 255, 0.2) !important;
+    color: rgba(255, 255, 255, 0.5) !important;
 }
 .chat>.content .messages .message-group .markup pre {
     background: transparent !important;
@@ -2450,7 +2450,7 @@ span.discriminator:hover {
     background-color: rgba(21, 21, 21, 0.41) !important;
 }
 .upload-modal {
-    background-color: rgba(30, 30, 30, 0.78);
+    background-color: rgba(30, 30, 30, 0.78) !important;
 }
 .upload-modal .footer {
     background-color: rgba(0, 0, 0, 0.44);
@@ -4967,14 +4967,37 @@ h3 {
     background-color: var(--transparent-color);
     transition-duration: 0.5s;
 }
+/*BetterDiscord shiet fix*/
+.ui-tab-bar.SIDE {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.1) !important;
+    color: rgba(255, 255, 255, 0.7) !important;
+    padding: 0.3em 0.6em;
+    border-radius: 8px;
+}
+.bd-blue .user-popout .header {
+    background: rgba(0, 0, 0, 0.9);
+}
+.bd-blue .bot-tag, .bd-blue .note textarea::selection {
+    background: rgba(12, 12, 12, 0.27);
+}
 /*Version checker*/
 
 .markdown-modal-header strong:before {
-    content: "OtakuDiscordSoft:2.0.5(26/04/17) "!important;
+    content: "OtakuDiscordSoft:2.0.5(01/05/17) "!important;
     color: var(--main-color);
 }
 .account::after {
-    content: "OtakuDiscordSoft - 2.0.5(26/04/17)";
+    content: "OtakuDiscordSoft - 2.0.5(01/05/17)";
     color: #fff;
     font-size: 11px;
     font-weight: 700;
