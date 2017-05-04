@@ -2777,7 +2777,7 @@ img.image {
     border-top: 1px solid var(--main-color);
 }
 .bda-slist li {
-    background: rgba(0, 0, 0, 0.56);
+    background: rgba(0, 0, 0, 0.56) !important;
     padding: 5px;
     border-bottom: 1px solid var(--main-color);
     min-height: 116px;
@@ -5221,14 +5221,159 @@ margin-left:-150px
     background-color: rgba(115,139,215,.1);
     color: var(--main-color);
 }
+/*May 3, 2017 Discord update*/
+.ui-tab-bar.SIDE {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background: rgba(6,6,6,0.80) !important;
+    color: rgba(255, 255, 255, 0.7) !important;
+    padding: 0.3em 0.6em;
+    border-radius: 8px;
+}
+.ui-tab-bar.SIDE .ui-tab-bar-item.selected, .ui-tab-bar.SIDE .ui-tab-bar-item:active {
+    color: #fff;
+    background-color: var(--main-color)!important;
+}
+.bd-detached-css-editor #bd-customcss-attach-controls button, .ui-standard-sidebar-view #bd-customcss-attach-controls button:active {
+    transform: scale(.9);
+}
+.bd-detached-css-editor #bd-customcss-attach-controls button, .ui-standard-sidebar-view #bd-customcss-attach-controls button:hover {
+    background-color: var(--transparent-color) !important;
+    transition-duration: 0.5s;
+}
+.ui-button.brand.filled {
+    color: #fff;
+    background-color: var(--main-color)!important;
+}
+.ui-button.brand.filled:hover {
+    background-color: var(--hover-color) !important;
+    transition-duration: 0.5s;
+}
+.ui-button.brand.filled:active {
+    transform: scale(.9);
+}
+.ui-button.min:hover {
+    color: var(--hover-color) !important;
+    transition-duration: 0.5s;
+}
+.ui-button.min:active {
+    transform: scale(.9) !important;
+}
+.ui-tab-bar-item:hover {
+    margin-left: 5%;
+    transition-duration: 0.5s;
+}
+.ui-switch-checkbox:checked+.ui-switch {
+    background: var(--main-color)!important;
+}
+.bd-blue {
+    background-color: var(--main-color)!important;
+}
+.theme-dark .add-game-popout-new {
+    background-color: #060606;
+}
+.Select-option {
+    background-color: #060606 !important;
+}
+.Select-option.is-focused {
+    color: var(--hover-color) !important;
+    background-color: #060606 !important;
+    transition-duration: 0.5s;
+}
+.theme-dark .ui-hover-card:before {
+    background-color: rgba(44, 46, 51, 0.40);
+    border-color: #2b2e32;
+    transition-duration: 0.5s;
+}
+.theme-dark .ui-audit-log .header {
+    background-color: rgba(12,12,12,0.90);
+    color: var(--lowtransparent-color);
+}
+.theme-dark .ui-quick-select {
+    color: var(--main-color);
+    display: block;
+    padding: 2px 4px;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+.ui-audit-log-change-details {
+    background-color: rgba(10, 10, 10, 0.9) !important;
+}
+.ui-audit-log.ui-audit-log-expanded .header {
+    background-color: rgba(10,10,10,.9) !important;
+}
+.ui-popout-list {
+    background: rgba(10,10,10,0.9) !important;
+}
+.ui-flex.flex-horizontal.flex-justify-start.flex-align-center.flex-nowrap.ui-selectable-item.selected {
+    flex: 1 1 auto;
+    color: rgb(255, 255, 255);
+    background: var(--main-color) !important;
+    height: auto;
+}
+.ui-search-bar {
+    background-color: rgba(37, 37, 37, 0.35);
+    border: 1px solid var(--lowtransparent-color);
+   
+}
+.ui-flex.flex-vertical.flex-justify-start.flex-align-stretch.flex-nowrap.webhook-modal.theme-light {
+    background-color: rgba(10, 10, 10, 0.9);
+}
+.ui-flex.flex-horizontal.flex-justify-end.flex-align-stretch.flex-nowrap.webhook-modal-footer {
+    background-color: rgba(20, 20, 20, 0.9);
+}
+.theme-light .ui-text-input .input.editable:focus:hover, .theme-light .ui-text-input .input.editable:hover:hover, .theme-light .ui-text-input .input:hover,
+.theme-dark .ui-text-input .input.editable:focus:hover, .theme-dark .ui-text-input .input.editable:hover:hover, .theme-dark .ui-text-input .input:hover,{
+    border-color: var(--hover-color);
+}
+.theme-light .ui-select .Select-control:hover,
+.theme-dark .ui-select .Select-control:hover{
+    border-color: var(--hover-color);
+    transition-duration: 0.5s;
+}
+.theme-dark .ui-hover-card:before {
+    background-color: rgba(10, 10, 10, 0.9) !important;
+    border-color: #2b2e32;
+    margin: 0.1%;
+}
+.theme-dark .ui-hover-card:hover::before {
+    background-color: rgba(10, 10, 10, 0.8) !important;
+    transform: scale(1.015);
+    transition-duration: 0.5s;
+}
+.ui-flex.flex-horizontal.flex-justify-start.flex-align-center.flex-nowrap.ui-role-list-role:hover {
+    cursor: pointer;
+}
+.dark-elevation-border-high, .theme-dark .elevation-border-high {
+    box-shadow: 0 0 0 1px rgba(32,34,37,.6),0 2px 10px 0 rgba(0,0,0,.2);
+    background-color: rgba(10, 10, 10, 0.9);
+}
+.theme-dark .ui-modal-footer {
+    background: rgba(10, 10, 10, 0.9);
+    box-shadow: 0 -1px 0 0 rgba(32,34,37,.6);
+}
+.theme-dark .ui-form-text.style-description, .theme-dark .ui-form-text.style-label-descriptor {
+    color: #ffffff;
+}
+.theme-dark .ui-search-bar {
+    background-color: rgba(12,12,12,0.75);
+}
 /*Version checker*/
 
 .markdown-modal-header strong:before {
-    content: "OtakuDiscordBeta:2.0.7(01/05/17) "!important;
+    content: "OtakuDiscordBeta:2.0.8(04/05/17) "!important;
     color: var(--main-color);
 }
 .account::after {
-    content: "OtakuDiscordBeta - 2.0.7(01/05/17)";
+    content: "OtakuDiscordBeta - 2.0.8(04/05/17)";
     color: #fff;
     font-size: 11px;
     font-weight: 700;
