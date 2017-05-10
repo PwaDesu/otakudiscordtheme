@@ -4872,7 +4872,7 @@ h3 {
     min-height: 100vh;
     background-color: rgba(0,0,0,0.95) !important;
 }
-.ui-standard-sidebar-view .sidebar-region .scroller {
+.ui-standard-sidebar-view .sidebar-region .scroller { 
     -ms-flex: 1 0 auto;
     flex: 1 0 auto;
     -webkit-box-orient: horizontal;
@@ -4883,14 +4883,11 @@ h3 {
     -webkit-box-align: start;
     -ms-flex-align: start;
     align-items: flex-start;
-    background-image: url(https://cdn.discordapp.com/attachments/265364582288064512/280269170904662016/rezero_background.png) !important;
+    background: rgba(0, 0, 0, 0);
     background-position: left;
     background-size: cover;
 }
 .theme-dark .ui-standard-sidebar-view .content-region, .theme-dark .ui-standard-sidebar-view .content-region .scrollbar {
-    background-image: url(https://cdn.discordapp.com/attachments/265364582288064512/280269170904662016/rezero_background.png);
-    background-position: right;
-    background-size: cover;
 }
 .theme-dark .ui-standard-sidebar-view {
     background-image: url(https://cdn.discordapp.com/attachments/265364582288064512/280269170904662016/rezero_background.png);
@@ -5142,14 +5139,44 @@ h3 {
 .theme-dark .ui-search-bar {
     background-color: rgba(12,12,12,0.75);
 }
+/*Small fix for the settings rework*/
+.theme-dark .ui-standard-sidebar-view .content-region, .theme-dark .ui-standard-sidebar-view .content-region .scrollbar { /*5114*/
+    background: rgba(0, 0, 0, 0);
+    background-position: right;
+    background-size: cover;
+}
+.theme-dark .ui-hover-card:hover::before {
+    background-color: rgba(10, 10, 10, 0.8) !important;
+    transition-duration: 0.5s;
+}
+.guild-settings-members-member .name-and-tag, .guild-settings-members-member .overflow-button, .guild-settings-members-member .role-wrapper, .guild-settings-members-member .ui-avatar {
+    z-index: 1;
+    margin-left: 1%;
+}
+.theme-dark .invite-settings-invite-row,
+.theme-dark .guild-settings-banned-user,
+.theme-dark .guild-settings-members-member {
+    box-shadow: 0 1px 0 0 hsla(0,0%,100%,.04);
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 4px;
+}
+.avatar-xsmall {
+    width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
+    margin-left: 1%;
+}
+.theme-dark .ui-standard-sidebar-view .sidebar-region {
+    background: rgba(41, 43, 47, 0);
+}
 /*Version checker*/
 
 .markdown-modal-header strong:before {
-    content: "OtakuDiscord:2.0.6(04/05/17) "!important;
+    content: "OtakuDiscord:2.0.7(10/05/17) "!important;
     color: var(--main-color);
 }
 .account::after {
-    content: "OtakuDiscord - 2.0.6(04/05/17)";
+    content: "OtakuDiscord - 2.0.7(10/05/17)";
     color: #fff;
     font-size: 11px;
     font-weight: 700;
