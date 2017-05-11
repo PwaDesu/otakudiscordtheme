@@ -5393,14 +5393,28 @@ margin-left:-150px
 .theme-dark .ui-standard-sidebar-view .sidebar-region {
     background: rgba(41, 43, 47, 0);
 }
+/*11/05/2017 small update*/
+.message-group .btn-option {
+    background: url(/assets/60f6b0788a5d9394b44261ef5d8ecffc.svg) 50% no-repeat !important;
+    margin-right: 5px;
+}
+.bd-detached-css-editor #bd-customcss-attach-controls button:active {
+    transform: scale(.8);
+}
+.roles-list-popout {
+    width: 200px;
+    background-color: rgba(12, 12, 12, 0.75);
+    border-radius: 3px;
+    padding: 8px;
+}
 /*Version checker*/
 
 .markdown-modal-header strong:before {
-    content: "OtakuDiscordBeta:2.0.9(10/05/17) "!important;
+    content: "OtakuDiscordBeta:2.0.91(11/05/17) "!important;
     color: var(--main-color);
 }
 .account::after {
-    content: "OtakuDiscordBeta - 2.0.9(10/05/17)";
+    content: "OtakuDiscordBeta - 2.0.91(11/05/17)";
     color: #fff;
     font-size: 11px;
     font-weight: 700;
