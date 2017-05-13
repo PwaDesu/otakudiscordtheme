@@ -5166,14 +5166,35 @@ h3 {
 .theme-dark .ui-standard-sidebar-view .sidebar-region {
     background: rgba(41, 43, 47, 0);
 }
+/*13/05/2017 notif settings fix(deprecated, probably cuz discord devs are planning something for it*/
+.deprecated-settings-modal .settings-inner, .deprecated-settings-modal .settings-right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background-color: rgba(0, 0, 0, 0.8) !important;
+}
+.deprecated-settings-modal .settings-actions {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-top: 1px solid var(--main-color);
+    box-sizing: border-box;
+    width: 100%;
+    padding: 18px 40px;
+    border-radius: 0 0 5px 0;
+    text-align: right;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
 /*Version checker*/
 
 .markdown-modal-header strong:before {
-    content: "OtakuDiscordSoft:2.0.7(10/05/17) "!important;
+    content: "OtakuDiscordSoft:2.0.71(13/05/17) "!important;
     color: var(--main-color);
 }
 .account::after {
-    content: "OtakuDiscordSoft - 2.0.7(10/05/17)";
+    content: "OtakuDiscordSoft - 2.0.71(13/05/17)";
     color: #fff;
     font-size: 11px;
     font-weight: 700;
