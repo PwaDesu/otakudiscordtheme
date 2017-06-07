@@ -5428,14 +5428,20 @@ margin-left:-150px
     -ms-flex-negative: 0;
     flex-shrink: 0;
 }
+/*Full block*/
+.theme-dark .friends-table .messages .message-group-blocked, .theme-dark .messages-wrapper .messages .message-group-blocked {
+    background: #34373c; /*Those two are useless but in case i remove the full block someday*/
+    border-color: #2e3136;
+    display: none; 
+}
 /*Version checker*/
 
 .markdown-modal-header strong:before {
-    content: "OtakuDiscordBeta:2.0.92(13/05/17) "!important;
+    content: "OtakuDiscordBeta:2.0.93(07/06/17) "!important;
     color: var(--main-color);
 }
 .account::after {
-    content: "OtakuDiscordBeta - 2.0.92(13/05/17)";
+    content: "OtakuDiscordBeta - 2.0.92(07/06/17)";
     color: #fff;
     font-size: 11px;
     font-weight: 700;
