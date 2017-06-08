@@ -5190,14 +5190,113 @@ h3 {
     -ms-flex-negative: 0;
     flex-shrink: 0;
 }
+/*Discord shiet of 08/06/2017 fix*/
+.flexChild-1KGW5q {
+    background: transparent;
+}
+.container-RYiLUQ {
+    position: relative;
+    background-color: rgba(47, 49, 54, 0.2);
+    min-height: 0;
+}
+.contentSelectedText-3j5CXt {
+    background-color: var(--transparent-color);
+}
+.nameDefaultText-QoumjC, .nameDefaultVoice-1swZoh, .nameLockedText-2fGz07, .nameLockedVoice-wNOMNa {
+    color: #ded6d6;
+}
+.nameDefault-1I0lx8 {
+    color: #cbd1dc;
+}
+.icon-2WU8ha:hover {
+    transform: rotate(-180deg);
+    transition-duration: 0.40s;
+}
+.content-2mSKOj:hover {
+    margin-left: 10%;
+    background: rgba(24,25,28,.3) !important;
+    transition-duration: 0.25s;
+}
+.content-2mSKOj:active {
+    transform: scale(0.9);
+}
+.nameDefault-Lnjrwm {
+    color: #ffffff;
+}
+.contentMutedText-Lcl-Wj {
+    margin-left: 10%;
+}
+.nameMutedText-1YDcP-, .nameMutedVoice-26k4cP {
+    color: #adb3bd;
+}
+.button-1aU9q1:active {
+    transform: scale(.9);
+}
+.button-1aU9q1:hover {
+    transition-duration: 0.5s;
+}
+.buttonDisconnect-3xZpYL:hover {
+    background-color: rgba(202, 25, 25, 0.7);
+    transition-duration: 0.25s;
+}
+.unread-23Kvxk {
+    position: absolute;
+    height: 12px;
+    width: 8px;
+    border-radius: 0 6px 6px 0;
+    top: 50%;
+    left: 0;
+    margin-top: -4px;
+    background-color: var(--main-color);
+}
+.button-3WJ5FX:not(.buttonDisconnect-3xZpYL):hover {
+    opacity: 1;
+    background-color: rgba(24,25,28,.3);
+    transition-duration: 0.5s;
+}
+.iconButton-1gj-X0:hover {
+-webkit-animation: load8 2.8s infinite linear;
+    animation: load8 2.8s infinite linear;
+}
+.wrapper-2ldvyE {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 16px;
+    height: 16px;
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif; 
+    padding: 0 4px;
+    border-radius: 2px;
+    color: #eef0f5;
+    background-color: rgba(54, 57, 63, 0.58);
+}
+.icon-3rMtHF:hover {
+    animation: load8 2.8s infinite linear;
+}
+.private-channels .channel.selected a {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0);
+}
+.private-channels .channel:hover a {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0);
+    transition-duration: 0.5s;
+}
+.private-channels .channel:active {
+    transform: scale(.9);
+}
+.close:hover {
+    transform: rotate(-180deg);
+    transition-duration: 0.40s;
+}
+
 /*Version checker*/
 
 .markdown-modal-header strong:before {
-    content: "OtakuDiscord:2.0.71(13/05/17) "!important;
+    content: "OtakuDiscord:2.0.81(08/06/17) "!important;
     color: var(--main-color);
 }
 .account::after {
-    content: "OtakuDiscord - 2.0.71(13/05/17)";
+    content: "OtakuDiscord - 2.0.81(08/06/17)";
     color: #fff;
     font-size: 11px;
     font-weight: 700;
