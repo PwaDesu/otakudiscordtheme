@@ -1932,7 +1932,8 @@ textarea {
 }
 .bd-minimal .guilds li .avatar-small,
 #bd-pub-button {
-    font-size: 10px !important;
+    font-size: 15px !important;/* Changed to 15px (was10) and added padding to center-Rein*/
+    padding-left: 2px;
 }
 .bd-minimal .chat>.title-wrap>.title {
     font-size: 16px;
