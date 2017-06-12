@@ -376,6 +376,7 @@ background-color: transparent;
     background-position: 4px 4px !important;
     background-color: rgba(21, 21, 21, 0.41) !important;
     opacity: 0.7 !important;
+    /*border: 2px dashed var(--main-color) !important;*/
 }
 .guild-header ul {
     background: rgb(0, 0, 0) !important;
@@ -383,9 +384,7 @@ background-color: transparent;
     padding-top: 100px;
     top: -56px;
 }
-.guilds-add {
-    opacity: 0.5;
-}
+
 .guild-header header span {
     margin-left: -5px;
 }
@@ -400,10 +399,7 @@ background-color: transparent;
 .guilds {
     padding: 18px 20px 85px 20px;
 }
-.guilds-add {
-    font-size: 30px;
-    background: #000;
-}
+
 .guilds li .guild-inner {
     background: rgba(21, 21, 21, 0.41) !important;
 }
