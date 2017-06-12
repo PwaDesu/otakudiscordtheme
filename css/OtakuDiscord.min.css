@@ -440,7 +440,7 @@ background-color: transparent;
 .guilds li:hover .guild-inner {
     background: var(--main-color) !important;
 }
-.guilds-add:hover {
+.guilds-add:hover { /* none of this really seems to work but scared to rmv it-Rein*/
     border-color: #bb1515;
     color: transparent;
     opacity: 1.0;
