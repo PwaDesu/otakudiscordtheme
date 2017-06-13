@@ -2370,8 +2370,15 @@ a:link {
 #friends .btn:hover {
     background-color: var(--hover-color);
 }
+
+.private-channels .channel:hover .icon-friends {
+    background-color: var(--main-color)!important;
+    border-radius: 10px;
+}
+
 .private-channels .channel.selected .icon-friends {
-    background-color: var(--main-color);
+    background-color: var(--main-color)!important;
+    border-radius: 10px;
 }
 .context-menu {
     background: var(--main-color);
@@ -2457,9 +2464,7 @@ span.discriminator:hover {
    background-color: rgba(0, 0, 0, 0.62);
     border: 1px solid #000000;
 }
-.private-channels .channel .icon-friends {
-    background-color: rgba(21, 21, 21, 0.41) !important;
-}
+
 .upload-modal {
     background-color: rgba(30, 30, 30, 0.78) !important;
 }
