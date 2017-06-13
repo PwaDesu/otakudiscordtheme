@@ -442,13 +442,6 @@ background-color: transparent;
     background: var(--main-color) !important;
 }
 .guilds-add:hover {
-    border-color: #bb1515;
-    color: transparent;
-    opacity: 1.0;
-    -webkit-animation: color_change 1s infinite alternate;
-    -moz-animation: color_change 1s infinite alternate;
-    -ms-animation: color_change 1s infinite alternate;
-    -o-animation: color_change 1s infinite alternate;
     animation: color_change 1s infinite alternate;
 }
 .guilds .friends-online {
@@ -1929,7 +1922,8 @@ textarea {
 }
 .bd-minimal .guilds li .avatar-small,
 #bd-pub-button {
-    font-size: 10px !important;
+    font-size: 15px !important;
+    padding-left: 2px;
 }
 .bd-minimal .chat>.title-wrap>.title {
     font-size: 16px;
