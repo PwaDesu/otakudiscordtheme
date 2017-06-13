@@ -389,6 +389,7 @@ background-color: transparent;
     background-position: 4px 4px !important;
     background-color: rgba(21, 21, 21, 0.41) !important;
     opacity: 0.7 !important;
+	border: 2px dashed var(--main-color) !important;
 }
 .guild-header ul {
     background: rgb(0, 0, 0) !important;
@@ -458,13 +459,6 @@ background-color: transparent;
     background: var(--main-color) !important;
 }
 .guilds-add:hover {
-    border-color: #bb1515;
-    color: transparent;
-    opacity: 1.0;
-    -webkit-animation: color_change 1s infinite alternate;
-    -moz-animation: color_change 1s infinite alternate;
-    -ms-animation: color_change 1s infinite alternate;
-    -o-animation: color_change 1s infinite alternate;
     animation: color_change 1s infinite alternate;
 }
 .guilds .friends-online {
@@ -1945,7 +1939,8 @@ textarea {
 }
 .bd-minimal .guilds li .avatar-small,
 #bd-pub-button {
-    font-size: 10px !important;
+    font-size: 15px !important;
+    padding-left: 2px;
 }
 .bd-minimal .chat>.title-wrap>.title {
     font-size: 16px;
@@ -2375,8 +2370,15 @@ a:link {
 #friends .btn:hover {
     background-color: var(--hover-color);
 }
+
+.private-channels .channel:hover .icon-friends {
+    background-color: var(--main-color)!important;
+    border-radius: 10px;
+}
+
 .private-channels .channel.selected .icon-friends {
-    background-color: var(--main-color);
+    background-color: var(--main-color)!important;
+    border-radius: 10px;
 }
 .context-menu {
     background: var(--main-color);
@@ -2462,9 +2464,7 @@ span.discriminator:hover {
    background-color: rgba(0, 0, 0, 0.62);
     border: 1px solid #000000;
 }
-.private-channels .channel .icon-friends {
-    background-color: rgba(21, 21, 21, 0.41) !important;
-}
+
 .upload-modal {
     background-color: rgba(30, 30, 30, 0.78) !important;
 }
