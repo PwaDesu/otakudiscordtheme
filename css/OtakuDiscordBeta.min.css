@@ -4532,6 +4532,25 @@ p {
     color: hsla(0,0%,100%,0.6);
     margin-left: 4px;
 }
+  /*Gamerein tags*/
+.avatar-small[style*='138657194986962945'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='138657194986962945'] + .member-inner .member-username::after, .message-group .avatar-large[style*='138657194986962945'] + .comment .user-name::after {
+    content: "OT Dev";    
+}
+.avatar-small[style*='138657194986962945'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='138657194986962945'] + .member-inner .member-username::after, .message-group .avatar-large[style*='138657194986962945'] + .comment .user-name:hover::after {
+    content: "OtakuDiscord Dev";
+    transiton-duration: 1s;
+    position: relative;
+
+} 
+.avatar-small[style*='138657194986962945'] + .member-inner .member-username-inner::after {
+    content: "OT Dev"; 
+}
+.avatar-small[style*='/a_'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='/a_'] + .member-inner .member-username::after, .message-group .avatar-large[style*='/a_'] + .comment .user-name::after, .avatar-small[style*='138657194986962945'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='138657194986962945'] + .member-inner .member-username::after, .message-group .avatar-large[style*='138657194986962945'] + .comment .user-name::after {
+    position: relative;
+    background: rgba(100,100,100,0.3);
+    color: hsla(0,0%,100%,0.6);
+    margin-left: 4px;
+}
 /*Saske tags*/
 .guild-settings-modal-members .avatar-small[style*='154592238754594816'] + .member-inner .member-username::after, .message-group .avatar-large[style*='154592238754594816'] + .comment .user-name::after {
     content: "Karen's husband";    
