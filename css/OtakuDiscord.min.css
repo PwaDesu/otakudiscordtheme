@@ -376,7 +376,7 @@ background-color: transparent;
     background-position: 4px 4px !important;
     background-color: rgba(21, 21, 21, 0.41) !important;
     opacity: 0.7 !important;
-    /*border: 2px dashed var(--main-color) !important;*/
+    border: 2px dashed var(--main-color) !important;
 }
 .guild-header ul {
     background: rgb(0, 0, 0) !important;
@@ -440,14 +440,7 @@ background-color: transparent;
 .guilds li:hover .guild-inner {
     background: var(--main-color) !important;
 }
-.guilds-add:hover { /* none of this really seems to work but scared to rmv it-Rein*/
-    border-color: #bb1515;
-    color: transparent;
-    opacity: 1.0;
-    -webkit-animation: color_change 1s infinite alternate;
-    -moz-animation: color_change 1s infinite alternate;
-    -ms-animation: color_change 1s infinite alternate;
-    -o-animation: color_change 1s infinite alternate;
+.guilds-add:hover { 
     animation: color_change 1s infinite alternate;
 }
 .guilds .friends-online {
@@ -1928,7 +1921,7 @@ textarea {
 }
 .bd-minimal .guilds li .avatar-small,
 #bd-pub-button {
-    font-size: 15px !important;/* Changed to 15px (was10) and added padding to center-Rein*/
+    font-size: 15px !important;
     padding-left: 2px;
 }
 .bd-minimal .chat>.title-wrap>.title {
