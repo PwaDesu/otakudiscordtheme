@@ -8,4 +8,4 @@ Preview: https://cdn.discordapp.com/attachments/288695210723246080/3228808459018
 # Planned stuff:
 * Fixes for discord shiet code :D
 * Some nice feature that i can't talk about yet :eyes:
-Join the Discord server for detailled changelog, support and anything else: https://discord.gg/6QkjVBkhe
+Join the Discord server for detailled changelog, support and anything else: https://discord.gg/6QkjVBk
