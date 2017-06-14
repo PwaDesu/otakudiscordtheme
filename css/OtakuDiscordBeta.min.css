@@ -1939,8 +1939,8 @@ textarea {
 }
 .bd-minimal .guilds li .avatar-small,
 #bd-pub-button {
-    font-size: 15px !important;
-    padding-left: 2px;
+    font-size: 16px !important;
+    font-weight: 500;
 }
 .bd-minimal .chat>.title-wrap>.title {
     font-size: 16px;
