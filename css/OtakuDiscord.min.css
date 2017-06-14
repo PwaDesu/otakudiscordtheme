@@ -1923,6 +1923,8 @@ textarea {
 #bd-pub-button {
     font-size: 16px !important;
     font-weight: 500;
+    line-height: 20px;
+    background-color: var(--main-color);
 }
 .bd-minimal .chat>.title-wrap>.title {
     font-size: 16px;
@@ -4533,9 +4535,18 @@ p {
 }
 .avatar-small[style*='/a_'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='/a_'] + .member-inner .member-username::after, .message-group .avatar-large[style*='/a_'] + .comment .user-name::after, .avatar-small[style*='138657194986962945'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='138657194986962945'] + .member-inner .member-username::after, .message-group .avatar-large[style*='138657194986962945'] + .comment .user-name::after {
     position: relative;
-    background: rgba(100,100,100,0.3);
-    color: hsla(0,0%,100%,0.6);
-    margin-left: 4px;
+    height: 14px;
+    padding: 1px 2px;
+    border-radius: 3px;
+    background: rgba(0,0,0,0.5);
+    color: hsla(0,0%,100%,0.8);
+    font-size: 10px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 16px;
+    text-shadow: 0 0 1px rgba(0,0,0,.3);
+    text-transform: uppercase;
+    vertical-align: bottom;
 }
 /*Saske tags*/
 .guild-settings-modal-members .avatar-small[style*='154592238754594816'] + .member-inner .member-username::after, .message-group .avatar-large[style*='154592238754594816'] + .comment .user-name::after {
