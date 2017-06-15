@@ -5566,12 +5566,31 @@ margin-left:-150px
     transition-duration: 0.40s;
 }
 
+/*BD public servers border fix (15/6/17)*/
+.ui-card.ui-card-primary.bd-server-card.bd-server-card-pinned {
+    border-bottom: 3px solid var(--main-color);
+}
+
+.bd-server-card.bd-server-card-pinned:after {
+    visibility: hidden;
+}
+
 /*Version checker*/
 
-.header-toolbar::before {
+.header-toolbar::before:hover {
     content: "OtakuDiscordBeta:2.0.95(15/06/17) ";
     margin-right: 10px;
-    background-color: #404040;
+    background-color: rgba(64, 64, 64, 0.5);
+    padding: 4px 4px;
+    border-radius: 10px;
+    font-weight: 500;
+    color: var(--main-color);
+}
+
+.header-toolbar::before {
+    content: "OtakuDiscordBeta:2.0.95";
+    margin-right: 10px;
+    background-color: rgba(64, 64, 64, 0.5);
     padding: 4px 4px;
     border-radius: 10px;
     font-weight: 500;
