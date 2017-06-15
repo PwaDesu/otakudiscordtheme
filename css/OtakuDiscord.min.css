@@ -2359,12 +2359,12 @@ a:link {
     background-color: var(--hover-color);
 	
 .channel.btn-friends:hover .icon-friends {
-    background-color: var(--hover-color);
-    border-radius: 10px;
+    background-color: var(--hover-color)!important;
+    border-radius: 10px!important;
 }
 .channel.btn-friends.selected .icon-friends {
     background-color: var(--main-color) !important;
-    border-radius: 10px;
+    border-radius: 10px!important;
 }	
 .context-menu {
     background: var(--main-color);
