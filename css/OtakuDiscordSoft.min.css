@@ -2353,8 +2353,13 @@ a:link {
 #friends .btn:hover {
     background-color: var(--hover-color);
 }
-.private-channels .channel.selected .icon-friends {
-    background-color: var(--main-color);
+.channel.btn-friends:hover .icon-friends {
+    background-color: var(--hover-color) !important;
+    border-radius: 10px !important;
+}
+.channel.btn-friends.selected .icon-friends {
+    background-color: var(--main-color) !important;
+    border-radius: 10px !important;
 }
 .context-menu {
     background: var(--main-color);
