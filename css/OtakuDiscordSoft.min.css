@@ -2407,6 +2407,11 @@ a:link {
 .theme-dark .friends-table .messages .message-group .comment .markup .highlight:hover, .theme-dark .messages-wrapper .messages .message-group .comment .markup .highlight:hover {
     background-color: var(--main-color);
 }
+
+#friends .friends-table .friends-row .avatar-large, #friends .friends-table .friends-row .avatar-small {
+    text-align: center;
+}
+
 .message-group .image {
     -webkit-filter: none;
 }
