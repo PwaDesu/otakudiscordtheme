@@ -5591,7 +5591,7 @@ margin-left:-150px
 /*Version checker*/
 
 .header-toolbar:hover::before {
-    content: "OtakuDiscordBeta:2.0.96(16/06/17) ";
+    content: "OtakuDiscordBeta:2.0.97(16/06/17) ";
     margin-right: 10px;
     background-color: rgba(4, 4, 4, 0.55);
     font-size: 14px;
@@ -5602,7 +5602,7 @@ margin-left:-150px
 }
 
 .header-toolbar::before {
-    content: "OtakuDiscordBeta:2.0.96";
+    content: "OtakuDiscordBeta:2.0.97";
     margin-right: 10px;
     background-color: rgba(64, 64, 64, 0.5);
     padding: 4px 4px;
@@ -5612,11 +5612,11 @@ margin-left:-150px
 }
 
 .markdown-modal-header strong:before {
-    content: "OtakuDiscordBeta:2.0.96(16/06/17) "!important;
+    content: "OtakuDiscordBeta:2.0.97(16/06/17) "!important;
     color: var(--main-color);
 }
 .account::after {
-    content: "OtakuDiscordBeta - 2.0.96(16/06/17)";
+    content: "OtakuDiscordBeta - 2.0.97(16/06/17)";
     color: #fff;
     font-size: 11px;
     font-weight: 700;
