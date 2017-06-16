@@ -137,11 +137,6 @@ font-size: 15px !important;
 .chat-empty {
     background: rgba(20, 23, 27, 0.95);
 }
-.chat>.title-wrap>.topic {
-    font-size: 12px;
-    margin-top: 5px;
-    color: #656565 !important;
-}
 .chat>.content .messages .message-group:not(.has-divider) {
     border-bottom-color: hsla(0, 0%, 100%, .04) !important;
 }
@@ -563,10 +558,6 @@ background-color: transparent;
 }
 #voice-connection-popout hr {
     border: 1px solid #4C4C4C;
-}
-.small-popout-box {
-    background: #282B30;
-    border: 1px solid #24272B;
 }
 .option-popout .btn-item:hover {
     color: #BBBBBB;
@@ -1220,10 +1211,6 @@ background-color: transparent;
 }
 .theme-dark .chat>.content .messages .message-group a {
     color: var(--main-color);
-}
-.need-help-modal .footer {
-    background-color: #282b30;
-    border-top: 1px solid #1D1F23;
 }
 .need-help-modal .header {
     background-color: #9f0000;
@@ -2876,7 +2863,7 @@ img.image {
     border-radius: 7px;
 }
 .need-help-modal .footer {
-    background-color: var(--lowtransparent-color);
+    background-color: rgba(0, 0, 0, 0.85);
     border-top: 1px solid var(--main-color);
 }
 a:link {
@@ -3573,7 +3560,7 @@ background-color: var(--main-color);
     
 }/*Search pop-out*/
 .results-group {
-    background: rgba(0, 0, 0, 0.85);
+    background: rgba(0, 0, 0, 0.75);
     box-shadow: 0 2px 10 0 rgba(0,0,0,.5);
     border-radius: none !important;
     border: 1px solid var(--main-color) !important;
@@ -3615,11 +3602,7 @@ option.user:hover {
    transition-duration: 0.5s;
 }
 .option.search-option {
-   background: rgba(0, 0, 0, 0.85);
-}
-
-.option.search-option::after {
-   background: rgba(0, 0, 0, 0.85);
+   background: rgba(0, 0, 0, 0);
 }
 .option.search-option:hover {
    background: var(--lowtransparent-color);
@@ -5321,15 +5304,28 @@ h3 {
     transform: rotate(-180deg);
     transition-duration: 0.40s;
 }
-
+/*Fix and improvement (16/06/17)*/
+.contentHoveredText-2HYGIY {
+    background: none;
+}
+.option.search-option:after, .option.history:after, .option.user:after, .option:after {
+    display: none;
+}
+.theme-light .ui-calender-picker .react-datepicker, .theme-dark .ui-calendar-picker .react-datepicker, .search-popout .date-picker {
+    background-color: rgba(0, 0, 0, 0.95) !important;
+    border-top: 0px !important;
+}
 /*Version checker*/
-
+.header-toolbar::before { /*Thats a quick fix for ur version checker gamerein, but since you didn't added it yet xD*/
+    background-color: rgba(4, 4, 4, 0.55);
+    font-size: 14px;
+}
 .markdown-modal-header strong:before {
-    content: "OtakuDiscordSoft:2.0.81(08/06/17) "!important;
+    content: "OtakuDiscordSoft:2.0.82(16/06/17) "!important;
     color: var(--main-color);
 }
 .account::after {
-    content: "OtakuDiscordSoft - 2.0.81(08/06/17)";
+    content: "OtakuDiscordSoft - 2.0.82(16/06/17)";
     color: #fff;
     font-size: 11px;
     font-weight: 700;
