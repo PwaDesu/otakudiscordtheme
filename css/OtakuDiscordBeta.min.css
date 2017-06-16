@@ -340,6 +340,9 @@ background-color: transparent;
 }
 .title-wrap {
     border-bottom: 1px solid rgba(0, 0, 0, 0.3) !important;
+}
+
+.title-wrap:hover{
     background: rgba(0, 0, 0, 0.88) !important;
 }
 .guilds li.active .guild-inner,
@@ -3578,7 +3581,7 @@ background-color: var(--main-color);
     
 }/*Search pop-out*/
 .results-group {
-    background: rgba(0, 0, 0, 0.75);
+    background: rgba(0, 0, 0, 1);
     box-shadow: 0 2px 10 0 rgba(0,0,0,.5);
     border-radius: none !important;
     border: 1px solid var(--main-color) !important;
@@ -5593,7 +5596,7 @@ margin-left:-150px
 /*Version checker*/
 
 .header-toolbar:hover::before {
-    content: "OtakuDiscordBeta:2.0.96(16/06/17) ";
+    content: "OtakuDiscordBeta:2.0.97(16/06/17) ";
     margin-right: 10px;
     background-color: rgba(4, 4, 4, 0.55);
     font-size: 14px;
@@ -5604,7 +5607,7 @@ margin-left:-150px
 }
 
 .header-toolbar::before {
-    content: "OtakuDiscordBeta:2.0.96";
+    content: "OtakuDiscordBeta:2.0.97";
     margin-right: 10px;
     background-color: rgba(64, 64, 64, 0.5);
     padding: 4px 4px;
@@ -5614,11 +5617,11 @@ margin-left:-150px
 }
 
 .markdown-modal-header strong:before {
-    content: "OtakuDiscordBeta:2.0.96(16/06/17) "!important;
+    content: "OtakuDiscordBeta:2.0.97(16/06/17) "!important;
     color: var(--main-color);
 }
 .account::after {
-    content: "OtakuDiscordBeta - 2.0.96(16/06/17)";
+    content: "OtakuDiscordBeta - 2.0.97(16/06/17)";
     color: #fff;
     font-size: 11px;
     font-weight: 700;
