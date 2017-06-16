@@ -328,8 +328,12 @@ background-color: transparent;
 }
 .title-wrap {
     border-bottom: 1px solid rgba(0, 0, 0, 0.3) !important;
-    background: rgba(0, 0, 0, 0.88) !important;
 }
+
+.title-wrap:hover {
+      background: rgba(0, 0, 0, 0.88) !important;
+}
+
 .guilds li.active .guild-inner,
 .guilds li:hover .guild-inner {
     border-radius: 15px;
@@ -5326,11 +5330,6 @@ h3 {
     background: none;
 }
 /*Version checker*/
-.header-toolbar::before { /*welp*/
-    background-color: rgba(4, 4, 4, 0.55);
-    font-size: 14px;
-}
-
 .header-toolbar:hover::before {
     content: "OtakuDiscord:2.0.83(16/06/17) ";
     margin-right: 10px;
@@ -5345,11 +5344,12 @@ h3 {
 .header-toolbar::before {	
     content: "OtakuDiscord:2.0.83";
     margin-right: 10px;
-    background-color: rgba(64, 64, 64, 0.5);
     padding: 4px 4px;
     border-radius: 10px;
     font-weight: 500;
     color: var(--main-color);
+    background-color: rgba(4, 4, 4, 0.55);
+    font-size: 14px;
 }
 
 .markdown-modal-header strong:before {
