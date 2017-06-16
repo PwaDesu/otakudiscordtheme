@@ -1889,6 +1889,11 @@ textarea {
 .friends-table .friends-row:hover {
     background: rgba(0, 0, 0, 0.35) !important;
 }
+
+#friends .friends-table .friends-row .avatar-large, #friends .friends-table .friends-row .avatar-small {
+    text-align: center;
+}
+
 .tooltip {
     color: #e0e0e0;
 }
