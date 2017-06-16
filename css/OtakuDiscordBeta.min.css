@@ -150,11 +150,6 @@ font-size: 15px !important;
 .chat-empty {
     background: rgba(20, 23, 27, 0.95);
 }
-.chat>.title-wrap>.topic {
-    font-size: 12px;
-    margin-top: 5px;
-    color: #656565 !important;
-}
 .chat>.content .messages .message-group:not(.has-divider) {
     border-bottom-color: hsla(0, 0%, 100%, .04) !important;
 }
@@ -580,10 +575,6 @@ background-color: transparent;
 }
 #voice-connection-popout hr {
     border: 1px solid #4C4C4C;
-}
-.small-popout-box {
-    background: #282B30;
-    border: 1px solid #24272B;
 }
 .option-popout .btn-item:hover {
     color: #BBBBBB;
@@ -1237,10 +1228,6 @@ background-color: transparent;
 }
 .theme-dark .chat>.content .messages .message-group a {
     color: var(--main-color);
-}
-.need-help-modal .footer {
-    background-color: #282b30;
-    border-top: 1px solid #1D1F23;
 }
 .need-help-modal .header {
     background-color: #9f0000;
@@ -2888,7 +2875,7 @@ img.image {
     border-radius: 7px;
 }
 .need-help-modal .footer {
-    background-color: var(--lowtransparent-color);
+    background-color: rgba(0, 0, 0, 0.85);
     border-top: 1px solid var(--main-color);
 }
 a:link {
@@ -3586,7 +3573,7 @@ background-color: var(--main-color);
     
 }/*Search pop-out*/
 .results-group {
-    background: rgba(0, 0, 0, 0.85);
+    background: rgba(0, 0, 0, 0.75);
     box-shadow: 0 2px 10 0 rgba(0,0,0,.5);
     border-radius: none !important;
     border: 1px solid var(--main-color) !important;
@@ -3628,11 +3615,7 @@ option.user:hover {
    transition-duration: 0.5s;
 }
 .option.search-option {
-   background: rgba(0, 0, 0, 0.85);
-}
-
-.option.search-option::after {
-   background: rgba(0, 0, 0, 0.85);
+    background-color: rgba(0, 0, 0, 0);
 }
 .option.search-option:hover {
    background: var(--lowtransparent-color);
@@ -5427,10 +5410,6 @@ margin-left:-150px
     background: rgba(41, 43, 47, 0);
 }
 /*11/05/2017 small update*/
-.message-group .btn-option {
-    background: url(/assets/60f6b0788a5d9394b44261ef5d8ecffc.svg) 50% no-repeat !important;
-    margin-right: 5px;
-}
 .bd-detached-css-editor #bd-customcss-attach-controls button:active {
     transform: scale(.8);
 }
@@ -5574,13 +5553,45 @@ margin-left:-150px
 .bd-server-card.bd-server-card-pinned:after {
     visibility: hidden;
 }
-
+/*some fix and improvement (16/06/17)*/
+.contentHoveredText-2HYGIY {
+    background: none;
+}
+.chat>.title-wrap.title-wrap-dark { 
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.28);
+    background-color: rgba(0, 0, 0, 0.7) !important;
+}
+.option.search-option:after, .option.history:after, .option.user:after, .option:after {
+    display: none;
+}
+.content-2mSKOj:hover { 
+    margin-left: 4%;
+    background: rgba(24,25,28,.0) !important;
+    transition-duration: 0.25s;
+}
+.content-2mSKOj:before {
+    content: ' ';
+    display: block;
+    height: 0%;
+    width: 2%;
+    background-color: var(--main-color);
+    margin-right: 2%;
+}
+.content-2mSKOj:hover:before {
+    height: 100%;
+    transition-duration: 0.5s;
+}
+.theme-light .ui-calender-picker .react-datepicker, .theme-dark .ui-calendar-picker .react-datepicker, .search-popout .date-picker {
+    background-color: rgba(0, 0, 0, 0.95) !important;
+    border-top: 0px !important;
+}
 /*Version checker*/
 
-.header-toolbar::before:hover {
-    content: "OtakuDiscordBeta:2.0.95(15/06/17) ";
+.header-toolbar:hover::before {
+    content: "OtakuDiscordBeta:2.0.96(16/06/17) ";
     margin-right: 10px;
-    background-color: rgba(64, 64, 64, 0.5);
+    background-color: rgba(4, 4, 4, 0.55);
+    font-size: 14px;
     padding: 4px 4px;
     border-radius: 10px;
     font-weight: 500;
@@ -5588,7 +5599,7 @@ margin-left:-150px
 }
 
 .header-toolbar::before {
-    content: "OtakuDiscordBeta:2.0.95";
+    content: "OtakuDiscordBeta:2.0.96";
     margin-right: 10px;
     background-color: rgba(64, 64, 64, 0.5);
     padding: 4px 4px;
@@ -5598,11 +5609,11 @@ margin-left:-150px
 }
 
 .markdown-modal-header strong:before {
-    content: "OtakuDiscordBeta:2.0.95(15/06/17) "!important;
+    content: "OtakuDiscordBeta:2.0.96(16/06/17) "!important;
     color: var(--main-color);
 }
 .account::after {
-    content: "OtakuDiscordBeta - 2.0.95(15/06/17)";
+    content: "OtakuDiscordBeta - 2.0.96(16/06/17)";
     color: #fff;
     font-size: 11px;
     font-weight: 700;
