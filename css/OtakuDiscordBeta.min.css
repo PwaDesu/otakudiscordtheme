@@ -181,6 +181,7 @@ font-size: 15px !important;
     padding: 1em !important;
 }
 .chat>.content .messages .message-group .markup code.inline {
+    line-height: 2;
     background: rgba(255, 255, 255, 0.1) !important;
     color: rgba(255, 255, 255, 0.7) !important;
     padding: 0.3em 0.6em;
