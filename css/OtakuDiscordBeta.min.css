@@ -344,7 +344,7 @@ background-color: transparent;
 }
 
 .title-wrap:hover{
-    background: rgba(0, 0, 0, 0.88) !important;
+    background-color: rgba(0, 0, 0, 0.7) !important;
 }
 .guilds li.active .guild-inner,
 .guilds li:hover .guild-inner {
@@ -494,6 +494,10 @@ background-color: transparent;
     background: var(--transparent-color) !important;
 }
 
+
+.avatarSpeaking-3teDH6 {/*avatr while speaking in voicechat*/
+    box-shadow: 0 0 0 2px var(--main-color),inset 0 0 0 1.5px #2f3136 !important;
+}
 
 /* Emoji */
 /*
@@ -5568,7 +5572,6 @@ margin-left:-150px
 }
 .chat>.title-wrap.title-wrap-dark { 
     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.28);
-    background-color: rgba(0, 0, 0, 0.7) !important;
 }
 .option.search-option:after, .option.history:after, .option.user:after, .option:after {
     display: none;
@@ -5597,7 +5600,7 @@ margin-left:-150px
 /*Version checker*/
 
 .header-toolbar:hover::before {
-    content: "OtakuDiscordBeta:2.0.97(16/06/17) ";
+    content: "OtakuDiscordBeta:2.0.98(17/06/17) ";
     margin-right: 10px;
     background-color: rgba(4, 4, 4, 0.55);
     font-size: 14px;
@@ -5608,7 +5611,7 @@ margin-left:-150px
 }
 
 .header-toolbar::before {
-    content: "OtakuDiscordBeta:2.0.97";
+    content: "OtakuDiscordBeta:2.0.98";
     margin-right: 10px;
     background-color: rgba(64, 64, 64, 0.5);
     padding: 4px 4px;
@@ -5618,11 +5621,11 @@ margin-left:-150px
 }
 
 .markdown-modal-header strong:before {
-    content: "OtakuDiscordBeta:2.0.97(16/06/17) "!important;
+    content: "OtakuDiscordBeta:2.0.98(17/06/17) "!important;
     color: var(--main-color);
 }
 .account::after {
-    content: "OtakuDiscordBeta - 2.0.97(16/06/17)";
+    content: "OtakuDiscordBeta - 2.0.98(17/06/17)";
     color: #fff;
     font-size: 11px;
     font-weight: 700;
