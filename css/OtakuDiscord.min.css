@@ -5329,6 +5329,46 @@ h3 {
 .contentHoveredText-2HYGIY {
     background: none;
 }
+.ui-standard-sidebar-view .sidebar-region .sidebar {
+    width: 218px;
+    padding: 60px 6px 60px 20px;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.itemDefaultSelected-1UAWLe {
+    color: #fff;
+    border-left: 3px solid var(--main-color);
+    border-radius: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    
+}
+.theme-dark .item-3879bf:active {
+    transform: scale(.9);
+}
+.switch-3lyafC.checked-7qfgSb, .witch-3lyafC.checked-7qfgSb:hover{
+    background: var(--main-color) !important;
+}
+.switch-3lyafC {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #1f2021;
+    border-radius: 14px;
+    transition: background .15s ease-in-out,box-shadow .15s ease-in-out,border .15s ease-in-out;
+}
+.theme-dark .headerClickable-1jGUp8, .theme-dark .headerDefault-1ajMkj {
+    background-color: rgba(2, 2, 2, 0.9);
+    color: #b9bbbe;
+}
+.theme-dark .headerExpanded-wW1rBx {
+    background-color: rgba(2, 2, 2, 0.9);
+    color: #b9bbbe;
+}
+.theme-dark .changeDetails-zbf-61 {
+    background-color: rgba(2, 2, 2, 0.9);
+}
+
 /*Version checker*/
 .header-toolbar:hover::before {
     content: "OtakuDiscord:2.0.83(16/06/17) ";
