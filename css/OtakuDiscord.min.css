@@ -2866,8 +2866,8 @@ img.image {
     border-radius: 7px;
 }
 .need-help-modal .footer {
-    background-color: rgba(0, 0, 0, 0.85);
-    border-top: 1px solid var(--main-color);
+    background-color: rgba(0, 0, 0, 0.85) !important;
+    border-top: 1px solid var(--main-color) !important;
 }
 a:link {
     color: var(--main-color);
@@ -5368,10 +5368,36 @@ h3 {
 .theme-dark .changeDetails-zbf-61 {
     background-color: rgba(2, 2, 2, 0.9);
 }
-
+/*22/06/17*/
+.theme-dark .modal-3HOjGZ, .theme-light .modal-3HOjGZ{
+    background-color: rgba(0, 0, 0, 0.9);
+    box-shadow: 0 0 0 1px rgba(32,34,37,.6),0 2px 10px 0 rgba(0,0,0,.2);
+}
+.theme-dark .input-2YozMi, .theme-light .input-2YozMi {
+    color: #f6f6f7;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-color: rgba(0,0,0,.3);
+    border-bottom: 1px solid var(--main-color);
+}
+.theme-dark .input-2YozMi:focus, .theme-light .input-2YozMi:focus {
+    border-color: var(--main-color);
+    transition-duration: 0.5s;
+}
+.buttonBrandFilled-3Mv0Ra {
+    color: #fff;
+    background-color: var(--main-color);
+}
+.buttonBrandFilledDefault-2Rs6u5:hover {
+    background-color: var(--hover-color);
+    transition-duration: 0.5s;
+}
+.bd-blue .need-help-modal .header {
+    background-color: var(--main-color);
+    border-radius: 0px !important;
+}
 /*Version checker*/
 .header-toolbar:hover::before {
-    content: "OtakuDiscord:2.0.83(16/06/17) ";
+    content: "OtakuDiscord:2.0.84(22/06/17) ";
     margin-right: 10px;
     background-color: rgba(4, 4, 4, 0.55);
     font-size: 14px;
@@ -5382,7 +5408,7 @@ h3 {
 }
 
 .header-toolbar::before {	
-    content: "OtakuDiscord:2.0.83";
+    content: "OtakuDiscord:2.0.84";
     margin-right: 10px;
     padding: 4px 4px;
     border-radius: 10px;
@@ -5393,11 +5419,11 @@ h3 {
 }
 
 .markdown-modal-header strong:before {
-    content: "OtakuDiscord:2.0.83(16/06/17) "!important;
+    content: "OtakuDiscord:2.0.84(22/06/17) "!important;
     color: var(--main-color);
 }
 .account::after {
-    content: "OtakuDiscord - 2.0.83(16/06/17)";
+    content: "OtakuDiscord - 2.0.84(22/06/17)";
     color: #fff;
     font-size: 11px;
     font-weight: 700;
