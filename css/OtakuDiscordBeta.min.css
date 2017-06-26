@@ -1155,7 +1155,7 @@ background-color: transparent;
 .form-header,
 .form-inner,
 .form-actions {
-    background: rgba(0,0,0,0.74) !important;
+    background: rgb(0,0,0) !important;
 }
 .scroller.user-settings-modal-games{
     background: var(--transparent-color);
@@ -5662,6 +5662,20 @@ margin-left:-150px
 .bd-blue .need-help-modal .header {
     background-color: var(--main-color);
     border-radius: 0px !important;
+}
+/*26/06/17*/
+.create-guild-container.deprecated .action {
+    text-align: center;
+    width: 228px;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 3px;
+    background: hsla(0, 0%, 100%, 0);
+    overflow: hidden;
+    padding: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    box-shadow: 0 2px 4px rgba(0,0,0,.08);
+    cursor: pointer;
 }
 /*Version checker*/
 
