@@ -5597,9 +5597,11 @@ margin-left:-150px
     background-color: rgba(0, 0, 0, 0.95) !important;
     border-top: 0px !important;
 }
+
 .ui-standard-sidebar-view .sidebar-region .sidebar {
     width: 218px;
-    padding: 60px 6px 60px 20px;
+    padding: 30px 6px 30px 20px;
+    border-radius: 20px;
     background-color: rgba(0, 0, 0, 0.9);
 }
 .itemDefaultSelected-1UAWLe {
