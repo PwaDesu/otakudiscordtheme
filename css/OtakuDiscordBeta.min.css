@@ -997,7 +997,7 @@ background-color: transparent;
     color: #fff;
 }
 
-/* Sidebar Members */
+/* Members */
 
 .channel-members .member.popout-open .avatar-small, .channel-members .member:hover .avatar-small {
     -webkit-filter: none !important;
@@ -5125,6 +5125,17 @@ margin-left:-150px
     min-height: 100vh;
     background-color: rgba(0,0,0,0.95) !important;
 }
+/* Applies to all settings under "user management"*/
+.scroller-fzNley.custom-scroller.content-region-scroller {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    max-width: 740px;
+    min-width: 460px;
+    min-height: 100vh;
+    background-color: rgba(0,0,0,0.95) !important;
+}
+
 .ui-standard-sidebar-view .sidebar-region .scroller { /*5099*/
     -ms-flex: 1 0 auto;
     flex: 1 0 auto;
@@ -5153,16 +5164,7 @@ margin-left:-150px
 .ui-button.brand.filled:active {
     transform: scale(.9);
 }
-/*for roles because for some reasons its separated*/
-.ui-standard-sidebar-view .content-column, .ui-standard-sidebar-view .lazy-scroller-column {
-    -webkit-box-flex: 1;
-    -ms-flex: 1 1 auto;
-    flex: 1 1 auto;
-    max-width: 740px;
-    min-width: 460px;
-    min-height: 100vh;
-    background-color: rgba(0, 0, 0, 0.95);
-}
+
 /*Call tools bar*/
 #rtc-connection {
     background: rgba(40, 43, 48, 0.57);
