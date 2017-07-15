@@ -5438,7 +5438,7 @@ h3 {
 }
 /*Version checker*/
 .header-toolbar:hover::before {
-    content: "OtakuDiscord:2.0.84(22/06/17) ";
+    content: "OtakuDiscord:2.1.0(15/07/17) ";
     margin-right: 10px;
     background-color: rgba(4, 4, 4, 0.55);
     font-size: 14px;
@@ -5449,7 +5449,7 @@ h3 {
 }
 
 .header-toolbar::before {	
-    content: "OtakuDiscord:2.0.84";
+    content: "OtakuDiscord:2.1";
     margin-right: 10px;
     padding: 4px 4px;
     border-radius: 10px;
