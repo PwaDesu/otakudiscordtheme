@@ -1,5 +1,6 @@
-//META{"name":"OtakuDiscordAIO","description":"OtakuDiscordtheme</br> by ParadoxOrigins#9555, currently devoloped by Gamerein#0504.  Links: <b><a href='https://github.com/ParadoxOrigins/otakudiscordtheme' target='_blank'>Github</a></b> | <b><a href='https://discord.gg/6QkjVBk' target='_blank'>Discord</a></b></span> <span style='position: absolute; bottom: 0; right: 14px;'>By <b><a href='https://github.com/ParadoxOrigins' target='_blank'>@ParadoxOrigins</a></b></span>","author":"<a href='https://github.com/ParadoxOrigins' target='_blank'>@ParadoxOrigins</a> & <a href='https://github.com/Saske13' target='_blank'>@Saske13</a>","version":"2.0.3"}*//{}
+//META{"name":"OtakuDiscordAIO1","description":"OtakuDiscordtheme by ParadoxOrigins#9555, currently devoloped by Gamerein#0504.","author":"Paradox","version":"2.0"}*//
 
+/*//META{"name":"OtakuDiscordAIO","description":OtakuDiscordtheme</br> by ParadoxOrigins#9555, currently devoloped by Gamerein#0504.  Discord:https://discord.gg/zgqShDC ","author":"ParadoxOrigins","version":"2.0"}*//*/
 /*AIO version 2.0*/
 
 /* IMPORT CSS FROM GITHUB */
@@ -10,7 +11,7 @@
 
 /*Main background, change only the link, remember that links must be https and must be direct link to the image*/
 .app {
-    background-image: url("https://cdn.discordapp.com/attachments/265364582288064512/280269170904662016/rezero_background.png") !important;
+    background-image: url("https://cdn.discordapp.com/attachments/305023514241662981/336226688839188481/sapphire.jpg") !important;
 	/*background-size: 1920px 1080px !important;*/  /*Uncomment this line and replace dimensions by the dimensions of your screen size if you are experiecing borders bugs, works only with discord fullscreened*/
 }
 
@@ -44,10 +45,10 @@
 
 /*----------------------Custom color feature & custom border size------------------------*/
 :root {
-	--main-color: #3399ff; /*Main colors, change the value(keep the #) to change it, you can choose a color on this website: https://www.w3schools.com/colors/colors_picker.asp */
-	--hover-color: #80bfff; /*Hover colors, that's the colors displayed when hovering something like a button*/
-	--transparent-color: rgba(77, 166, 255, 0.5); /*Colors that are transparent, use this website to choose but please don't change the last numbers(0.5): https://www.w3schools.com/colors/colors_rgb.asp */
-	--lowtransparent-color: rgba(77, 166, 255, 0.8); /*Same than above*/
+	--main-color: #2780e6; /*Main colors, change the value(keep the #) to change it, you can choose a color on this website: https://www.w3schools.com/colors/colors_picker.asp */
+	--hover-color: #1e63b3; /*Hover colors, that's the colors displayed when hovering something like a button*/
+	--transparent-color: rgba(39, 128, 230, 0.5); /*Colors that are transparent, use this website to choose but please don't change the last numbers(0.5): https://www.w3schools.com/colors/colors_rgb.asp */
+	--lowtransparent-color: rgba(39, 128, 230, 0.8); /*Same than above*/
 	--border-size: 1px;
 }
 /*-----------------Avatar size------------------*/
