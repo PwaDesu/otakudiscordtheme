@@ -1,0 +1,49 @@
+//META{"name":"OtakuDiscordAIO","author":"ParadoxOrigins#9555","description":"OtakuDiscord Based on OtakuDiscord theme by ParadoxOrigins#9555 & by Saske13#2373, with the help of Silver Crow#7238 Links: -Github:https://github.com/ParadoxOrigins/otakudiscordtheme | Discord: https://discord.gg/6QkjVBk ","version":"2.0.7"}*//{}
+/* IMPORT CSS FROM GITHUB */
+@import url("https://rawgit.com/ParadoxOrigins/otakudiscordtheme/OtakuDiscord-Beta/css/OtakuDiscordBeta.min.css"); /*Uncomment this line to enable the Beta version of OtakuDiscord */
+/*@import url("https://rawgit.com/ParadoxOrigins/otakudiscordtheme/master/css/OtakuDiscord.min.css");*/ /*Uncomment this line to enable the Master version of OtakuDiscord*/
+/*@import url("https://rawgit.com/ParadoxOrigins/otakudiscordtheme/OtakuDiscord-Custom/css/OtakuDiscordSoft.min.css");*/ /*Uncomment this line to enable the Soft Version of OtakuDiscord*/
+/**/
+
+/*------------------------Custom background feature--------------------------*/
+
+/*Main background, change only the link, remember that links must be https and must be direct link to the image*/
+.app {
+    background-image: url("https://cdn.discordapp.com/attachments/288695210723246080/308275831568859136/h7kszf.jpg") !important;
+	/*background-size: 1920px 1080px !important;*/  /*Uncomment this line and replace dimensions by the dimensions of your screen size if you are experiecing borders bugs, works only with discord fullscreened*/
+}
+/*The background displayed when you open your settings for example*/
+.theme-dark .ui-standard-sidebar-view {
+    background-image: url("https://cdn.discordapp.com/attachments/265364582288064512/280269170904662016/rezero_background.png") !important;
+	/*background: rgba(0, 0, 0, 0);*/     /*uncomment this line to disable the background, so your main background will replace it. Dont forget to comment the one above*/
+}
+
+/*Profile background, its the one displayed when opening user profile, change only the link, remember that links must be https and must be direct link to the image*/
+#user-profile-modal {
+    background: url(https://images3.alphacoders.com/702/thumb-1920-702658.png);
+}
+
+/*Search background, its the one displayed when using the search message feature, change only the link, remember that links must be https and must be direct link to the image*/
+.theme-dark .search-results-wrap {
+    /*background-image: url("https://images7.alphacoders.com/740/thumb-1920-740377.png") !important;*/ /*Uncomment this line to enable the search background*/
+    background: rgba(0, 0, 0, 0.40); /*Sync the value(by default 0.65) with the main background opacity value to obtain a perfect synchronisation*/
+}
+
+
+/*------------------Main background opacity------------------------------*/
+.content .flex-spacer,
+.title-wrap,
+.channels-wrap,
+.guilds-wrapper,
+.channel-members {
+	    background: rgba(0, 0, 0, 0.40) !important; /*To make the background lighter/darker, change last numbers (by default 0.85) by a value between 0 and 1, 1 is the darkest possible and 0 the lightest possible*/
+}
+
+/*----------------------Custom color feature & custom border size------------------------*/
+:root {
+	--main-color: #3399ff; /*Main colors, change the value(keep the #) to change it, you can choose a color on this website: https://www.w3schools.com/colors/colors_picker.asp */
+	--hover-color: #80bfff; /*Hover colors, that's the colors displayed when hovering something like a button*/
+	--transparent-color: rgba(77, 166, 255, 0.5); /*Colors that are transparent, use this website to choose but please don't change the last numbers(0.5): https://www.w3schools.com/colors/colors_rgb.asp */
+	--lowtransparent-color: rgba(77, 166, 255, 0.8); /*Same than above*/
+	--border-size: 1px;
+}
