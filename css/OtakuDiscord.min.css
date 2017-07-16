@@ -88,11 +88,24 @@ font-size: 15px !important;
 .theme-dark .chat>.content .messages .divider:not(.red) span {
     opacity: 0.9;
     background: var(--lowtransparent-color) !important;
+    border-radius: 10px;
+    width: 10%;
+    /* margin-right: 50%; */
+    margin-left: 45%;
 }
 .theme-light .chat>.content .messages .divider:not(.red) span {
     opacity: 0.9;
     background: var(--lowtransparent-color) !important;
+    border-radius: 10px;
+    width: 10%;
+    /* margin-right: 50%; */
+    margin-left: 45%;
 }
+.theme-dark .friends-table .messages .divider:before, .theme-dark .friends-table .messages .divider span, .theme-dark .messages-wrapper .messages .divider:before, .theme-dark .messages-wrapper .messages .divider span,
+.theme-light .friends-table .messages .divider:before, .theme-light .friends-table .messages .divider span, .theme-light .messages-wrapper .messages .divider:before, .theme-light .messages-wrapper .messages .divider span {
+    background-color: var(--transparent-color);
+}
+
 .chat .new-messages-bar button:first-child {
     border-radius: 5px;
     margin-right: -14px;
@@ -330,15 +343,15 @@ background-color: transparent;
     border-bottom: 1px solid rgba(0, 0, 0, 0.3) !important;
 }
 
-.title-wrap:hover {
-      background: rgba(0, 0, 0, 0.88) !important;
+.title-wrap:hover{
+    background-color: rgba(0, 0, 0, 0.7) !important;
 }
-
 .guilds li.active .guild-inner,
 .guilds li:hover .guild-inner {
     border-radius: 15px;
     background: var(--main-color);
 }
+
 .guild-channels ul .channel-voice-states li.speaking .avatar-small {
     background-color: var(--main-color);
     cursor: pointer;
@@ -376,7 +389,7 @@ background-color: transparent;
     background-position: 4px 4px !important;
     background-color: rgba(21, 21, 21, 0.41) !important;
     opacity: 0.7 !important;
-    border: 2px dashed var(--main-color) !important;
+	border: 2px dashed var(--main-color) !important;
 }
 .guild-header ul {
     background: rgb(0, 0, 0) !important;
@@ -384,7 +397,9 @@ background-color: transparent;
     padding-top: 100px;
     top: -56px;
 }
-
+.guilds-add {
+    opacity: 0.5;
+}
 .guild-header header span {
     margin-left: -5px;
 }
@@ -399,7 +414,10 @@ background-color: transparent;
 .guilds {
     padding: 18px 20px 85px 20px;
 }
-
+.guilds-add {
+    font-size: 30px;
+    background: #000;
+}
 .guilds li .guild-inner {
     background: rgba(21, 21, 21, 0.41) !important;
 }
@@ -440,7 +458,7 @@ background-color: transparent;
 .guilds li:hover .guild-inner {
     background: var(--main-color) !important;
 }
-.guilds-add:hover { 
+.guilds-add:hover {
     animation: color_change 1s infinite alternate;
 }
 .guilds .friends-online {
@@ -477,6 +495,10 @@ background-color: transparent;
     background: var(--transparent-color) !important;
 }
 
+
+.avatarSpeaking-3teDH6 {/*avatr while speaking in voicechat*/
+    box-shadow: 0 0 0 2px var(--main-color),inset 0 0 0 1.5px #2f3136 !important;
+}
 
 /* Emoji */
 /*
@@ -976,7 +998,7 @@ background-color: transparent;
     color: #fff;
 }
 
-/*  Members */
+/* Members */
 
 .channel-members .member.popout-open .avatar-small, .channel-members .member:hover .avatar-small {
     -webkit-filter: none !important;
@@ -1134,7 +1156,7 @@ background-color: transparent;
 .form-header,
 .form-inner,
 .form-actions {
-    background: rgba(0,0,0,0.74) !important;
+    background: rgb(0,0,0) !important;
 }
 .scroller.user-settings-modal-games{
     background: var(--transparent-color);
@@ -1876,6 +1898,7 @@ textarea {
 .friends-table .friends-row:hover {
     background: rgba(0, 0, 0, 0.35) !important;
 }
+
 #friends .friends-table .friends-row .avatar-large, #friends .friends-table .friends-row .avatar-small {
     text-align: center;
 }
@@ -1919,8 +1942,6 @@ textarea {
 #bd-pub-button {
     font-size: 16px !important;
     font-weight: 500;
-    line-height: 20px;
-    background-color: var(--main-color);
 }
 .bd-minimal .chat>.title-wrap>.title {
     font-size: 16px;
@@ -2349,15 +2370,17 @@ a:link {
 }
 #friends .btn:hover {
     background-color: var(--hover-color);
-	
-.channel.btn-friends:hover .icon-friends {
-    background-color: var(--hover-color)!important;
-    border-radius: 10px!important;
 }
-.channel.btn-friends.selected .icon-friends {
-    background-color: var(--main-color) !important;
-    border-radius: 10px!important;
-}	
+
+.private-channels .channel:hover .icon-friends {
+    background-color: var(--main-color)!important;
+    border-radius: 10px;
+}
+
+.private-channels .channel.selected .icon-friends {
+    background-color: var(--main-color)!important;
+    border-radius: 10px;
+}
 .context-menu {
     background: var(--main-color);
 }
@@ -2366,7 +2389,7 @@ a:link {
 }
 /*[[Hidden]]*/
 /*[[Visible]]*/
-.message-group-blocked {
+/*.message-group-blocked {
     background: #fcfcfc;
     -webkit-box-pack: center;
     -o-box-pack: center;
@@ -2377,7 +2400,7 @@ a:link {
     border-radius: 3px;
     margin: 6px 6px 6px 19px;
     display: none;
-}
+}*/
 .user-settings-modal-account .discord-tag {
     color: var(--main-color);
 }
@@ -2960,8 +2983,9 @@ a:link {
        /*End of Saske 13 part*/
       /* background-position: right;*/ /*uncomment this line to sync the background with the main one*/
      
-       opacity: 1; 
+       opacity: 1;
        z-index: 5;
+      
 }
 .theme-dark .search-results-wrap .search-result .search-result-message.hit, .theme-dark .search-results-wrap .search-result.expanded {
     border: 0px;
@@ -3605,7 +3629,7 @@ option.user:hover {
    transition-duration: 0.5s;
 }
 .option.search-option {
-   background: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
 }
 .option.search-option:hover {
    background: var(--lowtransparent-color);
@@ -4462,6 +4486,16 @@ p {
 .guild-channels .channel-voice-states li.speaking:hover {
     margin-left: 5%;
 }
+
+.iconSpacing-1WJZFe {
+    margin: 2px !important;
+}
+
+.flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignCenter-3VxkQP.margin-reset {
+    background-color: rgba(200,200,200,0.25);
+    border-radius: 10px;
+}
+
 /*Specials tags*/
 .avatar-small[style*='/a_'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='/a_'] + .member-inner .member-username::after, .message-group .avatar-large[style*='/a_'] + .comment .user-name::after, .avatar-small[style*='140149699486154753'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='140149699486154753'] + .member-inner .member-username::after, .message-group .avatar-large[style*='140149699486154753'] + .comment .user-name::after, .avatar-small[style*='154592238754594816'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='154592238754594816'] + .member-inner .member-username::after, .message-group .avatar-large[style*='154592238754594816'] + .comment .user-name::after {
     position: relative;
@@ -4504,13 +4538,6 @@ p {
     background: rgba(100,100,100,0.3);
     color: hsla(0,0%,100%,0.6);
     margin-left: 4px;
-    font-size: 10px;
-    text-align: center;
-    font-weight: 700;
-    text-transform: uppercase;
-    padding: 1px 2px;
-    border-radius: 3px;
-    height: 14px;
 }
   /*Gamerein tags*/
 .avatar-small[style*='138657194986962945'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='138657194986962945'] + .member-inner .member-username::after, .message-group .avatar-large[style*='138657194986962945'] + .comment .user-name::after {
@@ -4527,11 +4554,15 @@ p {
 }
 .avatar-small[style*='/a_'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='/a_'] + .member-inner .member-username::after, .message-group .avatar-large[style*='/a_'] + .comment .user-name::after, .avatar-small[style*='138657194986962945'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='138657194986962945'] + .member-inner .member-username::after, .message-group .avatar-large[style*='138657194986962945'] + .comment .user-name::after {
     position: relative;
+    background: rgba(100,100,100,0.3);
+    color: hsla(0,0%,100%,0.6);
     margin-left: 4px;
+}
+.avatar-small[style*='138657194986962945'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='138657194986962945'] + .member-inner .member-username::after, .avatar-popout[style*='138657194986962945']::after, .avatar-profile[style*='138657194986962945']::after, .message-group .avatar-large[style*='138657194986962945'] + .comment .user-name::after {
+    position: relative;
     height: 14px;
     padding: 1px 2px;
     border-radius: 3px;
-    background: rgba(100,100,100,0.3);
     color: hsla(0,0%,100%,0.6);
     font-size: 10px;
     text-align: center;
@@ -4540,7 +4571,6 @@ p {
     text-shadow: 0 0 1px rgba(0,0,0,.3);
     text-transform: uppercase;
     vertical-align: bottom;
-    padding: 1px 2px;
 }
 /*Saske tags*/
 .guild-settings-modal-members .avatar-small[style*='154592238754594816'] + .member-inner .member-username::after, .message-group .avatar-large[style*='154592238754594816'] + .comment .user-name::after {
@@ -4619,16 +4649,16 @@ p {
 }
 /*Kyo-chan tags*/
 .guild-settings-modal-members .avatar-small[style*='238759102430314496'] + .member-inner .member-username::after, .message-group .avatar-large[style*='238759102430314496'] + .comment .user-name::after {
-    content: "OT Neko";    
+    content: "Neko";    
 }
 .avatar-small[style*='238759102430314496'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='238759102430314496'] + .member-inner .member-username::after, .message-group .avatar-large[style*='238759102430314496'] + .comment .user-name:hover::after {
-    content: "OtakuDiscord Neko";
+    content: "Neko";
     transiton-duration: 1s;
     position: relative;
 
 } 
 .avatar-small[style*='238759102430314496'] + .member-inner .member-username-inner::after {
-    content: "OT Neko"; 
+    content: "Neko"; 
 }
 
 .avatar-small[style*='238759102430314496'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='238759102430314496'] + .member-inner .member-username::after, .avatar-popout[style*='154592238754594816']::after, .avatar-profile[style*='238759102430314496']::after, .message-group .avatar-large[style*='238759102430314496'] + .comment .user-name::after {
@@ -4647,6 +4677,34 @@ p {
     vertical-align: bottom;
 }
 .avatar-small[style*='/a_'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='/a_'] + .member-inner .member-username::after, .message-group .avatar-large[style*='/a_'] + .comment .user-name::after, .avatar-small[style*='238759102430314496'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='238759102430314496'] + .member-inner .member-username::after, .message-group .avatar-large[style*='238759102430314496'] + .comment .user-name::after {
+    position: relative;
+    background: rgba(100,100,100,0.3);
+    color: hsla(0,0%,100%,0.6);
+    margin-left: 4px;
+}
+/*Karen tags*/
+.guild-settings-modal-members .avatar-small[style*='162325985079984129'] + .member-inner .member-username::after, .message-group .avatar-large[style*='162325985079984129'] + .comment .user-name::after {
+    content: "Saske's wife";    
+} 
+.avatar-small[style*='162325985079984129'] + .member-inner .member-username-inner::after {
+    content: "OT TEAM"; 
+}
+.avatar-small[style*='162325985079984129'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='162325985079984129'] + .member-inner .member-username::after, .avatar-popout[style*='162325985079984129']::after, .avatar-profile[style*='162325985079984129']::after, .message-group .avatar-large[style*='162325985079984129'] + .comment .user-name::after {
+    position: relative;
+    height: 14px;
+    padding: 1px 2px;
+    border-radius: 3px;
+    background: rgba(0,0,0,0.5);
+    color: hsla(0,0%,100%,0.8);
+    font-size: 10px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 16px;
+    text-shadow: 0 0 1px rgba(0,0,0,.3);
+    text-transform: uppercase;
+    vertical-align: bottom;
+}
+.avatar-small[style*='/a_'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='/a_'] + .member-inner .member-username::after, .message-group .avatar-large[style*='/a_'] + .comment .user-name::after, .avatar-small[style*='162325985079984129'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='162325985079984129'] + .member-inner .member-username::after, .message-group .avatar-large[style*='162325985079984129'] + .comment .user-name::after {
     position: relative;
     background: rgba(100,100,100,0.3);
     color: hsla(0,0%,100%,0.6);
@@ -4682,34 +4740,6 @@ p {
     vertical-align: bottom;
 }
 .avatar-small[style*='/a_'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='/a_'] + .member-inner .member-username::after, .message-group .avatar-large[style*='/a_'] + .comment .user-name::after, .avatar-small[style*='241901626477117440'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='241901626477117440'] + .member-inner .member-username::after, .message-group .avatar-large[style*='241901626477117440'] + .comment .user-name::after {
-    position: relative;
-    background: rgba(100,100,100,0.3);
-    color: hsla(0,0%,100%,0.6);
-    margin-left: 4px;
-}
-/*Karen tags*/
-.guild-settings-modal-members .avatar-small[style*='162325985079984129'] + .member-inner .member-username::after, .message-group .avatar-large[style*='162325985079984129'] + .comment .user-name::after {
-    content: "Saske's wife";    
-} 
-.avatar-small[style*='162325985079984129'] + .member-inner .member-username-inner::after {
-    content: "OT TEAM"; 
-}
-.avatar-small[style*='162325985079984129'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='162325985079984129'] + .member-inner .member-username::after, .avatar-popout[style*='162325985079984129']::after, .avatar-profile[style*='162325985079984129']::after, .message-group .avatar-large[style*='162325985079984129'] + .comment .user-name::after {
-    position: relative;
-    height: 14px;
-    padding: 1px 2px;
-    border-radius: 3px;
-    background: rgba(0,0,0,0.5);
-    color: hsla(0,0%,100%,0.8);
-    font-size: 10px;
-    text-align: center;
-    font-weight: 700;
-    line-height: 16px;
-    text-shadow: 0 0 1px rgba(0,0,0,.3);
-    text-transform: uppercase;
-    vertical-align: bottom;
-}
-.avatar-small[style*='/a_'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='/a_'] + .member-inner .member-username::after, .message-group .avatar-large[style*='/a_'] + .comment .user-name::after, .avatar-small[style*='162325985079984129'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='162325985079984129'] + .member-inner .member-username::after, .message-group .avatar-large[style*='162325985079984129'] + .comment .user-name::after {
     position: relative;
     background: rgba(100,100,100,0.3);
     color: hsla(0,0%,100%,0.6);
@@ -4892,6 +4922,7 @@ h3 {
     background: linear-gradient(to right,var(--main-color),rgba(0, 0, 0, 0));
 }
 /*settings icon animation*/
+
 .icon.icon-settings:hover {
     -webkit-animation: load8 2.8s infinite linear;
     animation: load8 2.8s infinite linear;
@@ -4910,13 +4941,222 @@ h3 {
     z-index: 90000;
     visibility: hidden;
 }
+/*Member list hidden*/
+.channel-members {
+transform:translate(150px)!important;
+z-index:2!important;
+transition:all 300ms ease!important
+}
+
+.channel-members:hover {
+animation:member 300ms ease!important;
+transform:translate(0px)!important;
+background: rgba(0, 0, 0, 0.65)!important;
+}
+
+.app {
+overflow-x:hidden!important
+}
+
+.channel-members .member .member-activity,
+.channel-members .member .member-username-inner {
+opacity:0!important;
+transition:opacity 300ms ease, margin 100ms ease!important
+}
+
+.channel-members .member .member-username-inner {
+margin-bottom:0px!important
+}
+
+.channel-members:hover .member .member-activity, .channel-members:hover .member .member-username-inner {
+opacity:1!important
+}
+
+.header-toolbar button.active {
+display:none!important
+}
+
+.channel-members h2 {
+transform-origin:right!important;
+transform:scale(0)!important;
+margin-top:-45px!important;
+transition:all 300ms ease!important
+}
+
+.channel-members:hover h2 {
+transform:scale(1)!important;
+margin:inherit!important
+}
+
+.channel-members .avatar-small {
+/*box-shadow:-1px 1px 8px #000,inset -1px 1px 8px #000,
+inset 1px -1px 8px #000,1px -1px 8px #000;*/
+border-radius: 8px;
+width: 40px;
+height: 40px;
+background-size: 40px 40px;
+border-radius: 8px;
+}
+
+.chat.flex-vertical.flex-spacer>.content.flex-spacer.flex-horizontal>.flex-spacer.flex-vertical {
+margin-right:-150px!important;
+z-index:1!important
+}
+
+.chat.flex-vertical.flex-spacer.private>.content.flex-spacer.flex-horizontal>.flex-spacer.flex-vertical {
+margin-right:0px!important;
+z-index:1!important;
+box-shadow:inset 10px 10px 5px -6px rgba(0,0,0,1)!important
+}
+
+div.chat.flex-vertical.flex-spacer.private .channel-members-wrap {
+margin-left:-150px
+}
+.channel-members .member {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #737f8d;
+    padding: 5px 30px;
+    padding-right: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    line-height: 30px;
+    box-sizing: border-box;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    overflow: hidden;
+    padding-bottom: 10%;
+}
+/*Two column server list based on Jiiks code*/
+.guilds-wrapper{width: 125px;}
+.guilds-wrapper .scroller-wrap{width: 150px;}
+.guilds-wrapper .guilds {
+    display: flex;
+    flex-flow: row wrap;
+    padding-left: 0;
+    align-content: flex-start;
+}
+
+.guilds-wrapper .guilds .guild {
+	margin-left: 8px;
+    margin-top: 8px;
+}
+
+.guilds-wrapper .guilds .guild.unread::before {
+	left: -2px;
+    top: 5px;
+    z-index:9000;
+    background-color: var(--main-color);
+}
+.guilds-wrapper .guilds .guild:first-child {
+    position: relative; 
+    left: 0;
+    margin: auto;
+    margin-top: 15px;
+}
+
+#bd-pub-li {
+    position: inherit;
+    top: 0;
+    left: 0;
+    margin-right: 50px;
+    margin-left: 45px;
+}
+
+#bd-pub-li #bd-pub-button {
+    position: relative;
+    width: 100%;
+	text-align: center;
+}
+
+.guilds-wrapper .guilds .guild-separator {
+	position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.guilds-wrapper .guilds .friends-online {
+	position: relative;
+    width: 100%;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.guilds-wrapper .guilds .guild.selected:before {
+    display: none;
+}
+
+.guilds-wrapper .guilds .guild {
+	position: relative;
+}
+
+.guilds-wrapper .guilds .dms {
+    width: 100%;
+    /*display: flex;
+    flex-flow: row wrap;     Removed to make new private messages readable */
+}
+
+.guilds-wrapper .guilds .dms .guild {
+    left: 0;
+}
+.guilds-wrapper .guilds .guild:first-child {
+    position: relative;
+    left: 0;
+    margin: auto;
+    margin-top: 20px;
+}
+/*edited tag*/
+.message-group .comment .edited {
+    font-size: 13px;
+    margin-left: 3px;
+    cursor: pointer;
+    line-height: 10px;
+    background: rgba(255, 255, 255, 0.1) !important;
+    color: rgba(255, 255, 255, 0.7) !important;
+    padding: 0.3em 0.6em;
+    border-radius: 8px;
+    width: 3.5%;
+}
+.channel-members:hover .member {padding-bottom: 2%;}
+/*comment style*/
+.message-group .comment {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    margin-right: 20px;
+    min-width: 0;
+    background-color: rgba(0, 0, 0, 0.28);
+    border-radius: 8px;
+    padding-left: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+/*Just some buttons animation*/
+.channel-members .member:active {
+    transform: scale(.9);
+}
 /*Dark & Light default theme*/
 .radio-theme.dark label,
 .radio-theme.light label {
     background: url(https://cdn.discordapp.com/attachments/265364582288064512/277821245418897408/owowhatsthis-40.png);
     background-size: 100% 100%;
 }
-/*Future user settings and server settings modals*/
+/*Blocked messages*/
+.theme-dark .friends-table .messages .message-group-blocked .message-group-blocked-btn, .theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn {
+    background: var(--main-color);
+    color: #ffffff;
+}
+.theme-dark .friends-table .messages .message-group-blocked .message-group-blocked-btn:hover, .theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn:hover {
+    background: var(--hover-color);
+    transition-duration: 0.5s;
+}
+.theme-dark .friends-table .messages .message-group-blocked.revealed, .theme-dark .messages-wrapper .messages .message-group-blocked.revealed {
+    border-color: rgba(241, 0, 0, 0.02);
+    background: rgba(50, 53, 58, 0);
+}
+/*Future user settings and server settings modal*/
 .ui-standard-sidebar-view .content-column, .ui-standard-sidebar-view .lazy-scroller-column {
     -webkit-box-flex: 1;
     -ms-flex: 1 1 auto;
@@ -4926,19 +5166,18 @@ h3 {
     min-height: 100vh;
     background-color: rgba(0,0,0,0.95) !important;
 }
-
 /* Applies to all settings under "user management"*/
 .scroller-fzNley.custom-scroller.content-region-scroller {
-  -webkit-box-flex: 1;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-  max-width: 740px;
-  min-width: 460px;
-  min-height: 100vh;
-  background-color: rgba(0,0,0,0.95) !important;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    max-width: 740px;
+    min-width: 460px;
+    min-height: 100vh;
+    background-color: rgba(0,0,0,0.95) !important;
 }
 
-.ui-standard-sidebar-view .sidebar-region .scroller { 
+.ui-standard-sidebar-view .sidebar-region .scroller { /*5099*/
     -ms-flex: 1 0 auto;
     flex: 1 0 auto;
     -webkit-box-orient: horizontal;
@@ -4966,11 +5205,8 @@ h3 {
 .ui-button.brand.filled:active {
     transform: scale(.9);
 }
-/*Another background fix*/
-.theme-dark .layer, .theme-dark .layers {
-    background: transparent;
-}
-/*Calls tools bar*/
+
+/*Call tools bar*/
 #rtc-connection {
     background: rgba(40, 43, 48, 0.57);
     color: #fff;
@@ -5000,7 +5236,10 @@ h3 {
     flex-shrink: 0;
     border-radius: 6px;
 }
-
+/*Another background fix*/
+.theme-dark .layer, .theme-dark .layers {
+    background: transparent;
+}
 /*Fix of this ducking T.A.Y.N.E system*/
 .quickswitcher.dark {
     background-color: rgba(0, 0, 0, 0.88);
@@ -5024,7 +5263,7 @@ h3 {
     background-color: var(--transparent-color);
     transition-duration: 0.5s;
 }
-/*And yet, betterdiscord shiet fix*/
+/*BetterDiscord shiet fix*/
 .ui-tab-bar.SIDE {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -5196,14 +5435,7 @@ h3 {
 .theme-dark .ui-search-bar {
     background-color: rgba(12,12,12,0.75);
 }
-
-/*border on avatar while calling now themecolored(6/7/17)*/
-.ui-call-avatar-border.voice.speaking {
-  box-shadow: inset 0 0 0 3px var(--main-color);
-}
-
-
-/*Small fix for the settings rework*/
+/*Small rework of the settings*/
 .theme-dark .ui-standard-sidebar-view .content-region, .theme-dark .ui-standard-sidebar-view .content-region .scrollbar { /*5114*/
     background: rgba(0, 0, 0, 0);
     background-position: right;
@@ -5233,6 +5465,16 @@ h3 {
 .theme-dark .ui-standard-sidebar-view .sidebar-region {
     background: rgba(41, 43, 47, 0);
 }
+/*11/05/2017 small update*/
+.bd-detached-css-editor #bd-customcss-attach-controls button:active {
+    transform: scale(.8);
+}
+.roles-list-popout {
+    width: 200px;
+    background-color: rgba(12, 12, 12, 0.75);
+    border-radius: 3px;
+    padding: 8px;
+}
 /*13/05/2017 notif settings fix(deprecated, probably cuz discord devs are planning something for it*/
 .deprecated-settings-modal .settings-inner, .deprecated-settings-modal .settings-right {
     display: -webkit-box;
@@ -5253,6 +5495,12 @@ h3 {
     text-align: right;
     -ms-flex-negative: 0;
     flex-shrink: 0;
+}
+/*Full block*/
+.theme-dark .friends-table .messages .message-group-blocked, .theme-dark .messages-wrapper .messages .message-group-blocked {
+    background: #34373c; /*Those two are useless but in case i remove the full block someday*/
+    border-color: #2e3136;
+    display: none; 
 }
 /*Discord shiet of 08/06/2017 fix*/
 .flexChild-1KGW5q {
@@ -5353,22 +5601,51 @@ h3 {
     transition-duration: 0.40s;
 }
 
-/*BD public servers border fix (16/6/17)*/
+/*border on avatar while calling now themecolored(6/7/17)*/
+.ui-call-avatar-border.voice.speaking {
+    box-shadow: inset 0 0 0 3px var(--main-color);
+}
+
+/*BD public servers border fix (15/6/17)*/
 .ui-card.ui-card-primary.bd-server-card.bd-server-card-pinned {
     border-bottom: 3px solid var(--main-color);
 }
 
-/*Some fix and improvements (16/06/17)*/
-.theme-light .ui-calender-picker .react-datepicker, .theme-dark .ui-calendar-picker .react-datepicker, .search-popout .date-picker {
-    background-color: rgba(0, 0, 0, 0.95) !important;
-    border-top: 0px !important;
+.bd-server-card.bd-server-card-pinned:after {
+    visibility: hidden;
+}
+/*some fix and improvement (16/06/17)*/
+.contentHoveredText-2HYGIY {
+    background: none;
+}
+.chat>.title-wrap.title-wrap-dark { 
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.28);
 }
 .option.search-option:after, .option.history:after, .option.user:after, .option:after {
     display: none;
 }
-.contentHoveredText-2HYGIY {
-    background: none;
+.content-2mSKOj:hover { 
+    margin-left: 4%;
+    background: rgba(24,25,28,.0) !important;
+    transition-duration: 0.25s;
 }
+.content-2mSKOj:before {
+    content: ' ';
+    display: block;
+    height: 0%;
+    width: 2%;
+    background-color: var(--main-color);
+    margin-right: 2%;
+}
+.content-2mSKOj:hover:before {
+    height: 100%;
+    transition-duration: 0.5s;
+}
+.theme-light .ui-calender-picker .react-datepicker, .theme-dark .ui-calendar-picker .react-datepicker, .search-popout .date-picker {
+    background-color: rgba(0, 0, 0, 0.95) !important;
+    border-top: 0px !important;
+}
+
 .ui-standard-sidebar-view .sidebar-region .sidebar {
     width: 218px;
     padding: 30px 6px 30px 20px;
@@ -5436,9 +5713,50 @@ h3 {
     background-color: var(--main-color);
     border-radius: 0px !important;
 }
+/*26/06/17*/
+.create-guild-container.deprecated .action {
+    text-align: center;
+    width: 228px;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 3px;
+    background: hsla(0, 0%, 100%, 0);
+    overflow: hidden;
+    padding: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    box-shadow: 0 2px 4px rgba(0,0,0,.08);
+    cursor: pointer;
+}
+
+/* changes to the hover/selection on the settings and channels*/
+.itemDefault-3NDwnY.item-3879bf.notSelected-PgwTMa:hover {/*doesnt apply to all settings8*/
+    border-left: 3px solid var(--main-color);
+    border-radius: 5px;
+    transition-duration: 0.15s;
+}
+
+.itemDanger-3m3dwx.item-3879bf.notSelected-PgwTMa {
+    border-left: 3px solid #f04747;
+    border-radius: 5px;
+    transition-duration: 0.15s;
+    background-color: hsla(216,4%,74%,.1);
+}
+
+[class*=itemDefaultSelected] {
+    border-radius: 5px;
+}
+
+.content-2mSKOj:hover:before {
+    height: 100%;
+    transition-duration: 0.5s;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
 /*Version checker*/
+
 .header-toolbar:hover::before {
-    content: "OtakuDiscord:2.1.0(15/07/17) ";
+    content: "OtakuDiscord:3.0(16/7/17) ";
     margin-right: 10px;
     background-color: rgba(4, 4, 4, 0.55);
     font-size: 14px;
@@ -5448,23 +5766,22 @@ h3 {
     color: var(--main-color);
 }
 
-.header-toolbar::before {	
-    content: "OtakuDiscord:2.1";
+.header-toolbar::before {
+    content: "OtakuDiscord:3.0";
     margin-right: 10px;
+    background-color: rgba(64, 64, 64, 0.5);
     padding: 4px 4px;
     border-radius: 10px;
     font-weight: 500;
     color: var(--main-color);
-    background-color: rgba(4, 4, 4, 0.55);
-    font-size: 14px;
 }
 
 .markdown-modal-header strong:before {
-    content: "OtakuDiscord:2.1.0(15/07/17) "!important;
+    content: "OtakuDiscordBeta:3.0(16/7/17) "!important;
     color: var(--main-color);
 }
 .account::after {
-    content: "OtakuDiscord - 2.1.0(15/07/17)";
+    content: "OtakuDiscord - 3.0(16/7/17)";
     color: #fff;
     font-size: 11px;
     font-weight: 700;
@@ -5477,6 +5794,6 @@ h3 {
 }
 .account:hover::after {
     color: var(--hover-color);
-	opacity: .9;
+    opacity: .9;
     transition-duration: 0.5s;
 }
