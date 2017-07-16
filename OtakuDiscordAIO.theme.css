@@ -1,4 +1,7 @@
 //META{"name":"OtakuDiscord","description":"OtakuDiscord</br> Based on <a href='https://github.com/ParadoxOrigins/otakudiscordtheme' target='_blank'>OtakuDiscord theme</a> by <a href='https://github.com/ParadoxOrigins' target='_blank'>@ParadoxOrigins</a> & by <a href='https://github.com/Saske13' target='_blank'>Saske13</a>, with the help of <a href='https://github.com/Jorisvideo' target='_blank'>@JorisVidéos</a> <span style='position: absolute; bottom: 0; left: 0;'>Links: <b><a href='https://github.com/ParadoxOrigins/otakudiscordtheme' target='_blank'>Github</a></b> | <b><a href='https://discord.gg/6QkjVBk' target='_blank'>Discord</a></b></span> <span style='position: absolute; bottom: 0; right: 14px;'>By <b><a href='https://github.com/ParadoxOrigins' target='_blank'>@ParadoxOrigins</a></b></span>","author":"<a href='https://github.com/ParadoxOrigins' target='_blank'>@ParadoxOrigins</a> & <a href='https://github.com/Saske13' target='_blank'>@Saske13</a>","version":"2.0.3"}*//{}
+
+/*AIO version 2.0*/
+
 /* IMPORT CSS FROM GITHUB */
 @import url("https://gitcdn.xyz/repo/ParadoxOrigins/otakudiscordtheme/master/css/OtakuDiscord.min.css");
 /**/
@@ -36,7 +39,7 @@
 .channels-wrap,
 .guilds-wrapper,
 .channel-members {
-	    background: rgba(0, 0, 0, 0.65) !important; /*To make the background lighter/darker, change last numbers (by default 0.85) by a value between 0 and 1, 1 is the darkest possible and 0 the lightest possible*/
+	    background: rgba(0, 0, 0, 0.65) !important; /*To make the background lighter/darker, change last numbers (by default 0.65) by a value between 0 and 1, 1 is the darkest possible and 0 the lightest possible*/
 }
 
 /*----------------------Custom color feature & custom border size------------------------*/
@@ -47,3 +50,12 @@
 	--lowtransparent-color: rgba(77, 166, 255, 0.8); /*Same than above*/
 	--border-size: 1px;
 }
+/*-----------------Avatar size------------------*/
+/*uncomment to make the avatars in chat and members list to appear  like in the previous soft version of the theme (smaller and round)*/
+/*.avatar-large, .channel-members .avatar-small {
+    width: 40px !important;
+    height: 40px !important;
+    background-size: 40px 40px !important;
+    border-radius: 50px !important;
+    margin: 1%;
+}*/ 
