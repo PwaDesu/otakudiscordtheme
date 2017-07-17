@@ -1,6 +1,6 @@
-//META{"name":"OtakuDiscordAIO3","description":"OtakuDiscordtheme by ParadoxOrigins#9555, currently devoloped by Gamerein#0504.","author":"Paradox","version":"2.0"}*//
+//META{"name":"OtakuDiscordAIO3","description":"OtakuDiscordtheme by ParadoxOrigins#9555, currently devoloped by Gamerein#0504.","author":"Paradox","version":"3.1"}*//
 
-/*AIO version 3.0*/
+/*AIO version 3.1*/
 
 /* IMPORT CSS FROM GITHUB */
 @import url("https://gitcdn.xyz/repo/ParadoxOrigins/otakudiscordtheme/master/css/OtakuDiscord.min.css");
@@ -14,11 +14,10 @@
 	/*background-size: 1920px 1080px !important;*/  /*Uncomment this line and replace dimensions by the dimensions of your screen size if you are experiecing borders bugs, works only with discord fullscreened*/
 }
 
-/*Call-out background, it's the one which appear when opening something like your user settings, change only the link and/or the opacity, remember that links must be https and must be direct link to the image*/
-.callout-backdrop {/*The background displayed when you open your settings for example*/
-    opacity: 0.6 !important; /*Put the opacity to 0 to disable this background*/
-    background: url("https://cdn.discordapp.com/attachments/265364582288064512/280269170904662016/rezero_background.png");
-	background-size: 1920px 1080px !important;
+/*The background displayed when you open your settings for example*/
+.theme-dark .ui-standard-sidebar-view {
+    background-image: url("https://cdn.discordapp.com/attachments/265364582288064512/280269170904662016/rezero_background.png") !important;
+	/*background: rgba(0, 0, 0, 0);*/     /*uncomment this line to disable the background, so your main background will replace it. Dont forget to comment the one above*/
 }
 
 /*Profile background, its the one displayed when opening user profile, change only the link, remember that links must be https and must be direct link to the image*/
