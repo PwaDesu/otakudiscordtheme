@@ -2795,11 +2795,7 @@ img.image {
     padding-top: 5px;
     word-break: break-word;
 }
-.bda-slist .bda-name {
-    color: var(--main-color);
-    font-weight: 700;
-    font-size: 12px;
-}
+
 .bda-slist .checkbox:before {
     content: "Enabled";
     color: var(--main-color);
@@ -5156,16 +5152,7 @@ margin-left:-150px
     border-color: rgba(241, 0, 0, 0.02);
     background: rgba(50, 53, 58, 0);
 }
-/*Future user settings and server settings modal*/
-.ui-standard-sidebar-view .content-column, .ui-standard-sidebar-view .lazy-scroller-column {
-    -webkit-box-flex: 1;
-    -ms-flex: 1 1 auto;
-    flex: 1 1 auto;
-    max-width: 740px;
-    min-width: 460px;
-    min-height: 100vh;
-    background-color: rgba(0,0,0,0.95) !important;
-}
+
 /* Applies to all settings under "user management"*/
 .scroller-fzNley.custom-scroller.content-region-scroller {
     -webkit-box-flex: 1;
@@ -5753,10 +5740,63 @@ margin-left:-150px
     border-bottom-left-radius: 10px;
 }
 
+/*BD settings*/
+.bda-slist li {
+    background: rgba(20, 20, 20, 0.952941) !important;
+    margin-top: 10px;
+    border-radius: 7px;
+}
+
+.ui-standard-sidebar-view .bda-slist li:nth-child(odd) {
+    background-color: rgba(0,0,0,0.95) !important;
+}
+
+button.bd-pfbtn {
+    position: relative;
+    top: -23px;
+    display: block;
+}
+
+h2.ui-form-title.h2.margin-reset.margin-bottom-20 {
+    padding: 10px 0px 3px 10px;
+    margin-bottom: 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.ui-standard-sidebar-view .content-column.default {
+    padding-top: 20px;
+}
+
+.ui-flex.flex-vertical.flex-justify-start.flex-align-stretch.flex-nowrap.ui-switch-item {
+    padding-left: 5px;
+}
+
+#bd-customcss-detach-controls-button > button + span {
+    position: relative;
+    left: 10px;
+}
+
+button.btn.btn-primary {
+    position: relative;
+    left: 10px;
+}
+
+.ui-flex.flex-vertical.flex-justify-start.flex-align-stretch.flex-nowrap.ui-switch-item {
+    margin-top: 7px;
+    background-color: rgba(20, 20, 20, 0.952941);
+    padding: 7px;
+    border-radius: 7px;
+}
+
+.bda-slist span.bda-name {
+    color: var(--main-color);
+}
+
 /*Version checker*/
 
 .header-toolbar:hover::before {
-    content: "OtakuDiscord:3.0(16/7/17) ";
+    content: "OtakuDiscord:3.0.1(19/7/17) ";
     margin-right: 10px;
     background-color: rgba(4, 4, 4, 0.55);
     font-size: 14px;
@@ -5777,11 +5817,11 @@ margin-left:-150px
 }
 
 .markdown-modal-header strong:before {
-    content: "OtakuDiscordBeta:3.0(16/7/17) "!important;
+    content: "OtakuDiscordBeta:3.0.1(19/7/17) "!important;
     color: var(--main-color);
 }
 .account::after {
-    content: "OtakuDiscord - 3.0(16/7/17)";
+    content: "OtakuDiscord - 3.0.1(19/7/17)";
     color: #fff;
     font-size: 11px;
     font-weight: 700;
