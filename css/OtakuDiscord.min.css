@@ -5789,8 +5789,7 @@ button.btn.btn-primary {
     border-radius: 7px;
 }
 
-/*Make OtakuDiscord in theme list colored =D*/
-span.bda-name [data-reactid*="OtakuDiscord"] {
+.bda-slist span.bda-name {
     color: var(--main-color);
 }
 
