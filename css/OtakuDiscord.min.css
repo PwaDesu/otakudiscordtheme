@@ -5739,6 +5739,41 @@ margin-left:-150px
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
+/*Settings*/
+.content-column.default > div {/*Black background, doesnt work for roles*/
+    background: rgba(0,0,0,0.95);
+    padding: 20px 30px 15px 30px;
+    border-radius: 10px;
+}
+
+/* for roles*/
+.flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignStart-pnSyE6.noWrap-v6g9vO.guild-settings-roles {
+    background: rgba(0,0,0, 0.95);
+    padding-right: 30px;
+    margin: 20px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+}
+
+.scroller-fzNley.scroller-2C0yyO {
+    margin-top: 40px;
+    border-right: 1px solid hsla(218,5%,47%,.3);
+}
+
+.side-2nYO0F > div[class*="draggable"] {
+    border-bottom: 1px solid hsla(218,5%,47%,.3);
+    margin: 1px;
+}
+
+.flexChild-1KGW5q {
+    padding-top: 10px !important;
+}
+
+/*audit log*/
+.ui-quick-select-label {
+    color: var(--main-color) !important;
+    opacity: 1;
+}
 
 /*BD settings*/
 .bda-slist li {
@@ -5796,7 +5831,7 @@ button.btn.btn-primary {
 /*Version checker*/
 
 .header-toolbar:hover::before {
-    content: "OtakuDiscord:3.0.1(19/7/17) ";
+    content: "OtakuDiscord:3.0.2(20/7/17) ";
     margin-right: 10px;
     background-color: rgba(4, 4, 4, 0.55);
     font-size: 14px;
@@ -5817,11 +5852,11 @@ button.btn.btn-primary {
 }
 
 .markdown-modal-header strong:before {
-    content: "OtakuDiscordBeta:3.0.1(19/7/17) "!important;
+    content: "OtakuDiscordBeta:3.0.2(20/7/17) "!important;
     color: var(--main-color);
 }
 .account::after {
-    content: "OtakuDiscord - 3.0.1(19/7/17)";
+    content: "OtakuDiscord - 3.0.2(20/7/17)";
     color: #fff;
     font-size: 11px;
     font-weight: 700;
