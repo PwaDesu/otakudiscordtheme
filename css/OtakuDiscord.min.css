@@ -1,3 +1,22 @@
+/*background import*/
+.app {
+    background-image: var(--main-bg) !important;
+}
+
+/*The background displayed when you open your settings for example*/
+.theme-dark .ui-standard-sidebar-view {
+    background-image: var(--settings-bg) !important;
+}
+
+.content .flex-spacer,
+.title-wrap,
+.channels-wrap,
+.guilds-wrapper,
+.channel-members {
+	    background: var(--main-opacity) !important; 
+}
+/*end*/
+
 .app {
     /*Saske13 part*/
     background-size: cover;
