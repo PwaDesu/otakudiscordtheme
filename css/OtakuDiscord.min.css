@@ -336,7 +336,7 @@ background-color: transparent;
 
 .guilds-wrapper {
     box-shadow: inset -10px 0px 20px -10px rgba(0, 0, 0, 0.2);
-    background: rgba(0, 0, 0, 0.6) !important;
+    background: rgba(0, 0, 0, 0.6);
     border-right: 1px solid rgba(0, 0, 0, 0.4);
 }
 .channels-wrap {
@@ -1033,9 +1033,7 @@ background-color: transparent;
     background-color: var(--hover-color);
 	transition-duration: 0.5s;
 }
-.channel-members {
-    background: rgba(0, 0, 0, 0.9) !important
-}
+
 .channel-members .member:hover {
     background: rgba(255, 255, 255, 0.07) !important;
 }
