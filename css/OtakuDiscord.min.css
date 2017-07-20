@@ -8,12 +8,8 @@
     background-image: var(--settings-bg) !important;
 }
 
-.content .flex-spacer,
-.title-wrap,
-.channels-wrap,
-.guilds-wrapper,
-.channel-members {
-	    background: var(--main-opacity) !important; 
+.content .flex-spacer, .title-wrap, .channels-wrap, .guilds-wrapper, .channel-members {
+    background: var(--main-opacity);
 }
 /*end*/
 
