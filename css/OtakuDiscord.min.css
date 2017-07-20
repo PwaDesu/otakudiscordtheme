@@ -1,3 +1,18 @@
+/*background import*/
+.app {
+    background-image: var(--main-bg) !important;
+}
+
+/*The background displayed when you open your settings for example*/
+.theme-dark .ui-standard-sidebar-view {
+    background-image: var(--settings-bg) !important;
+}
+
+body .content .flex-spacer, body .title-wrap, body .channels-wrap, body .guilds-wrapper, body .theme-dark .channel-members {/*body for extra specification*/
+    background: var(--main-opacity);
+}
+/*end*/
+
 .app {
     /*Saske13 part*/
     background-size: cover;
@@ -321,7 +336,7 @@ background-color: transparent;
 
 .guilds-wrapper {
     box-shadow: inset -10px 0px 20px -10px rgba(0, 0, 0, 0.2);
-    background: rgba(0, 0, 0, 0.6) !important;
+    background: rgba(0, 0, 0, 0.6);
     border-right: 1px solid rgba(0, 0, 0, 0.4);
 }
 .channels-wrap {
@@ -1018,9 +1033,7 @@ background-color: transparent;
     background-color: var(--hover-color);
 	transition-duration: 0.5s;
 }
-.channel-members {
-    background: rgba(0, 0, 0, 0.9) !important
-}
+
 .channel-members .member:hover {
     background: rgba(255, 255, 255, 0.07) !important;
 }
@@ -5831,7 +5844,7 @@ button.btn.btn-primary {
 /*Version checker*/
 
 .header-toolbar:hover::before {
-    content: "OtakuDiscord:3.0.2(20/7/17) ";
+    content: "OtakuDiscord:3.0.4(20/7/17) ";
     margin-right: 10px;
     background-color: rgba(4, 4, 4, 0.55);
     font-size: 14px;
@@ -5852,11 +5865,11 @@ button.btn.btn-primary {
 }
 
 .markdown-modal-header strong:before {
-    content: "OtakuDiscordBeta:3.0.2(20/7/17) "!important;
+    content: "OtakuDiscordBeta:3.0.4(20/7/17) "!important;
     color: var(--main-color);
 }
 .account::after {
-    content: "OtakuDiscord - 3.0.2(20/7/17)";
+    content: "OtakuDiscord - 3.0.4(20/7/17)";
     color: #fff;
     font-size: 11px;
     font-weight: 700;

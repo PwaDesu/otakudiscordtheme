@@ -1,0 +1,38 @@
+//META{"name":"OtakuDiscordAIO","description":"OtakuDiscordtheme by ParadoxOrigins#9555, currently devoloped by Gamerein#0504.","author":"Paradox","version":"3.2.0"}*//
+
+/*AIO version 3.2.0*/
+
+/* IMPORT CSS FROM GITHUB */
+@import url("https://gitcdn.xyz/repo/ParadoxOrigins/otakudiscordtheme/master/css/OtakuDiscord.min.css");
+
+/* If you need help wih any of this please join https://discord.gg/zgqShDC and ask for help or read the FAQ*/
+
+/*------------------------Custom backgrounds--------------------------*/
+:root {
+	--main-bg: url("http://pre12.deviantart.net/9361/th/pre/i/2015/292/8/a/stellar_collision_by_kuldarleement-d6kvnyd.jpg"); /*Main Background*/
+	--settings-bg: url("https://cdn.discordapp.com/attachments/265364582288064512/280269170904662016/rezero_background.png"); /*The background used in the settings menu*/
+	--main-opacity: background: rgba(0, 0, 0, 0.3) !important; /*Change the "0.3" to make the main background lighter or darker (0 lightest 1 darkest)*/
+}
+
+/*---------------------------Custom colors---------------------------*/
+/*Use this site https://www.w3schools.com/colors/colors_picker.asp to get color codes*/
+:root {
+	--main-color: rgb(39, 128, 230); /*Main color*/
+	--hover-color: #2780e6; /*Hover color, the color a button changes into when you hover over it*/
+	--transparent-color: rgba(39, 128, 230, 0.5); /*all colors that appear transparant. Dont change the 0.5 value on the end*/
+	--lowtransparent-color: rgba(39, 128, 230, 0.8); /*Same as above*/
+}
+
+
+
+/*-----------------Avatar size------------------*/
+
+/*Too change the avatars back to standard (smaller) remove the "/*" before ".avatar-large"*/
+
+/*.avatar-large, .channel-members .avatar-small {
+    width: 40px !important;
+    height: 40px !important;
+    background-size: 40px 40px !important;
+    border-radius: 50px !important;
+    margin: 1%;
+}*/ 
