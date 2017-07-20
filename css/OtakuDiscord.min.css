@@ -3112,7 +3112,7 @@ a:link {
     margin-top: -6%; 
 }
 .user-popout .avatar-wrapper .avatar-popout {
-    border: var(--border-size) solid var(--main-color) !important;
+    border: 1px solid var(--main-color) !important;
 	background-color: transparent;
 }
 #user-profile-modal .scroller {
