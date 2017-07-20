@@ -8,7 +8,7 @@
     background-image: var(--settings-bg) !important;
 }
 
-body .content .flex-spacer, body .title-wrap, body .channels-wrap, body  .guilds-wrapper, body .channel-members {/*body for extra specification*/
+body .content .flex-spacer, body .title-wrap, body .channels-wrap, body .guilds-wrapper, body .theme-dark .channel-members {/*body for extra specification*/
     background: var(--main-opacity);
 }
 /*end*/
