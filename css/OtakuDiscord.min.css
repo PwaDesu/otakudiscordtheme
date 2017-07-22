@@ -5752,6 +5752,30 @@ margin-left:-150px
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
+
+/*text-bar July 22*/
+.innerEnabled-gLHeOL.inner-3if5cm.flex-3B1Tl4.innerNoAutocomplete-kaUXJZ {
+    background-color: rgba(0,0,0, 0.3);
+    border: 1px solid var(--main-color);
+}
+
+.attachButtonDivider-3tknGJ {
+    background-color: var(--main-color) !Important;
+}
+
+path.attachButtonForeground-3VZiXQ {
+    fill: var(--main-color) !important;
+}
+
+textarea.textAreaEnabled-2vOfh8.textArea-20yzAH.textArea-20yzAH.scrollbarGhostHairline-D_btXm.scrollbar-11WJwo {
+    font-weight: 600;
+}
+
+/*icons before text-channel names*/
+.icon-3tVJnl {
+    opacity: .9;
+}
+
 /*Settings*/
 .content-column.default > div {/*Black background, doesnt work for roles*/
     background: rgba(0,0,0,0.95);
@@ -5844,7 +5868,7 @@ button.btn.btn-primary {
 /*Version checker*/
 
 .header-toolbar:hover::before {
-    content: "OtakuDiscord:3.0.4(20/7/17) ";
+    content: "OtakuDiscord:3.0.41(22/7/17) ";
     margin-right: 10px;
     background-color: rgba(4, 4, 4, 0.55);
     font-size: 14px;
@@ -5865,11 +5889,11 @@ button.btn.btn-primary {
 }
 
 .markdown-modal-header strong:before {
-    content: "OtakuDiscordBeta:3.0.4(20/7/17) "!important;
+    content: "OtakuDiscordBeta:3.0.41(22/7/17) "!important;
     color: var(--main-color);
 }
 .account::after {
-    content: "OtakuDiscord - 3.0.4(20/7/17)";
+    content: "OtakuDiscord - 3.0.41(22/7/17)";
     color: #fff;
     font-size: 11px;
     font-weight: 700;
