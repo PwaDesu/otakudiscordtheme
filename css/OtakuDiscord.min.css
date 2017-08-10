@@ -5851,10 +5851,15 @@ button.btn.btn-primary {
     background-color: var(--main-color) !important;
 }
 
+/*additional stuff at text-bar*/
+div.autocomplete-1TnWNR.autocomplete-1LLKUa {
+    background-color: rgba(0,0,0, 0.9);
+}
+
 /*Version checker*/
 
 .header-toolbar:hover::before {
-    content: "OtakuDiscord:3.0.41(22/7/17) ";
+    content: "OtakuDiscord:3.0.42(10/8/17) ";
     margin-right: 10px;
     background-color: rgba(4, 4, 4, 0.55);
     font-size: 14px;
@@ -5875,11 +5880,11 @@ button.btn.btn-primary {
 }
 
 .markdown-modal-header strong:before {
-    content: "OtakuDiscordBeta:3.0.41(22/7/17) "!important;
+    content: "OtakuDiscordBeta:3.0.42(10/8/17) "!important;
     color: var(--main-color);
 }
 .account::after {
-    content: "OtakuDiscord - 3.0.41(22/7/17)";
+    content: "OtakuDiscord - 3.0.42(10/8/17)";
     color: #fff;
     font-size: 11px;
     font-weight: 700;
