@@ -5503,9 +5503,6 @@ margin-left:-150px
     display: none; 
 }
 /*Discord shiet of 08/06/2017 fix*/
-.flexChild-1KGW5q {
-    background: transparent;
-}
 .container-RYiLUQ {
     position: relative;
     background-color: rgba(47, 49, 54, 0.2);
@@ -5662,19 +5659,7 @@ margin-left:-150px
 .theme-dark .item-3879bf:active {
     transform: scale(.9);
 }
-.switch-3lyafC.checked-7qfgSb, .witch-3lyafC.checked-7qfgSb:hover{
-    background: var(--main-color) !important;
-}
-.switch-3lyafC {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: #1f2021;
-    border-radius: 14px;
-    transition: background .15s ease-in-out,box-shadow .15s ease-in-out,border .15s ease-in-out;
-}
+
 .theme-dark .headerClickable-1jGUp8, .theme-dark .headerDefault-1ajMkj {
     background-color: rgba(2, 2, 2, 0.9);
     color: #b9bbbe;
@@ -5802,10 +5787,6 @@ textarea.textAreaEnabled-2vOfh8.textArea-20yzAH.textArea-20yzAH.scrollbarGhostHa
     margin: 1px;
 }
 
-.flexChild-1KGW5q {
-    padding-top: 10px !important;
-}
-
 /*audit log*/
 .ui-quick-select-label {
     color: var(--main-color) !important;
@@ -5863,6 +5844,11 @@ button.btn.btn-primary {
 
 .bda-slist span.bda-name {
     color: var(--main-color);
+}
+
+/*checks in settings*/
+.flexChild-1KGW5q.switchEnabled-3CPlLV.switch-3lyafC.valueChecked-3Bzkbm {
+    background-color: var(--main-color) !important;
 }
 
 /*Version checker*/
