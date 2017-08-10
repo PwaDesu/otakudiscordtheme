@@ -5856,6 +5856,11 @@ div.autocomplete-1TnWNR.autocomplete-1LLKUa {
     background-color: rgba(0,0,0, 0.9);
 }
 
+/* save changes button on perms page*/
+button.buttonGreenFilledDefault-_lLQaz {
+    background-color: var(--main-color) !important;
+}
+
 /*Version checker*/
 
 .header-toolbar:hover::before {
