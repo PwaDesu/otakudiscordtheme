@@ -5861,6 +5861,19 @@ button.buttonGreenFilledDefault-_lLQaz {
     background-color: var(--main-color) !important;
 }
 
+/* 24/9 Perms settings page*/
+.flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignStart-pnSyE6.noWrap-v6g9vO.container-_pT5TY {
+    background: rgba(0,0,0,0.95);
+    padding: 20px 30px 15px 30px;
+    border-radius: 10px;
+}
+
+.content-column.minimal {
+    padding-top: 20px;
+}
+
+/* end 24/9*/
+
 /*Version checker*/
 
 .header-toolbar:hover::before {
