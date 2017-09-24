@@ -1,8 +1,9 @@
 # OtakuDiscordtheme
-otakudiscord theme for betterdiscord
-Copy the otakudiscordAIO.theme.css file, then open the BetterDiscord settings, go to "Themes" and click on"Open Theme folder". Then paste the file, restart Discord, go back to the "Themes" and enable it. The theme is now-auto updatable, so no need to downlaod it and install it with every update!!!
+Download `OtakuDiscordAIO.theme.css` from either the `#download` text-channel from the support server on discord or from here. Now open Discord with BetterDiscord installed, inside the Discord settings head to `Themes` and hit the `Open themes folder` button. Now paste in the downloaded file and fully restart Discord. Now the theme will update itself.
 
-Preview: https://cdn.discordapp.com/attachments/288695210723246080/322880845901856768/unknown.png
-(Note: this is the preview of the beta)
+[Preview]("https://cdn.discordapp.com/attachments/305023514241662981/361624182250799104/unknown.png")
+(Guilds censored for privacy)
+
+[BetterDiscord]("https://betterdiscord.net/home/")
 
 Join the Discord server for detailled changelog, support and anything else: https://discord.gg/6QkjVBk
