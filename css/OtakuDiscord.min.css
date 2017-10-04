@@ -8,7 +8,7 @@
     background-image: var(--settings-bg) !important;
 }
 
-body .content .flex-spacer, body .title-wrap, body .channels-wrap, body .guilds-wrapper, body .theme-dark .channel-members {/*body for extra specification*/
+.theme-dark .layers, body .title-wrap, body .channels-wrap, body .guilds-wrapper, body .theme-dark .channel-members {/*body for extra specification*/
     background: var(--main-opacity);
 }
 /*end*/
@@ -4457,11 +4457,6 @@ p {
     background-size: 99px 99px !important;
 }
 
-/*Background fix*/
-.theme-dark .layers,
-.theme-light .layers {
-    background: transparent;
-}
 /*hover roles effect*/
 .user-popout .body .roles .member-role:hover {
     border: 1px solid rgba(255, 255, 255, 0) !important;
@@ -5236,10 +5231,7 @@ margin-left:-150px
     flex-shrink: 0;
     border-radius: 6px;
 }
-/*Another background fix*/
-.theme-dark .layer, .theme-dark .layers {
-    background: transparent;
-}
+
 /*Fix of this ducking T.A.Y.N.E system*/
 .quickswitcher.dark {
     background-color: rgba(0, 0, 0, 0.88);
