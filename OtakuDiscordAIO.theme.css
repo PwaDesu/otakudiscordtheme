@@ -1,6 +1,6 @@
 //META{"name":"OtakuDiscordAIO","description":"OtakuDiscordtheme by ParadoxOrigins#9555, currently devoloped by Gamerein#0504.","author":"Paradox","version":"3.2.0"}*//
 
-/*AIO version 3.2.0*/
+/*AIO version 3.2.1*/
 
 /* IMPORT CSS FROM GITHUB */
 @import url("https://gitcdn.xyz/repo/ParadoxOrigins/otakudiscordtheme/master/css/OtakuDiscord.min.css");
@@ -11,7 +11,7 @@
 :root {
 	--main-bg: url("https://cdn.discordapp.com/attachments/305023514241662981/337410650718601217/stellar_collision_by_kuldarleement.jpg"); /*Main Background*/
 	--settings-bg: url("https://cdn.discordapp.com/attachments/265364582288064512/280269170904662016/rezero_background.png"); /*The background used in the settings menu*/
-	--main-opacity: background: rgba(0, 0, 0, 0.3) !important; /*Change the "0.3" to make the main background lighter or darker (0 lightest 1 darkest)*/
+	--main-opacity: rgba(0, 0, 0, 0.3) !important; /*Change the "0.3" to make the main background lighter or darker (0 lightest 1 darkest)*/
 }
 
 /*---------------------------Custom colors---------------------------*/
