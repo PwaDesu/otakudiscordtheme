@@ -3,11 +3,6 @@
     background-image: var(--main-bg) !important;
 }
 
-/*The background displayed when you open your settings for example*/
-.theme-dark .ui-standard-sidebar-view {
-    background-image: var(--settings-bg) !important;
-}
-
 .theme-dark .layers, body .title-wrap, body .channels-wrap, body .guilds-wrapper, body .theme-dark .channel-members {/*body for extra specification*/
     background: var(--main-opacity);
 }
@@ -5187,12 +5182,7 @@ margin-left:-150px
     background-position: left;
     background-size: cover;
 }
-.theme-dark .ui-standard-sidebar-view .content-region, .theme-dark .ui-standard-sidebar-view .content-region .scrollbar {
-}
-.theme-dark .ui-standard-sidebar-view {
-    background-image: url(https://cdn.discordapp.com/attachments/265364582288064512/280269170904662016/rezero_background.png);
-    background-size: cover;
-}
+
 .ui-button.brand.filled {
     color: #fff;
     background-color: #3399ff;
@@ -5427,12 +5417,7 @@ margin-left:-150px
 .theme-dark .ui-search-bar {
     background-color: rgba(12,12,12,0.75);
 }
-/*Small rework of the settings*/
-.theme-dark .ui-standard-sidebar-view .content-region, .theme-dark .ui-standard-sidebar-view .content-region .scrollbar { /*5114*/
-    background: rgba(0, 0, 0, 0);
-    background-position: right;
-    background-size: cover;
-}
+
 .theme-dark .ui-hover-card:hover::before {
     background-color: rgba(10, 10, 10, 0.8) !important;
     transition-duration: 0.5s;
@@ -5870,10 +5855,19 @@ button.buttonGreenFilledDefault-_lLQaz {
   background: none !Important;
 }
 
+.layer[layer-id="user-settings"] {
+    background-image: var(--settings-bg);
+    background-size: cover;
+}
+
+.theme-dark .ui-standard-sidebar-view{
+    background: var(--main-opacity);
+}
+
 /*Version checker*/
 
 .header-toolbar:hover::before {
-    content: "OtakuDiscord:3.0.45(5/10/17) ";
+    content: "OtakuDiscord:3.0.46(5/10/17) ";
     margin-right: 10px;
     background-color: rgba(4, 4, 4, 0.55);
     font-size: 14px;
@@ -5894,11 +5888,11 @@ button.buttonGreenFilledDefault-_lLQaz {
 }
 
 .markdown-modal-header strong:before {
-    content: "OtakuDiscordBeta:3.0.45(5/10/17) "!important;
+    content: "OtakuDiscordBeta:3.0.46(5/10/17) "!important;
     color: var(--main-color);
 }
 .account::after {
-    content: "OtakuDiscord - 3.0.45(5/10/17)";
+    content: "OtakuDiscord - 3.0.46(5/10/17)";
     color: #fff;
     font-size: 11px;
     font-weight: 700;
