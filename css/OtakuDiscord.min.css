@@ -1894,10 +1894,10 @@ textarea {
     background: transparent !important;
 }
 .friends-header {
-    background: rgba(0, 0, 0, 0.88) !important;
+    background: transparent !important;
 }
 .friends-table {
-    background: rgba(0, 0, 0, 0.85) !important;
+    background: transparent !important;
     margin-top: 0 !important;
 }
 .friends-table .friends-table-body {
@@ -5856,14 +5856,17 @@ button.buttonGreenFilledDefault-_lLQaz {
 }
 
 .layer[layer-id="user-settings"] {
-    background-image: var(--settings-bg);
-    background-size: cover;
+    background-image: var(--settings-bg) !important;
+    background-size: cover !important;
 }
 
-.theme-dark .ui-standard-sidebar-view{
+.theme-dark .ui-standard-sidebar-view, .content .flex-spacer{
     background: var(--main-opacity);
 }
 
+.theme-dark .ui-standard-sidebar-view .content-region{
+    background: none;
+}
 /*Version checker*/
 
 .header-toolbar:hover::before {
