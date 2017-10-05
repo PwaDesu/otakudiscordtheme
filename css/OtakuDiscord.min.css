@@ -5866,14 +5866,14 @@ button.buttonGreenFilledDefault-_lLQaz {
 
 /* end 24/9*/
 
-theme-dark .layer{
+.theme-dark .layer{
   background: none !Important;
 }
 
 /*Version checker*/
 
 .header-toolbar:hover::before {
-    content: "OtakuDiscord:3.0.44(5/10/17) ";
+    content: "OtakuDiscord:3.0.45(5/10/17) ";
     margin-right: 10px;
     background-color: rgba(4, 4, 4, 0.55);
     font-size: 14px;
@@ -5894,11 +5894,11 @@ theme-dark .layer{
 }
 
 .markdown-modal-header strong:before {
-    content: "OtakuDiscordBeta:3.0.44(5/10/17) "!important;
+    content: "OtakuDiscordBeta:3.0.45(5/10/17) "!important;
     color: var(--main-color);
 }
 .account::after {
-    content: "OtakuDiscord - 3.0.44(5/10/17)";
+    content: "OtakuDiscord - 3.0.45(5/10/17)";
     color: #fff;
     font-size: 11px;
     font-weight: 700;
