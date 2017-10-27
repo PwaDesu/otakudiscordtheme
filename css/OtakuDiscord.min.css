@@ -3,7 +3,7 @@
     background-image: var(--main-bg) !important;
 }
 
-.theme-dark .layers, body .title-wrap, body .channels-wrap, body .guilds-wrapper, body .theme-dark .channel-members {/*body for extra specification*/
+.theme-dark .title-qAcLxz, .channels-3g2vYe, .container-iksrDt, .container-3NvGrL, .header-1tSljs, .scroller-NXV0-d, .scroller-NXV0-d, .scrollerWrap-2uBjct, .container-2OU7Cz, .theme-dark .layers, body .title-wrap, body .channels-wrap, body .guilds-wrapper {/*body for extra specification*/
     background: var(--main-opacity);
 }
 /*end*/
@@ -5867,35 +5867,73 @@ button.buttonGreenFilledDefault-_lLQaz {
 .theme-dark .ui-standard-sidebar-view .content-region{
     background: none;
 }
-/*Version checker*/
 
-.header-toolbar:hover::before {
-    content: "OtakuDiscord:3.0.46(5/10/17) ";
-    margin-right: 10px;
-    background-color: rgba(4, 4, 4, 0.55);
-    font-size: 14px;
-    padding: 4px 4px;
-    border-radius: 10px;
-    font-weight: 500;
-    color: var(--main-color);
+.theme-dark .chat form{
+    background: transparent;
 }
 
-.header-toolbar::before {
-    content: "OtakuDiscord:3.0";
-    margin-right: 10px;
-    background-color: rgba(64, 64, 64, 0.5);
-    padding: 4px 4px;
+.channel-members-wrap, .scrollerWrap-2uBjct, .theme-dark .channel-members{
+    background: transparent;
+}
+
+/*Titlebar*/
+
+svg[name="TitleBarMinimize"]{
+    position: absolute;
+    top: 10px;
+    width: 17px;
+}
+
+svg[name="TitleBarMinimize"] > rect{
+    height: 2px;
+    width: 17px;
+}
+
+svg[name="TitleBarMaximize"] {
+    position: absolute;
+    top: 6px;
+    height: 9px;
+    width: 10px;
+    border: 2px solid #fff;
+}
+
+svg[name="TitleBarMaximize"] > rect {
+    visibility: hidden;
+    
+}
+
+.winButtonClose-2rIvsa{
+    height: 20px;
+    width: 20px;
+ 	position: relative;
+    top: -2px;
+}
+
+.winButtonClose-2rIvsa:hover{
+    background-color: var(--main-color) !important;
+}
+
+/*End of Titlebar*/
+
+/*Version checker*/
+
+.wordmark-2L03Wr:after{
+    content: "OtakuDiscord:3.1(27/10/17) ";
+    margin-left: 10px;
+    font-size: 14px;
     border-radius: 10px;
     font-weight: 500;
-    color: var(--main-color);
+    color: white;
+    position: absolute;
+    top: 5px;
 }
 
 .markdown-modal-header strong:before {
-    content: "OtakuDiscordBeta:3.0.46(5/10/17) "!important;
+    content: "OtakuDiscord:3.1(27/10/17) "!important;
     color: var(--main-color);
 }
 .account::after {
-    content: "OtakuDiscord - 3.0.46(5/10/17)";
+    content: "OtakuDiscord:3.1(27/10/17) ";
     color: #fff;
     font-size: 11px;
     font-weight: 700;
