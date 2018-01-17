@@ -3,7 +3,7 @@
     background-image: var(--main-bg) !important;
 }
 
-.theme-dark .title-qAcLxz, .channels-3g2vYe, .container-iksrDt, .container-3NvGrL, .header-1tSljs, .scroller-NXV0-d, .scroller-NXV0-d, .scrollerWrap-2uBjct, .container-2OU7Cz, .theme-dark .layers, body .title-wrap, body .channels-wrap, body .guilds-wrapper {/*body for extra specification*/
+.theme-dark .layers-20RVFW, .theme-dark .title-qAcLxz, .channels-3g2vYe, .container-iksrDt, .container-3NvGrL, .header-1tSljs, .scroller-NXV0-d, .scroller-NXV0-d, .scrollerWrap-2uBjct, .container-2OU7Cz, .theme-dark .layers, body .title-wrap, body .channels-wrap, body .guilds-wrapper {/*body for extra specification*/
     background: var(--main-opacity);
 }
 /*end*/
