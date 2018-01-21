@@ -178,9 +178,7 @@ font-size: 15px !important;
 .chat>.content .messages .message-group h2 .user-name {
     color: rgba(255, 255, 255, 0.8);
 }
-.chat>.content .messages .message-group h2 span {
-    color: rgba(255, 255, 255, 0.5) !important;
-}
+
 .chat>.content .messages .message-group .markup pre {
     background: transparent !important;
     border-color: rgba(255, 255, 255, 0.1) !important;
@@ -5937,6 +5935,13 @@ svg[name="TitleBarMaximize"] > rect {
 }
 
 /* end 15/01/18*/
+
+/*Bot tag*/
+body .comment .message .body .old-h2 .username-wrapper span.botTagRegular-288-ZL.botTag-1OwMgs {
+    background-color: var(--main-color) !important;
+    color: #fff !important;
+}
+
 /*Version checker*/
 
 .wordmark-2L03Wr:after{
