@@ -4709,16 +4709,16 @@ p {
 }
 /*Tohru tag*/
 .guild-settings-modal-members .avatar-small[style*='241901626477117440'] + .member-inner .member-username::after, .message-group .avatar-large[style*='241901626477117440'] + .comment .user-name::after {
-    content: "Dragon Maid";    
+    content: "Senpai";    
 }
 .avatar-small[style*='241901626477117440'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='241901626477117440'] + .member-inner .member-username::after, .message-group .avatar-large[style*='241901626477117440'] + .comment .user-name:hover::after {
-    content: "Dragon Maid";
+    content: "Senpai";
     transiton-duration: 1s;
     position: relative;
 
 } 
 .avatar-small[style*='241901626477117440'] + .member-inner .member-username-inner::after {
-    content: "Dragon"; 
+    content: "Senpai"; 
 }
 
 .avatar-small[style*='241901626477117440'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='241901626477117440'] + .member-inner .member-username::after, .avatar-popout[style*='241901626477117440']::after, .avatar-profile[style*='241901626477117440']::after, .message-group .avatar-large[style*='241901626477117440'] + .comment .user-name::after {
