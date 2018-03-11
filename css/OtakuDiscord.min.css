@@ -4431,14 +4431,16 @@ p {
 }
 /*Discord Nitro sensor*/
 .avatar-large[style*="/a_"]+.comment .username-wrapper::before {
-    background: url('https://canary.discordapp.com/assets/65f0a0df5563e21de7b1aeeafaf31d78.svg') 50% 50% / contain no-repeat;
-    float: left;
     content: '';
-    left: 0;
     width: 21px;
     height: 16px;
-    margin: 0 5px 0 -5px;
-} /*users roles effect*/
+    float: left;
+    background-image: url('/assets/379d2b3171722ef8be494231234da5d1.svg');
+    background-repeat: no-repeat;
+    background-size: 21px 16px;
+    padding-right: 4px;
+}
+/*users roles effect*/
 .user-popout .body .roles .member-role:hover {
     border: 1px solid #fff !important;
     cursor: pointer;
@@ -5956,11 +5958,11 @@ body .comment .message .body .old-h2 .username-wrapper span.botTagRegular-288-ZL
 }
 
 .markdown-modal-header strong:before {
-    content: "OtakuDiscord:3.1.2(17/1/18)" !important;
+    content: "OtakuDiscord:3.1.2(11/3/18)" !important;
     color: var(--main-color);
 }
 .account::after {
-    content: "OtakuDiscord:3.1.2(17/1/18)";
+    content: "OtakuDiscord:3.1.2(11/3/18)";
     color: #fff;
     font-size: 11px;
     font-weight: 700;
