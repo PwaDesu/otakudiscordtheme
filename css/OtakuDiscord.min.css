@@ -5944,6 +5944,11 @@ body .comment .message .body .old-h2 .username-wrapper span.botTagRegular-288-ZL
     color: #fff !important;
 }
 
+//So you cant select the edit tag
+span.edited {
+    user-select: none;
+}
+
 /*Version checker*/
 
 .wordmark-2L03Wr:after{
