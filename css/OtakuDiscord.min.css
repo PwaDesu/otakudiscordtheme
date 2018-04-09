@@ -6024,7 +6024,7 @@ span.edited {
 }
 
 .member-2FrNV0:hover .content-3JzEqq {
-    background: rgba(0,0,0,0.4);
+	background-color: rgba(0,0,0,0.4) !important;
 }
 /*end 7/4/18*/
 
