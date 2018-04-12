@@ -6030,7 +6030,7 @@ span.edited {
 /*9/4/18*/
 .headerNormal-3Vn9nT, .headerPlaying-2Q7mBy {
     background: none !important;
-    background-color: rgba(0,0,0,0.1) !important;
+    background-color: rgba(0,0,0,0.7) !important;
     border: 2px solid var(--main-color);
     text-align: center;
 }
@@ -6041,7 +6041,7 @@ span.edited {
     border: 2px solid var(--main-color);
     border-radius: 7px;
     margin-bottom: 4px;
-    background-color: rgba(0,0,0,0.6) !important;
+    background-color: rgba(0,0,0,0.9) !important;
 }
 
 .body-3ljq11 .bodyTitle-18hsd9 {
@@ -6049,7 +6049,7 @@ span.edited {
 }
 
 .body-3ljq11, .footer-2wFs91 {
-    background-color: rgba(0,0,0,0.6) !important;
+    background-color: rgba(0,0,0,0.9) !important;
     border: 2px solid var(--main-color) !important;
     border-top: none !important;
 }
